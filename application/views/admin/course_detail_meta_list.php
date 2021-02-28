@@ -8,7 +8,7 @@
         <section id="page-title">
             <div class="row">
                 <div class="col-sm-8">
-                    <h1 class="mainTitle">Testimonials </h1>
+                    <h1 class="mainTitle">College Manager</h1>
                     <?= $this->session->flashdata('msg') ?>
                 </div>
             </div>
@@ -19,10 +19,10 @@
                     <div class="col-md-offset-0 col-md-12">
                         <p id="errortxt" style="color: red;"></p>
                         <p id="successtxt" style="color: green;"></p>
-                        <a href="<?= base_url() ?>admin/testimonial/testimonial_add" class="btn btn-primary margin-bottom-10 btn-wide"><i class="fa fa-plus"></i> Add New</a>
+                        <a href="<?= base_url() ?>admin/CourceMeta_detail/meta_add" class="btn btn-primary margin-bottom-10 btn-wide"><i class="fa fa-plus"></i> Add New</a>
                         <div class="panel panel-light-primary" id="panel5">
                             <div class="panel-heading">
-                                Testimonials List
+                                College List
                             </div>
                             <div class="panel-body bg-white" style="border: 1px solid #3395ff;">
                                 <div class="table-responsive">
@@ -30,48 +30,42 @@
                                         <thead>
                                             <tr>
                                                 <th>Sr.</th>
-                                                <th>Facility Name</th>
-                                                <th>College Name</th>
-                                                <th>Desigination</th>
-                                                <th>Status</th>
+                                                <th>College</th>
+                                                <th>Stream</th>
+                                                <th>Meta Title</th>
+                                                <th>Meta keyword</th>
+                                                <th >Meta Description</th>
                                                 <th>Action</th> 
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <?php
-                                                if(!empty($facilitylist)){
+                                                if(!empty($List)){
                                                     $sr=0;
-                                                    foreach($facilitylist as $test){
+                                                    foreach($List as $row){
+                                                        $whereArr = array('college_id'=>$row->college_id);
+                                                        $whereArr1 = array('stream_id'=>$row->stream_id);
+                                                        $college = array();
+                                                        $stream = array();
+                                                        $college = $this->common_model->getData('tbl_college',$whereArr);
+                                                        $stream = $this->common_model->getData('tbl_stream',$whereArr1);
+                                                       // print_r($college);
+                                                        //echo "<PRE>";print_r($stream);
                                                         $sr++;
                                                         ?>
                                                             <tr>
                                                                 <td><?= $sr; ?></td>
-                                                                <td><?= $test->facility_fname ?></td>
-                                                                <td><?= $test->college_name ?></td>
-                                                                <td><?= $test->designation ?></td>
+                                                                <td><?= $college[0]->college_name; ?></td>
+                                                                <td><?= $stream[0]->stream_name;  ?></td>
+                                                                <td><?= $row->meta_title;  ?></td>
+                                                                <td><?= $row->meta_keyword; ?></td>
+                                                                <td><?= $row->meta_description; ?></td>
                                                                 
                                                                 <td>
-                                                                    <?php 
-                                                                        if($test->status == 1){ 
-                                                                            ?>
-                                                                                <a class="btn btn-success btn-xs" href="<?= base_url() ?>admin/testimonial/status/<?= $test->id?>/<?= $test->status ?>">
-                                                                                    <i class="fa fa-check"></i>
-                                                                                </a>
-                                                                            <?php 
-                                                                        }else{
-                                                                            ?>
-                                                                                <a class="btn btn-danger btn-xs" href="<?= base_url() ?>admin/testimonial/status/<?= $test->id?>/<?= $test->status?>">
-                                                                                    <i class="fa fa-close"></i>
-                                                                                </a>
-                                                                            <?php 
-                                                                        } 
-                                                                    ?>
-                                                                </td>
-                                                                <td>
-                                                                    <a class="btn btn-info btn-xs" href="<?= base_url() ?>admin/testimonial/testimonial_edit/<?= $test->id;?>">
+                                                                    <a class="btn btn-info btn-xs" href="<?= base_url() ?>admin/CourceMeta_detail/course_meta_edit/<?= $row->id;?>">
                                                                         <i class="fa fa-pencil"></i>
                                                                     </a>
-                                                                    <a class="btn btn-danger btn-xs ask" href="<?= base_url() ?>admin/testimonial/delete/<?= $test->id ?>">
+                                                                    <a class="btn btn-danger btn-xs ask" href="<?= base_url() ?>admin/CourceMeta_detail/delete/<?= $row->id ?>">
                                                                         <i class="fa fa-close"></i>
                                                                     </a>
                                                                 </td>
@@ -136,7 +130,23 @@
 
     });
     
-    
+    function featuredStream(str, sid){
+        $.ajax({
+            type: "POST",
+            url: "<?= base_url() ?>admin/stream/featured",
+            data: {'featured': str,'stream_id': sid},
+            dataType: "Json",
+            success: function(data){
+                if(data.flag == 0){
+                    $("#errortxt").text(data.msg).fadeIn('slow').fadeOut(5000);
+                    window.setTimeout('location.reload()', 5000);
+                }else if(data.flag == 1){
+                    $("#successtxt").text(data.msg).fadeIn('slow').fadeOut(5000); 
+                    window.setTimeout('location.reload()', 1000);
+                }
+            }
+       });
+    }
     
     function courseStatus(sts, cid){
         $.ajax({

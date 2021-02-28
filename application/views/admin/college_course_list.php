@@ -8,7 +8,7 @@
         <section id="page-title">
             <div class="row">
                 <div class="col-sm-8">
-                    <h1 class="mainTitle">Testimonials List</h1>
+                    <h1 class="mainTitle">College Manager</h1>
                     <?= $this->session->flashdata('msg') ?>
                 </div>
             </div>
@@ -19,7 +19,7 @@
                     <div class="col-md-offset-0 col-md-12">
                         <p id="errortxt" style="color: red;"></p>
                         <p id="successtxt" style="color: green;"></p>
-                        <a href="<?= base_url() ?>admin/college/college_add" class="btn btn-primary margin-bottom-10 btn-wide"><i class="fa fa-plus"></i> Add New</a>
+                        <a href="<?= base_url() ?>admin/CourceMeta_detail/meta_add" class="btn btn-primary margin-bottom-10 btn-wide"><i class="fa fa-plus"></i> Add New</a>
                         <div class="panel panel-light-primary" id="panel5">
                             <div class="panel-heading">
                                 College List
@@ -30,51 +30,62 @@
                                         <thead>
                                             <tr>
                                                 <th>Sr.</th>
-                                                <th>Customer Name</th>
-                                                <th>Testimonial Text</th>
-                                                <th>Last Updated</th>
-                                                <th>Status</th>
+                                                <th>College Name</th>
+                                                <th>Course Name</th>
+                                                <th>Stream Name</th>
+                                                <th>Duration</th>
+                                                <th>Annual Fees</th>
+                                                <th>International Fees</th>
+                                                <th>Status</th> 
                                                 <th>Action</th> 
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <?php
-                                                if(!empty($testimonialList)){
+                                                if(!empty($List)){
                                                     $sr=0;
-                                                    foreach($testimonialList as $test){
+                                                    foreach($List as $row){
+                                                        /*$whereArr = array('college_id'=>$row->college_id);
+                                                        $whereArr1 = array('stream_id'=>$row->stream_id);
+                                                        $college = array();
+                                                        $stream = array();
+                                                        $college = $this->common_model->getData('tbl_college',$whereArr);
+                                                        $stream = $this->common_model->getData('tbl_stream',$whereArr1);*/
+                                                       // print_r($college);
+                                                        //echo "<PRE>";print_r($stream);
                                                         $sr++;
                                                         ?>
                                                             <tr>
                                                                 <td><?= $sr; ?></td>
-                                                                <td><?= $test->customer_name ?></td>
-                                                                <td><?= $test->message_text ?></td>
+                                                                <td><?= $row->college_name; ?></td>
+                                                                <td><?= $row->course_name; ?></td>
+                                                                <td><?= $row->stream_name; ?></td>
+                                                                <td><?= $row->duration; ?></td>
+                                                                <td><?= $row->annual_fees; ?></td>
+                                                                <td><?= $row->international_fees; ?></td>
+
                                                                
-                                                                
                                                                 <td>
-                                                                    <?php 
-                                                                        if($test->status == 1){ 
-                                                                            ?>
-                                                                                <a class="btn btn-success btn-xs" href="">
-                                                                                    <i class="fa fa-check"></i>
-                                                                                </a>
-                                                                            <?php 
-                                                                        }else{
-                                                                            ?>
-                                                                                <a class="btn btn-danger btn-xs" href="">
-                                                                                    <i class="fa fa-close"></i>
-                                                                                </a>
-                                                                            <?php 
-                                                                        } 
-                                                                    ?>
-                                                                </td>
-                                                                <td>
-                                                                    <a class="btn btn-info btn-xs" href="<?= base_url() ?>admin/college/college_edit/<?= $college->college_id;?>">
+                                                            <?php 
+                                                            if($row->status == 1){ ?>
+                                                                <a class="btn btn-success btn-xs" href="college_course_list.php?act=cstatus&status=0&id=<?php echo $categoryArray['id'].'&start='.$start; ?>">
+                                                                    <i class="fa fa-check"></i>
+                                                                </a>
+                                                                <?php }else{?>
+                                                                <a class="btn btn-danger btn-xs" href="college_course_list.php?act=cstatus&status=1&id=<?php echo $categoryArray['id'].'&start='.$start; ?>">
+                                                                    <i class="fa fa-close"></i>
+                                                                </a>
+                                                                <?php } ?>
+                                                        </td>
+                                                
+                                                                 <td>
+                                                                    <a class="btn btn-info btn-xs" href="<?= base_url() ?>admin/CourceMeta_detail/course_meta_edit/<?= $row->id;?>">
                                                                         <i class="fa fa-pencil"></i>
                                                                     </a>
-                                                                    <a class="btn btn-danger btn-xs ask" href="<?= base_url() ?>admin/college/delete/<?= $college->college_id ?>">
+                                                                    <a class="btn btn-danger btn-xs ask" href="<?= base_url() ?>admin/CourceMeta_detail/delete/<?= $row->id ?>">
                                                                         <i class="fa fa-close"></i>
                                                                     </a>
-                                                                </td>
+                                                                </td> 
                                                             </tr>
                                                         <?php
                                                     }

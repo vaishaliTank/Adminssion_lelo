@@ -66,17 +66,22 @@
 
                                                                
                                                                 <td>
-                                                            <?php 
-                                                            if($row->status == 1){ ?>
-                                                                <a class="btn btn-success btn-xs" href="college_course_list.php?act=cstatus&status=0&id=<?php echo $categoryArray['id'].'&start='.$start; ?>">
-                                                                    <i class="fa fa-check"></i>
-                                                                </a>
-                                                                <?php }else{?>
-                                                                <a class="btn btn-danger btn-xs" href="college_course_list.php?act=cstatus&status=1&id=<?php echo $categoryArray['id'].'&start='.$start; ?>">
-                                                                    <i class="fa fa-close"></i>
-                                                                </a>
-                                                                <?php } ?>
-                                                        </td>
+                                                                    <?php 
+                                                                        if($test->status == 1){ 
+                                                                            ?>
+                                                                                <a class="btn btn-success btn-xs" href="<?= base_url() ?>admin/testimonial/status/<?= $test->id?>/<?= $test->status ?>">
+                                                                                    <i class="fa fa-check"></i>
+                                                                                </a>
+                                                                            <?php 
+                                                                        }else{
+                                                                            ?>
+                                                                                <a class="btn btn-danger btn-xs" href="<?= base_url() ?>admin/testimonial/status/<?= $test->id?>/<?= $test->status?>">
+                                                                                    <i class="fa fa-close"></i>
+                                                                                </a>
+                                                                            <?php 
+                                                                        } 
+                                                                    ?>
+                                                                </td>
                                                 
                                                                  <td>
                                                                     <a class="btn btn-info btn-xs" href="<?= base_url() ?>admin/CourceMeta_detail/course_meta_edit/<?= $row->id;?>">

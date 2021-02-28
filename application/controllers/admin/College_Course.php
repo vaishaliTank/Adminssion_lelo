@@ -36,7 +36,7 @@ class College_Course extends CI_Controller {
     public function saveCollegeCourse(){
        // print_r($_POST);die;
         if(!empty($_POST)){
-            $insertArr = array('college_id '=>$_POST['college'],'course_id '=>$_POST['Course'],'stream_id '=>$_POST['stream'],'duration'=>$_POST['duration'],'annual_fees'=>$_POST['annual'],'international_fees'=>$_POST['international'],'eligibility'=>$_POST['eligibility'],'status'=>$_POST['college_status']);
+            $insertArr = array('college_id '=>$_POST['college'],'course_id '=>$_POST['Course'],'stream_id '=>$_POST['stream'],'duration'=>$_POST['duration'],'annual_fees'=>$_POST['annual'],'international_fees'=>$_POST['international'],'eligibility'=>$_POST['eligibility'],'status'=>$_POST['college_status'],'created_date' => date('Y-m-d H:i:s'));
             $this->common_model->insertData('tbl_college_course',$insertArr);
             $this->session->set_flashdata('msg', '<p style="color:green">Meta added successfully!</p>');
                 redirect('admin/College_Course');

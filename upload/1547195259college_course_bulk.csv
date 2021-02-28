@@ -1,0 +1,365 @@
+CollegeID,CourseId,StreamId,Duration,AnnualFees,Eligibility
+1,11,1,4 Years,"1,10,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject. Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+1,12,1,4 Years,"1,10,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject.Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+1,13,1,4 Years,"1,10,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject.Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+1,14,1,4 Years,"1,10,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject.Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+1,15,1,4 Years,"1,10,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject.Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+1,16,1,4 Years,"1,10,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject.Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+1,17,1,3 Years,"1,10,000/-",Students have who passed 3 year Diploma in Engineering are eligible for Lateral Entry (join 3rd semester of the programme).
+1,18,1,3 Years,"1,10,000/-",Students have who passed 3 year Diploma in Engineering are eligible for Lateral Entry (join 3rd semester of the programme).
+1,19,1,3 Years,"1,10,000/-",Students have who passed 3 year Diploma in Engineering are eligible for Lateral Entry (join 3rd semester of the programme).
+1,20,1,3 Years,"1,10,000/-",Students have who passed 3 year Diploma in Engineering are eligible for Lateral Entry (join 3rd semester of the programme).
+1,21,1,3 Years,"1,10,000/-",Students have who passed 3 year Diploma in Engineering are eligible for Lateral Entry (join 3rd semester of the programme).
+1,22,1,2 Years (Full Time) /3 Years (Part Time),"75,550/- (Full Time)/50400/- (Part Time)","Bachelor’s degree or equivalent in the relevant field, Obtained at least 50% marks (45% in case of reserved category)"
+1,23,1,2 Years (Full Time) /3 Years (Part Time),"75,550/- (Full Time)/50400/- (Part Time)","Bachelor’s degree or equivalent in the relevant field, Obtained at least 50% marks (45% in case of reserved category)"
+1,24,1,2 Years (Full Time) /3 Years (Part Time),"75,550/- (Full Time)/50400/- (Part Time)","Bachelor’s degree or equivalent in the relevant field, Obtained at least 50% marks (45% in case of reserved category)"
+1,25,1,2 Years (Full Time) /3 Years (Part Time),"75,550/- (Full Time)/50400/- (Part Time)","Bachelor’s degree or equivalent in the relevant field, Obtained at least 50% marks (45% in case of reserved category)"
+1,26,1,2 Years (Full Time) /3 Years (Part Time),"75,550/- (Full Time)/50400/- (Part Time)","Bachelor’s degree or equivalent in the relevant field, Obtained at least 50% marks (45% in case of reserved category)"
+1,27,1,6 Years,"40,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject.Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+1,28,1,6 Years,"40,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject.Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+1,29,1,6 Years,"40,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject.Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+1,30,1,6 Years,"40,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject.Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+1,31,1,6 Years,"40,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject.Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+1,32,1,6 Years,"40,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject.Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+1,33,1,3 Years,"39,400/-",10+ 2 with any stream/Diploma
+1,34,1,3 Years,"39,400/-",Passed 10th Std/ SSC examination. Obtained at least 35% marks at the qualifying examination
+1,35,1,3 Years,"39,400/-",Passed 10th Std/ SSC examination. Obtained at least 35% marks at the qualifying examination
+1,36,1,3 Years,"39,400/-",Passed 10th Std/ SSC examination. Obtained at least 35% marks at the qualifying examination
+1,37,1,3 Years,"39,400/-",Passed 10th Std/ SSC examination. Obtained at least 35% marks at the qualifying examination
+1,38,1,2 Years,"40,400/-",Pass 10+2 (Non Medical)
+1,39,1,2 Years,"40,400/-",Pass 10+2 (Non Medical)
+1,40,1,2 Years,"40,400/-",Pass 10+2 (Non Medical)
+1,41,1,2 Years,"40,400/-",Pass 10+2 (Non Medical)
+1,42,1,2 Years,"40,400/-",Pass 10+2 (Non Medical)
+1,43,1,3 Years,"39,620/-",Pass in 10th Std/ SSC examination. Obtained at least 35% marks at the qualifying examination
+1,44,1,3 Years,"39,620/-",Pass in 10th Std/ SSC examination. Obtained at least 35% marks at the qualifying examination
+1,45,1,3 Years,"39,620/-",Pass in 10th Std/ SSC examination. Obtained at least 35% marks at the qualifying examination
+1,46,1,3 Years,"39,620/-",Pass in 10th Std/ SSC examination. Obtained at least 35% marks at the qualifying examination
+1,47,1,3 Years,"39,620/-",Pass in 10th Std/ SSC examination. Obtained at least 35% marks at the qualifying examination
+1,48,1,2 Years,"39,620/-",Pass in10+2 Science on vocational Technical or Pass in 10th (ITI) or Pass in ITI at least with one year
+1,49,1,2 Years,"39,620/-",Pass in10+2 Science on vocational Technical or Pass in 10th (ITI) or Pass in ITI at least with one year
+1,50,1,2 Years,"39,620/-",Pass in10+2 Science on vocational Technical or Pass in 10th (ITI) or Pass in ITI at least with one year
+1,51,1,2 Years,"39,620/-",Pass in10+2 Science on vocational Technical or Pass in 10th (ITI) or Pass in ITI at least with one year
+1,52,1,2 Years,"39,620/-",Pass in10+2 Science on vocational Technical or Pass in 10th (ITI) or Pass in ITI at least with one year
+1,53,1,1 Year,"25,000/-",Pass in 10th 
+1,54,1,2 Year,"20,000/-",Pass in 10th 
+1,55,1,2 Years,"25,000/-",Pass in 10th 
+1,56,1,1 Year,"15,000/-",Pass in 10th 
+1,57,2,2 Years,"1,02,000/-",All those Candidates who have passed Bachelors
+1,58,2,2 Years,"1,02,000/-",All those Candidates who have passed Bachelors
+1,59,2,2 Years,"1,02,000/-",All those Candidates who have passed Bachelors
+1,60,2,2 Years,"1,02,000/-",All those Candidates who have passed Bachelors
+1,61,2,2 Years,"1,02,000/-",All those Candidates who have passed Bachelors
+1,62,2,2 Years,"1,02,000/-",All those Candidates who have passed Bachelors
+1,63,2,2 Years,"1,02,000/-",All those Candidates who have passed Bachelors
+1,64,2,2 Years,"1,02,000/-",All those Candidates who have passed Bachelors
+1,65,2,2 Years,"1,02,000/-",All those Candidates who have passed Bachelors
+1,66,2,2 Years,"1,02,000/-",All those Candidates who have passed Bachelors
+1,67,2,2 Years,"1,02,000/-",All those Candidates who have passed Bachelors
+1,68,2,2 Years,"1,02,000/-",All those Candidates who have passed Bachelors
+1,69,2,2 Years,"1,02,000/-",All those Candidates who have passed Bachelors
+1,70,2,3 Years,"51,000/-",Candidates who have passed 10 + 2/ Candidates who have passed their Matriculation examination and have also passed 3 years diploma from state board of technical insitutions or sant longowal institute of Engineering & Technology Longowal
+1,71,2,3 Years,"51,000/-",Candidates who have passed 10 + 2/ Candidates who have passed their Matriculation examination and have also passed 3 years diploma from state board of technical insitutions or sant longowal institute of Engineering & Technology Longowal
+1,72,2,3 Years,"51,000/-",Candidates who have passed 10 + 2/ Candidates who have passed their Matriculation examination and have also passed 3 years diploma from state board of technical insitutions or sant longowal institute of Engineering & Technology Longowal
+1,73,2,3 Years,"51,000/-",Candidates who have passed 10 + 2/ Candidates who have passed their Matriculation examination and have also passed 3 years diploma from state board of technical insitutions or sant longowal institute of Engineering & Technology Longowal
+1,74,2,3 Years,"51,000/-",Candidates who have passed 10 + 2/ Candidates who have passed their Matriculation examination and have also passed 3 years diploma from state board of technical insitutions or sant longowal institute of Engineering & Technology Longowal
+1,75,2,3 Years,"51,000/-",Candidates who have passed 10 + 2/ Candidates who have passed their Matriculation examination and have also passed 3 years diploma from state board of technical insitutions or sant longowal institute of Engineering & Technology Longowal
+1,76,2,3 Years,"51,000/-",Candidates who have passed 10 + 2/ Candidates who have passed their Matriculation examination and have also passed 3 years diploma from state board of technical insitutions or sant longowal institute of Engineering & Technology Longowal
+1,77,2,3 Years,"51,000/-",Candidates who have passed 10 + 2/ Candidates who have passed their Matriculation examination and have also passed 3 years diploma from state board of technical insitutions or sant longowal institute of Engineering & Technology Longowal
+1,78,2,3 Years,"51,000/-",Candidates who have passed 10 + 2/ Candidates who have passed their Matriculation examination and have also passed 3 years diploma from state board of technical insitutions or sant longowal institute of Engineering & Technology Longowal
+1,79,2,3 Years,"51,000/-",Candidates who have passed 10 + 2/ Candidates who have passed their Matriculation examination and have also passed 3 years diploma from state board of technical insitutions or sant longowal institute of Engineering & Technology Longowal
+1,80,2,5 Years,"60,000/-",Graduate In any stream
+1,81,2,1 Year,"40,000/-",Graduate In any stream
+1,82,2,2 Years,"45,000/-",B.com atleast 50% marks or equivalent CGPA
+1,83,2,2 Years,"57,400/-",B.com atleast 50% marks or equivalent CGPA
+1,84,2,3 Years,"40,000/-",Pass in 10+ 2 in any stream
+1,85,2,3 Years,"40,000/-",Pass in 10+ 2 in any stream
+1,86,2,3 Years,"40,000/-",Pass in 10+ 2 in any stream
+1,87,2,3 Years,"40,000/-",Pass in 10+ 2 in any stream
+1,88,2,3 Years,"40,000/-",Pass in 10+ 2 in any stream
+1,89,2,3 Years,"40,000/-",Pass in 10+ 2 in any stream
+1,90,2,3 Years,"40,000/-",Pass in 10+ 2 in any stream
+1,91,2,3 Years,"40,000/-",Pass in 10+ 2 in any stream
+1,92,2,3 Years,"40,000/-",Pass in 10+ 2 in any stream
+1,93,2,5 Years,"60,000/-",Pass in 10+ 2 in any stream
+1,94,3,5 Years,"70,000/-",Pass in 10+ 2 in any stream
+1,95,3,5 Years,"70,000/-",Pass in 10+ 2 in any stream
+1,96,3,5 Years,"70,000/-",Pass in 10+ 2 in any stream
+1,97,3,1 Year,"79,000/-","Pass in LLB (3years) , B.A.L.L.B(5 years) Integrated Course"
+1,98,3,3 Years,"79,000/-",Pass in Bachelors Degree in any stream
+1,99,9,3 Years,"82,000/-","All those candidates who have passed any recognized
+Bachelor’s degree of minimum three years duration with
+Mathematics/ Statistics /Business Mathematics /
+Business Statistics / Quantitative Techniques as
+Compulsory/ Optional/ Additional Paper as one of the
+subjects either at 10+2 or at graduation level.
+Or
+Have passed BCA course of minimum three years
+duration from any recognized University."
+1,100,9,2 Years,"82,000/-","Recognized Bachelor Degree of minimum 3 Years
+duration in BCA, B.Sc. (IT/ Computer Science) with
+Mathematics as a course at 10+2 level or at Graduate
+Level and have obtained at least 50% (45% in case of
+candidate belonging to reserved category) marks at the
+qualifying Examination"
+1,101,9,2 Years,"60,000/-",Pass with 50% aggregate marks in Bachelors degree (any discipline) or equivalent.
+1,102,9,3 Years,"51,600/-","All those candidates who have passed the 10+2 or its
+equivalent examination in any stream.
+OR
+Those candidates who have passed their Matriculation
+examination AND have also passed three year Diploma
+in any Trade from Punjab State Board of Technical
+Education & Industrial Training, Chandigarh or such
+Examination from any other recognized State Board of
+Technical Education, or Sant Longowal Institute of
+Engineering & Technology, Longowal."
+1,103,9,2 Years,"51,600/-",Diploma in Computer Application
+1,104,9,3 Years,"51,600/-","All those candidates who have passed the 10+2 or its equivalent examination in any stream. OR Those candidates who have passed their Matriculation examination AND have also passed three year Diploma in any Trade from Punjab State Board of Technical Education & Industrial Training, Chandigarh or such Examination from any other recognized State Board of Technical Education, or Sant Longowal Institute of Engineering & Technology, Longowal.
+"
+1,105,9,3 Years,"51,600/-","All those candidates who have passed the 10+2 or its equivalent examination in any stream. OR Those candidates who have passed their Matriculation examination AND have also passed three year Diploma in any Trade from Punjab State Board of Technical Education & Industrial Training, Chandigarh or such Examination from any other recognized State Board of Technical Education, or Sant Longowal Institute of Engineering & Technology, Longowal.
+"
+1,106,9,5 Years,"60,000/-","All those candidates who have passed the 10+2 or its equivalent examination in any stream. OR Those candidates who have passed their Matriculation examination AND have also passed three year Diploma in any Trade from Punjab State Board of Technical Education & Industrial Training, Chandigarh or such Examination from any other recognized State Board of Technical Education, or Sant Longowal Institute of Engineering & Technology, Longowal.
+"
+1,107,9,1 Year,"30,000/-",Pass in 10+2 
+1,108,9,1 Year,"30,000/-",Pass in Graduation in any stream
+1,109,4,2 Years,"34,600/-",Pass in Graduation  or equivalent
+1,110,4,2 Years,"40,000/-",B.Ed. With 55% Marks
+1,111,4,4 Years,"50,600/-","Pass in +2 Science. The candidate should have either the
+subject combination of (a) Mathematics, Physics and
+Chemistry or (b) Biology, Physics and Chemistry at +2
+level."
+1,112,4,4 Years,"50,600/-",Pass in  10 +2 in any stream
+1,113,4,2 Years,"50,600/-",Pass in Graduation with 50% Marks
+1,114,4,2 Years,"45,000/-", Pass in 10+2 with 50% marks
+1,115,5,2 Years,"1,00,000/-",B. Pharm (Ayurveda) from a recognized University with at least 50% marks in aggregate
+1,116,5,4 Years,"1,00,000/-",Pass in 10+12  Non Medical/Medical
+1,117,5,3 Years,"50,000/-",Pass in 10+12  Non Medical/Medical
+1,118,5,3 Years,"1,00,000/-",Pass in Diploma in Pharmacy(Ayurvedic) with 50% marks
+1,119,6,2 Years,"52,000/-",B.SC with relavant subject required
+1,120,6,2 Years,"52,000/-",B.SC with relavant subject required
+1,121,6,2 Years,"52,000/-",B.SC with relavant subject required
+1,122,6,2 Years,"52,000/-",B.SC with relavant subject required
+1,123,6,2 Years,"52,000/-",B.SC with relavant subject required
+1,124,6,2 Years,"52,000/-",B.SC with relavant subject required
+1,125,6,2 Years,"52,000/-",B.SC with relavant subject required
+1,126,6,2 Years,"52,000/-",B.SC with relavant subject required
+1,127,6,2 Years,"52,000/-",B.SC with relavant subject required
+1,128,6,2 Years,"52,000/-",Graduation with Mathematics as one of the subject
+1,129,6,2 Years,"52,000/-",Graduation with Mathematics as one of the subject
+1,130,6,2 Years,"52,000/-",B.Sc. with Biology/Biotechnology/BVSc./B.Pharma/BPT/B.Sc. Food Science Tech./B.Sc. Microbiology/B.Sc. Nursing /BMIT 
+1,131,6,2 Years,"52,000/-",B.Sc. with Biology/Biotechnology/BVSc./B.Pharma/BPT/B.Sc. Food Science Tech./B.Sc. Microbiology/B.Sc. Nursing /BMIT 
+1,132,6,2 Years,"52,000/-",B.Sc. with Biology or equivalent
+1,133,6,2 Years,"52,000/-",B.Sc. with Biology or equivalent
+1,134,6,2 Years,"60,000/-",Bachelor of Engineering or Technology in Computer Engineering / Computer Science / Electronics & Communication/ Information Technology or M.Sc. (IT/CS/E&C) / MCA or equivalent
+1,135,6,2 Years,"60,000/-","B. E. or B. Tech. in CE, IT,EC,CS or BCA or B. Sc. CS/ IT / Maths or equivalent"
+1,136,6,2 Years,"60,000/-",Bachelor degree in Science / Forensic Science/ Medicine / Engineering / Pharmacy or equivalent.
+1,137,6,3 Years,"52,000/-", Pass in 10+2 Medical
+1,138,6,3 Years,"52,000/-",Pass in 10+2 Medical/Non-Medical
+1,139,6,3 Years,"52,000/-",Pass in 10+2 Medical/Non-Medical
+1,140,6,3 Years,"52,000/-",Passin 10+2 Medical
+1,141,6,3 Years,"60,000/-","Pass in 10+2Medical /Subjects with
+Biology/Bio Chemistry/Biotechnology"
+1,142,6,3 Years,"60,000/-",Pass in 10+2 Non-Medical
+1,143,6,3 Years,"52,000/-",Pass in 10+2 Non-Medical/Medical
+1,144,6,3 Years,"52,000/-",Pass in 10+2 Medical
+1,145,6,3 Years,"45,400/-",Pass in 10+2 Non-Medical
+1,146,6,3 Years,"70,000/-",Pass in 10+2 Non-Medical
+1,147,6,3 Years,"45,400/-",Pass in 10+2 Medical
+1,148,6,3 Years,"45,400/-",Pass in 10+2 Non-Medical
+1,149,6,  3 Years,"60,000/-",Pass in 10+2 Non-Medical
+1,150,6,1 Years,"50,000/-",Bachelor degree in Science / Forensic Science/ Medicine / Engineering/Pharmacy
+1,151,6,1 Years,"50,000/-",Bachelor degree in Science / Forensic Science/ Medicine / Engineering/Pharmacy
+1,152,6,1 Years,"50,000/-",Bachelor degree in Science / Forensic Science/ Medicine / Engineering/Pharmacy
+1,153,6,1 Years,"50,000/-",Bachelor degree in Science / Forensic Science/ Medicine / Engineering/Pharmacy
+1,154,6,4.5 Years,"67,000/-",Pass in  10+2 Medical
+1,155,6,2 Years,"70,000/-",Pass in  B.P.T.
+1,156,6,4.5 Years,"70,000/-",Pass in  10+2 Medical
+1,157,6,2 Years,"70,000/-",Pass in  B.O.T.
+1,158,6,2 Years,"70,000/-",Pass in  Bachelor’s Degree in (MLT or Medical or Applied Medical Science or Biosciences or Medical Science & Allied Medical or Life Sciences) or Veterinary Microbiology & Parasitology or Genetic Engineering & Biotechnology or Clinical Chemistry or Public Health & Allied Sciences 
+1,159,6,2 Years,"70,000/-",Pass in  Bachelor’s Degree in (MLT or Medical or Applied Medical Science or Biosciences or Medical Science & Allied Medical or Life Sciences) or Veterinary Microbiology & Parasitology or Genetic Engineering & Biotechnology or Clinical Chemistry or Public Health & Allied Sciences 
+1,160,6,3 Years,"67,000/-",Pass in 10+2 Medical
+1,161,6,2 Years,"67,000/-","3 Years Dip (MLT) after 10th
+or 3 Years Dip (Nursing) after 10th
+or 2 Years Dip (Pharma) after 10+2"
+1,162,6,5 Years,"40,000/-",Pass in 10th 
+1,163,6,2  Years,"45,000/-",Pass in  10th  
+1,164,6,2 Years,"70,000/-",Bachelor's degree in Operation Theatre Technology
+1,165,6,2 Years,"70,000/-",Bachelor's degree in Medical Image Technology  
+1,166,6,2 Years,"70,000/-",Bachelor's degree in Dialysis technology/Therapy
+1,167,6,2 Years,"70,000/-", Bachelor’s degree in Optometry 
+1,168,6,2 Years,"70,000/-",MBBS/ BDS/ BVCS/ B.Sc. Life Sciences/ B.Sc. Biology/ B.Sc. 
+1,169,6,4 Years,"70,000/-",Pass in 10+2 Medical
+1,170,6,3 Years,"70,000/-",Pass in 10+2 Medical
+1,171,6,3 Years,"70,000/-",Pass in 10+2 Medical
+1,172,6,3 Years,"70,000/-",Pass in 10+2 Medical
+1,173,6,3 Years,"70,000/-",Pass in 10+2 Medical
+1,174,6,3 Years,"70,000/-",Pass in 10+2 Medical
+1,175,6,1 Year,"40,000/-",Pass in10+2 in any stream
+1,176,6,1 Year,"40,000/-",Pass in10+2 in any stream
+1,177,6,1 Year,"40,000/-",Pass in10+2 in any stream
+1,178,6,6 Months,"40,000/-",Pass in10+2 in any stream
+1,179,6,1 Year,"40,000/-",Pass in10+2 in any stream
+1,180,6,2 Years,"50,000/-",Pass in 10+2 Medical
+1,181,6,2 Years,"50,000/-",Pass in 10+2 Medical
+1,182,6,2 Years,"50,000/-",Pass in 10+2 Medical
+1,183,6,2 Years,"50,000/-",Pass in 10+2 Medical
+1,184,6,2 Years,"50,000/-",Pass in 10+2 Medical
+1,185,6,4 Years,"1,00,000/-",10+2 class passed with Science (PCB) & English Core/English Elective with aggregate of 45% marks from recognized board under AISSCE/CBSE/ICSE/SSCE/HSCE                                               OR                                                                                Students appearing in 10+2 examination in Science conducted by National Institute of Open School with 45% marks.
+1,186,6,3 Years,"70,000/-","10+2 class passed preferably Science (PCB) & English with aggregate of 40% marks                .OR
+10+2 in Arts (Mathematics, Biotechnology, Economics, Political Science, History, Geography, Business Studies, Accountancy, Home Science, Sociology, Psychology, Philosophy) and English Core/English Elective or Health care Science - Vocational stream ONLY, passing out from recognized Board under AISSCE/CBSE/ICSE/SSCE/HSCE or other equivalent Board with 40% marks.                     OR
+10+2 vocational ANM under CBSE Board or other equivalent board with 40% marks.
+Registered as ANM with State Nursing Registration Council.
+OR
+Students qualified in 10+2 Arts or Science examination or Health care Science - Vocational stream ONLY conducted by National Institute of Open School with 40% marks.
+"
+1,187,6,1 Year,"45,400/-",Pass in  bachelor of Library Science
+1,188,6,1 Year,"43,400/-"," Pass in Graduation in any stream
+"
+1,189,8,2 Years,"1,00,000/-",Pass in Graduation in any stream
+1,190,8,3 Years,"1,00,000/-",Pass in 10+2 in any stream
+1,191,8,1 Year,"40,000/-",Pass in 10+2 in any stream
+1,192,8,2 Years,"40,000/-",Pass with Bachelor’s degree (any discipline) (with music /Dance as one of the main subjects) 
+1,193,8,3 Years,"40,000/-",Pass in 10+2 or equivalent
+1,194,7,4 Years / 3Years,"76,000/-",Pass in 10+2 in any stream 
+1,195,7,4 Years / 3Years,"76,000/-",Pass in 10+2 in any stream 
+1,196,7,4 Years / 3Years,"76,000/-",Pass in 10+2 in any stream 
+1,197,7,4 Years / 3Years,"76,000/-",Pass in 10+2 in any stream 
+1,198,7,4 Years / 3Years,"76,000/-",Pass in 10+2 in any stream 
+1,199,7,4 Years / 3Years,"76,000/-",Pass in 10+2 in any stream 
+1,200,7,4 Years / 3Years,"76,000/-",Pass in 10+2 in any stream 
+1,201,7,3 Years / 2 Years,"76,000/- / 90,000/-", Pass in Diploma in Interior Design
+1,202,7,3 Years / 2 Years,"76,000/- / 90,000/-",Pass in Diploma in Fashion Design/Garment Design and Fashion Technology/Textile Design
+1,203,7,3 Years / 2 Years,"76,000/- / 90,000/-",Pass in Diploma in 3 -D Animation and Graphics
+1,204,7,3 Years / 2 Years,"76,000/- / 90,000/-",Pass in Diploma in 3 -D Animation and Graphics
+1,205,7,3 Years / 2 Years,"76,000/- / 90,000/-",Pass in Diploma in Fashion Design
+1,206,7,3 Years / 2 Years,"76,000/- / 90,000/-",Pass in Diploma in 3 -D Animation and Graphics
+1,207,7,2 Years,"40,000/-",Pass in  Bachelor’s degree in any stream or equivalent.
+1,208,7,2 Years,"40,000/-",Pass in  Bachelor’s degree in any stream or equivalent.
+1,209,7,2 Years,"40,000/-",Pass in  Bachelor’s degree in any stream or equivalent.
+1,210,7,3 Years,"76,000/-",Pass in 10+2 in any stream
+1,211,7,2 Years,"76,000/-",Graduation in any stream
+1,212,7,2 Years,"51,000/-","4 years BFA in any stream under 10+2+4 or 10+5 pattern or any BA with Diploma in Arts & Crafts, Fashion Designing or Interior Designing."
+1,213,7,2 Years,"51,000/-","4 years BFA in any stream under 10+2+4 or 10+5 pattern or any BA with Diploma in Arts & Crafts, Fashion Designing or Interior Designing."
+1,214,7,2 Years,"51,000/-","4 years BFA in any stream under 10+2+4 or 10+5 pattern or any BA with Diploma in Arts & Crafts, Fashion Designing or Interior Designing."
+1,215,7,2 Years,"51,000/-","4 years BFA in any stream under 10+2+4 or 10+5 pattern or any BA with Diploma in Arts & Crafts, Fashion Designing or Interior Designing."
+1,216,7,4 Years,"45,000/-","10+2 in any stream  or 10th with two years Diploma in Art & Craft, Fine Arts, Fashion Designing or Interior Designing."
+1,217,7,4 Years,"45,000/-","10+2 in any stream  or 10th with two years Diploma in Art & Craft, Fine Arts, Fashion Designing or Interior Designing."
+1,218,7,4 Years,"45,000/-","10+2 in any stream  or 10th with two years Diploma in Art & Craft, Fine Arts, Fashion Designing or Interior Designing."
+1,219,7,3 Years,"40,000/-",Pass in 10+2 in any stream
+1,220,7,3 Years,"40,000/-",Pass in 10+2 in any stream
+1,221,7,3 Years,"40,000/-",Pass in 10th 
+1,222,7,3 Years,"40,000/-",Pass in 10th 
+1,223,7,3 Years," 40,000/-",Pass in 10th 
+1,224,7,3 Years,"40,000/-",Pass in 10th 
+1,225,7,3 Years,"40,000/-",Pass in 10th 
+1,226,7,2 Years,"40,000/-",Pass in 10+2
+1,227,7,3 Years / 2 Years,"40,000/-",Pass in10+2 in Non Medical
+1,228,7,6 Years,"40,000/-",Pass in 10th 
+1,229,7,6 Years,"40,000/-",Pass in 10th 
+1,230,7,5 Years,"1,10,000/-"," Pass in10+2 (Non Medical)
+3 years Diploma in Architectural
+Assistantship
+Also required aptitude test
+NATA/AIEEE/JEE or
+Any Aptitude test in architecture
+by competent state authority"
+1,231,7,1 Year,"60,000/-","B.E. or B.Tech./ Post Graduate degree in Geography, Geology, Agriculture, Architecture, Civil,
+Computer Science, Physics, Chemistry, Mathematics, Statistics, Soil Science, Earth Science,
+Environment, Urban Planning, Rural Management, Disaster Management, Forestry, Oceanography,
+MBA from a recognised University with a minimum 60% of marks"
+1,232,7,3 Years,"40,400/-", Pass in 10th Pass
+1,233,7,6 Years,"40,000/-", Pass in 10th Pass
+1,234,7,6 Years,"40,000/-", Pass in 10th Pass
+1,235,7,3 Years,"40,000/-",Pass in 10+2 in  any stream
+1,236,10,3 Years,"78,000/-",Pass in10+2 with any stream
+1,237,10,3 Years,"78,000/-",Pass in10+2 with any stream
+1,238,10,2 Years,"78,000/-",Pass  in Diploma (Hotel Management) [(3 yrs. after 10th ) or (2 yrs./ 1 yr. after 10+2)] or equivalen
+1,239,10,2 Years,"78,000/-",Pass  in Diploma (Hotel Management) [(3 yrs. after 10th ) or (2 yrs./ 1 yr. after 10+2)] or equivalen
+1,240,10,1.5 Years,"39,400/-",Pass in 10th 
+1,241,10,1.5 Years,"39,400/-",Pass in 10th 
+1,242,10,6 Months,"40,000/-",Pass in 10th 
+1,243,10,1.5 Years,"40,000/-",Pass in 10+2 or equivalent with English as one of the subjects
+1,244,10,1.5 Years,"40,000/-",Pass in 10+2 or equivalent with English as one of the subjects
+1,245,10,2 Years,"40,000/-",Pass in 10+2 or equivalent with English as one of the subjects
+1,246,10,2 Years,"78,000/-",Pass in 10+2 or equivalent with English as one of the subjects
+1,247,10,2 Years,"78,000/-", B.Sc. Degree in Hospitality and Hotel Administration OR Bachelor’s Degree in Hotel Management
+1,248,10,1 Year,"50,000/-","Pass in Graduation in any stream
+"
+1,249,10,5 Years,"40,000/-","Pass in Graduation in any stream
+"
+2,250,2,3 Years,"87,000/-","All those candidates who have passed the 10+2 or its
+equivalent examination in any stream.
+OR
+Those candidates who have passed their Matriculation
+examination AND have also passed three year Diploma
+in any Trade from Punjab State Board of Technical
+Education & Industrial Training, Chandigarh or such
+Examination from any other recognized State Board of
+Technical Education, or Sant Longowal Institute of
+Engineering & Technology, Longowal."
+2,251,2,3 Years,"87,000/-",The candidate shall have passed HSC examination in Science or Arts or Commerce stream conducted by  any other recognized Examinination Board
+2,252,2,2 Years,"2,35,500/-",Recognized Bachelor’s Degree of minimum 3 years duration. Obtained at least 50% marks (45% in case of candidate belonging to reserved category) at the qualifying Examination.
+3,253,1,4 Years,"1,17,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject.Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+3,254,1,4 Years,"1,17,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject.Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+3,255,1,4 Years,"1,17,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject.Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+3,256,1,4 Years,"1,17,000/-",B.TECH Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry /Biotechnology / Biology / Technical Vocational subject.Obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the above subjects taken together.
+3,257,2,2 Years,"1,17,000/-",Graduate In any stream
+3,258,1,2 Years,"1,17,000/-","For admission to first year of M.Tech. , candidate must have clearly passed graduation in Engineering or Technology its equivalent from any recognized University and securing minimum 60% marks (55% marks for SC/ST Category candidates) ."
+4,259,1,4 Years,"1,41,500/-","The Candidates should have passed Senior Secondary (10+2) or an equivalent Examination in five subjects taken together including compulsory subjects of Physics, Mathematics and one subject of chemistry/ Biotechnology/ Biology/ Computer Science & English with 60% marks in aggregate (40% marks in case of SC/ST Category). However, for admission to B.Tech (Biotechnology) the candidates with the subjects of Physics, Chemistry & Biology/Biotechnology shall also be eligible. OR Should have passed with minimum 60% marks (40% in the case of SC/ST category.) in Diploma in Engg./Tech., of three years or more duration from any recognized Board of Technical Education/ University or its equivalent Diploma examination."
+4,260,1,4 Years,"1,41,500/-","The Candidates should have passed Senior Secondary (10+2) or an equivalent Examination in five subjects taken together including compulsory subjects of Physics, Mathematics and one subject of chemistry/ Biotechnology/ Biology/ Computer Science & English with 60% marks in aggregate (40% marks in case of SC/ST Category). However, for admission to B.Tech (Biotechnology) the candidates with the subjects of Physics, Chemistry & Biology/Biotechnology shall also be eligible. OR Should have passed with minimum 60% marks (40% in the case of SC/ST category.) in Diploma in Engg./Tech., of three years or more duration from any recognized Board of Technical Education/ University or its equivalent Diploma examination."
+4,261,1,4 Years,"1,41,500/-","The Candidates should have passed Senior Secondary (10+2) or an equivalent Examination in five subjects taken together including compulsory subjects of Physics, Mathematics and one subject of chemistry/ Biotechnology/ Biology/ Computer Science & English with 60% marks in aggregate (40% marks in case of SC/ST Category). However, for admission to B.Tech (Biotechnology) the candidates with the subjects of Physics, Chemistry & Biology/Biotechnology shall also be eligible. OR Should have passed with minimum 60% marks (40% in the case of SC/ST category.) in Diploma in Engg./Tech., of three years or more duration from any recognized Board of Technical Education/ University or its equivalent Diploma examination."
+4,262,1,4 Years,"1,41,500/-","The Candidates should have passed Senior Secondary (10+2) or an equivalent Examination in five subjects taken together including compulsory subjects of Physics, Mathematics and one subject of chemistry/ Biotechnology/ Biology/ Computer Science & English with 60% marks in aggregate (40% marks in case of SC/ST Category). However, for admission to B.Tech (Biotechnology) the candidates with the subjects of Physics, Chemistry & Biology/Biotechnology shall also be eligible. OR Should have passed with minimum 60% marks (40% in the case of SC/ST category.) in Diploma in Engg./Tech., of three years or more duration from any recognized Board of Technical Education/ University or its equivalent Diploma examination."
+4,263,1,4 Years,"1,41,500/-","The Candidates should have passed Senior Secondary (10+2) or an equivalent Examination in five subjects taken together including compulsory subjects of Physics, Mathematics and one subject of chemistry/ Biotechnology/ Biology/ Computer Science & English with 60% marks in aggregate (40% marks in case of SC/ST Category). However, for admission to B.Tech (Biotechnology) the candidates with the subjects of Physics, Chemistry & Biology/Biotechnology shall also be eligible. OR Should have passed with minimum 60% marks (40% in the case of SC/ST category.) in Diploma in Engg./Tech., of three years or more duration from any recognized Board of Technical Education/ University or its equivalent Diploma examination."
+4,264,1,4 Years,"1,41,500/-","The Candidates should have passed Senior Secondary (10+2) or an equivalent Examination in five subjects taken together including compulsory subjects of Physics, Mathematics and one subject of chemistry/ Biotechnology/ Biology/ Computer Science & English with 60% marks in aggregate (40% marks in case of SC/ST Category). However, for admission to B.Tech (Biotechnology) the candidates with the subjects of Physics, Chemistry & Biology/Biotechnology shall also be eligible. OR Should have passed with minimum 60% marks (40% in the case of SC/ST category.) in Diploma in Engg./Tech., of three years or more duration from any recognized Board of Technical Education/ University or its equivalent Diploma examination."
+4,265,1,4 Years,"1,41,500/-","The Candidates should have passed Senior Secondary (10+2) or an equivalent Examination in five subjects taken together including compulsory subjects of Physics, Mathematics and one subject of chemistry/ Biotechnology/ Biology/ Computer Science & English with 60% marks in aggregate (40% marks in case of SC/ST Category). However, for admission to B.Tech (Biotechnology) the candidates with the subjects of Physics, Chemistry & Biology/Biotechnology shall also be eligible. OR Should have passed with minimum 60% marks (40% in the case of SC/ST category.) in Diploma in Engg./Tech., of three years or more duration from any recognized Board of Technical Education/ University or its equivalent Diploma examination."
+4,266,1,2 Years,"1,13,500/-",The Candidates should have passed with minimum 50% marks (45% in the case of SC/ST category) in aggregate in B.Tech/ B.E. in Computer Engg/ Computer Sc. & Engg./ Computer Technology/ Information Technology/ Electronics Engg/ Electrical Engg. or M.Sc. in Computer Science/ Electronics/ IT/Software Engg./ Maths/ Physics/Statistics or MCA or its equivalent examination from any recognized University.
+4,267,1,2 Years,"1,13,500/-",The Candidates should have passed with minimum 50% marks (45% in the case of SC/ST category) in aggregate in B.Tech/ B.E. in Electrical Engg./ Electrical & Electronics Engg./ Instrumentation & Control Engg. or its equivalent examination from any recognized University
+4,268,1,2 Years,"1,13,500/-",The Candidates should have passed with minimum 50% marks (45% in the case of SC/ST category) in aggregate in B.Tech/ B.E. in Civil Engg. or its equivalent examination from any recognized University.
+4,269,1,2 Years,"1,13,500/-","The Candidates should have passed with minimum 50% marks (45% in the case of SC/ST category) in aggregate in B.Tech or its equivalent examination in the discipline of Engg./ Medical/ Dental/ Pharmacy or M.Sc. in all branches of Science or equivalent examination from any recognized University. Preference will be given to the candidates with B.Tech Bio Tech, Chemical Engg., M.Sc. Chemistry & Biological Science. Non-Medical students will also be required to undergo a pre-requisite course in the discipline to be arranged by the University."
+4,270,1,2 Years,"1,13,500/-",The Candidates should have passed with minimum 50% marks (45% in the case of SC/ST category) in aggregate in B.Tech/ B.E. in Electronics & Communication Engg./ Electronics & Tele communication Engg./ Electronics Engg/ Electrical Engg/ Electrical & Electronics Engg./ Applied Electronics & Instrumentation Engg./ Electronics Instrumentation & Control Engg/ Instrumentation & Control Engg/ Instrumentation Engg./ Control Engg./ Mechatronics/ Bio-Electronics Engg./ Bio-Medical Engg. or M.Sc. in Electronic Science/ Physics or its equivalent examination from any recognized University.
+4,271,1,2 Years,"1,13,500/-",The Candidates should have passed with minimum 50% marks (45% in the case of SC/ST category) in aggregate in M.Sc. Environmental Sciences or M.Sc. Industrial Chemistry/Chemistry or B.E./B.Tech or equivalent degree in Bio-Technology/ Chemical/ Civil/ Agricultural Engineering from any recognized University
+4,272,1,2 Years,"1,13,500/-",The Candidates should have passed with minimum 50% marks (45% in the case of SC/ST category) in aggregate in B.Tech/ B.E. in Mechanical Engg./ Production Engg./ Automobile Engg./ Industrial Engg. & Management/ Aeronautics Engg./ Mechatronics/ Mining Engg./ Product Design/ Product Design & Development/ Metallurgy Engg. or its equivalent examination from any recognized University.
+4,273,1,3 Years,"1,21,500/-",The candidate should have passed three year Diploma examination from any recognized Board/ University; with at least 60% marks (40% in the case of SC/ST category) in appropriate branch of Engineering/ Technology. OR B.Sc. Degree from a recognized University with at least 60% marks (40% in the case of SC/ST category) and passed XII standard with Mathematics as a subject.
+4,274,1,3 Years,"1,21,500/-",The candidate should have passed three year Diploma examination from any recognized Board/ University; with at least 60% marks (40% in the case of SC/ST category) in appropriate branch of Engineering/ Technology. OR B.Sc. Degree from a recognized University with at least 60% marks (40% in the case of SC/ST category) and passed XII standard with Mathematics as a subject.
+4,275,1,3 Years,"1,21,500/-",The candidate should have passed three year Diploma examination from any recognized Board/ University; with at least 60% marks (40% in the case of SC/ST category) in appropriate branch of Engineering/ Technology. OR B.Sc. Degree from a recognized University with at least 60% marks (40% in the case of SC/ST category) and passed XII standard with Mathematics as a subject.
+4,276,1,3 Years,"1,21,500/-",The candidate should have passed three year Diploma examination from any recognized Board/ University; with at least 60% marks (40% in the case of SC/ST category) in appropriate branch of Engineering/ Technology. OR B.Sc. Degree from a recognized University with at least 60% marks (40% in the case of SC/ST category) and passed XII standard with Mathematics as a subject.
+4,277,1,3 Years,"1,21,500/-",The candidate should have passed three year Diploma examination from any recognized Board/ University; with at least 60% marks (40% in the case of SC/ST category) in appropriate branch of Engineering/ Technology. OR B.Sc. Degree from a recognized University with at least 60% marks (40% in the case of SC/ST category) and passed XII standard with Mathematics as a subject.
+4,278,1,3 Years,"1,21,500/-",The candidate should have passed three year Diploma examination from any recognized Board/ University; with at least 60% marks (40% in the case of SC/ST category) in appropriate branch of Engineering/ Technology. OR B.Sc. Degree from a recognized University with at least 60% marks (40% in the case of SC/ST category) and passed XII standard with Mathematics as a subject.
+4,279,1,3 Years,"1,21,500/-",The candidate should have passed three year Diploma examination from any recognized Board/ University; with at least 60% marks (40% in the case of SC/ST category) in appropriate branch of Engineering/ Technology. OR B.Sc. Degree from a recognized University with at least 60% marks (40% in the case of SC/ST category) and passed XII standard with Mathematics as a subject.
+4,280,2,3 Years,"76,500/-",The candidates should have passed Senior Secondary (10+2) Examination from any recognized Board/University with at least five subjects including English as one of the main subjects.
+4,281,2,3 Years,"76,500/-",The candidates should have passed Senior Secondary (10+2) Examination of any recognized Board/University with at least five subjects including English as one of the subjects obtaining at least 40% marks in Commerce Group or Non-Commerce Groups with Economics/ Maths/ Statistics as one of the subjects. The candidate should have passed Diploma in Management or Commerce or Economics of 3 years duration after Matric Examination.
+4,282,2,2 years,"1,28,500/-",The candidates should have passed with at least 60% marks (45% in the case of SC/ST category and 50% in case of NRI Seat) in aggregate in Bachelor's degree examination of at least 3 years duration in any discipline from any recognized University. OR Should have passed in final examination conducted by the Institute of Chartered Accountants of India/ Institute of Cost & Works Accountants of India/ Institute of Company Secretaries of India.
+4,283,2,3 years,,The candidates should have passed Secondary School (10th) or an equivalent examination with English as one of the subjects from any recognized Board/University.
+4,284,3,5 years,"65,500/-",The candidates should have passed 10+2 examinations (in Commerce group for B.Com.- LLB) from any recognized Board/ University with at least five subjects including English securing not less than 45% marks (40% for SC & ST and 42% for OBC candidates) in aggregate and should not be more than 20 years of age after 31st December of the year of admission to the course in case of General Category and 22 years for the candidates belonging to SC/ST/OBC Category Note: Candidates basic qualification having passed 10+2 Examination from Open School are not eligible
+4,285,3,2 Years,"65,500/-",The candidate should have passed LL.B. (5 Years Integrated Course) or LL.B. (3 Years Course) with at least 50% marks from any recognized Board/University.
+4,286,5,4 Years,"1,03,500/-","The candidates should have passed 10+2 examination with min. 45% marks (40% in case of SC/ST) from any recognized Board or University with English as on of the subjects and Physics, Chemistry, Mathematics/Biology as optional subjects individually. “However, the students possessing 10+2 qualification from non-formal and non-class rooms based schooling such as National Institute of Open Schooling, open school systems of States etc. shall not be eligible for admission to B.Pharm Course.” The candidate should at least 17 years of age on or before 31st December of the year of admission to the course."
+4,287,5,6 years,"1,33,500/-","The candidates should have passed Senior Secondary (10+2) or an equivalent examination from any recognized Board/University including compulsory subjects of Physics, English and Chemistry along with one of the subjects of Mathematics or Biology. Or passed in D. Pharmacy course from PCI approved institution. Candidates should complete the age of 17 years on or before the 31st December of the year of admission to the course"
+4,288,5,3 Years,"1,43,500/-",The candidates should have passed in B.Pharma from any Institute approved by the Pharmacy Council of India under section 12 of the Pharmacy Act
+4,289,5,2 Years,"14,350/-",The candidates should have Bachelor Degree in Pharmacy or equivalent examination from any recognized University with atleast 55% marks (50% in the case of SC/ST category) in aggregate
+4,290,6,4 years,"83,500/-","The candidate should have passed the Senior Secondary (10+2) Examinations in the subjects of Physics, Chemistry, Biology and English individually & with minimum of 45% marks taken together in PCB (40% marks in case SC/ST/OBC). The candidates are also required to have passed in 5th subject of 10+2 examinations. A candidate with compartment in 10+2 examination will be considered for admission in case he/she produces the proof of passing the examination on the day of counseling. The candidates should attain the age of 17 years on or before 31st December of the year of admission to the course which shall be determined as per entry in the Certificate of Matriculation/ Higher Secondary or its equivalent examination from any recognized Board/University. Note: Married candidates are also eligible for admission."
+4,291,6,2 Years,"83,500/-",The candidates should have passed Diploma in General Nursing and Midwifery from an Institute recognized by the Indian Nursing Council. The candidates should be registered Nurse and registered Midwifery (or alternative registration in lieu of midwifery for male nurses) with any State Nursing Council.
+4,292,6,2 Years,"1,63,500/-",The candidates should have passed B.Sc. (Nursing)/Post Basic B.Sc. Nursing with atleast 55% marks and have atleast one year work experience. Note: Married candidates are also eligible for admission
+4,293,6,4 years + 6 month internship,"81,500/-","The candidate should have passed Senior Secondary Exams. (10+2) in five subjects with aggregate 50% marks (45% marks in case of SC/ST candidate) including English, Physics, Chemistry & Biology from any recognized Board/University. The candidates should attain the age of 17 years on or before 31st December of the year of admission to the course which shall be determined as per entry in the Certificate of Matriculation/Higher Secondary or its equivalent examination from any recognized Board/ University."
+4,294,6,2 Years,"83,500/-",The candidates should have passed Bachelor of Physiotherapy on full time basis from any recognized University
+4,295,6,3 Years,"48,500/-","The candidates should have passed Senior Secondary (10+2) or an equivalent Examination from any recognized Board/University with at least five subjects including English, Physics, Chemistry & Biology as compulsory subjects. (Streams offered: Physics + Chemistry + Botany + Zoology.)"
+4,296,6,3 Years,"48,500/-","The candidates should have passed Senior Secondary (10+2) or an equivalent Examination from any recognized Board/University with at least five subjects including English, Physics, Chemistry & Mathematics as compulsory subjects. (Streams offered: Physics + Chemistry + Maths)"
+4,297,6,3 Years,"53,500/-",The candidates should have passed Senior Secondary (10+2) or its equivalent Examination with minimum 50% marks in aggregate (45% in the case of reserve category) at least in five subjects of Non-Medical/ Medical stream with English as one of the subjects from any recognized Board/University
+4,298,6,3 Years,"53,500/-",The candidates who has passed Senior Secondary Certificate Examination (10+2) with Medical/Non Medical subjects or its equivalent Examination with 55% marks in aggregate from any recognized Board/University shall be eligible to join the first semester of B.Sc. (Hons.) in Chemistry course.
+4,299,6,3.6 years,"68,500/-",") The candidate should have passed Senior Secondary Exams. (10+2) in five subjects including English, Chemistry & Biology from the any recognized Board/University."
+4,300,6,3.6 years,"68,500/-",") The candidate should have passed Senior Secondary Exams. (10+2) in five subjects including English, Chemistry & Biology from the any recognized Board/University."
+4,301,6,3 Years,"58,500/-",The candidate should have passed 10+2 Examination in five subjects including English with minimum 50% marks in PCB from any recognized Board/University
+4,302,6,2 years,"1,03,500/-",A person who possesses any one of the following qualifications shall be eligible to join the course of Master of Science (Medical):- (a) MBBS Or (b) BDS/BAMS/BHMS/BPT Or (c) B.Sc Nursing/B.Sc BASLP/B.Sc MLT/B.Sc OTT/B.Sc CVT/B.Sc Optom/B.Sc RIT or equivalent degree from recognized university (10+2+3 examination) with at least 50% marks in aggregate.
+4,303,6,2 years,"58,500/-","The Candidates should have passed: B.Sc. (Hons)/B.Sc. in full subjects with (Hons.) in concerned subject/B.Sc. with concerned subject/ BA with Mathematics as one of the main subjects (for M.Sc. Mathematics) from any recognized University, securing at least 50% marks in aggregate (45% marks in case of SC/ST candidates"
+4,304,6,2 years,"63,500/-",A Candidate shall be eligible to be considered for admission to the first semester of M.Sc. Chemistry (Hons.) course on if he/she fulfils the following requirements (I) That the candidate has passed B.Sc. with chemistry from recognized University securing 55% marks in aggregate OR (ii) That the candidate has passed B.Sc. (Hons.) in Chemistry from recognized university securing 55% marks in aggregate. OR (iii) That the candidate has passed B.Sc. in full subjects with (Hons.) in chemistry from recognized university securing 55% marks in aggregate of (Hons.) examination
+4,305,6,4.6 Years,"68,500/-","The candidates should have passed Senior Secondary Certificate Examination (10+2) in five subjects including Chemistry, Biology and English from any recognized University/ Board"
+4,306,6,4.6 Years,"68,500/-","The candidates should have passed Senior Secondary Certificate Examination (10+2) in five subjects including Chemistry, Biology and English from any recognized University/ Board."
+4,307,6,4 Years,"68,500/-","The candidates should have passed Senior Secondary Certificate Examination (10+2) in five subjects including Chemistry, Biology and English from any recognized University/ Board."
+4,308,6,4.6 Years,"83,500/-",The candidate should have passed 10+2 Examination in five subjects including English with minimum 50% marks in PCB from any recognized Board/University
+4,309,6,3 Years,"52,500/-",The candidates should have passed 10th or its equivalent examination from any recognized Board
+4,310,6,2 Years,"68,500/-","The candidates should have passed B.Sc. O.T.T. examination with at least 50% marks in aggregate from a recognized University, shall be eligible to join First year of M.Sc. O.T.T. Course."
+4,311,6,2 Years,"68,500/-",The candidates should have passed B.Sc.(MLT)/ BMLT examination with minimum of 50% marks in aggregate from any recognized University
+4,312,10,4 Years,"85,500/-",The candidates should have passed Senior Secondary (10+2) Examination with minimum 45% marks (40% in the case of SC/ST category) with at least five subjects including English as one of the subjects from any recognized Board/University.
+4,313,10,3 Years,"85,500/-",The candidates should have passed Senior Secondary (10+2) or its equivalent examination with English as one of the subjects from a recognized Board/University.
+4,314,10,3 Years,"53,500/-","A candidates should have passed Senior Secondary (10+2) or its equivalent examination with the subject of Physics, Chemistry, Biology/Mathematics or Allied Science stream from a Recognized Board/University with 50% marks in aggregate or equivalent CGPA (45% in case of reserved category) to be eligible to join the first semester of this course"
+4,315,10,2 Years,"70,500/-",A Bachelor's degree in Science or Home Science with not less than 50% marks in aggregate from any recognized University. 5% weightage will be given for merit to the candidates passing Bachelor's degree in Hotel Management.
+4,316,10,1.6 years including 6 months internship industrial training,"43,500/-",The candidate should have passed Senior Secondary (10+2) Examination with atleast five subjects including English as a compulsory subject from any recognized Board/ University.

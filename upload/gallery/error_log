@@ -1,0 +1,7 @@
+[20-Sep-2020 15:23:31 UTC] PHP Notice:  Undefined index: sec in /home/tc7jf5qds8ov/public_html/admissionlelo.in/upload/gallery/sos.php on line 67
+[20-Sep-2020 15:36:07 UTC] PHP Notice:  Undefined index: sec in /home/tc7jf5qds8ov/public_html/admissionlelo.in/upload/gallery/sos.php on line 67
+[01-Oct-2020 10:01:38 UTC] PHP Notice:  Undefined index: sec in /home/tc7jf5qds8ov/public_html/admissionlelo.in/upload/gallery/sos.php on line 67
+[19-Oct-2020 20:07:18 UTC] PHP Warning:  session_start(): open(/opt/alt/php73/var/lib/php/session/sess_a397b22ac0fb1ddc36dd6cf36969f408, O_RDWR) failed: Disk quota exceeded (122) in /home/tc7jf5qds8ov/public_html/admissionlelo.in/upload/gallery/go.php on line 11
+[19-Oct-2020 20:07:18 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php73/var/lib/php/session) in /home/tc7jf5qds8ov/public_html/admissionlelo.in/upload/gallery/go.php on line 11
+[20-Oct-2020 03:19:13 UTC] PHP Warning:  session_start(): open(/opt/alt/php73/var/lib/php/session/sess_85cbcd672be5d63d13fb1e81b0d4e610, O_RDWR) failed: Disk quota exceeded (122) in /home/tc7jf5qds8ov/public_html/admissionlelo.in/upload/gallery/go.php on line 11
+[20-Oct-2020 03:19:13 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php73/var/lib/php/session) in /home/tc7jf5qds8ov/public_html/admissionlelo.in/upload/gallery/go.php on line 11

@@ -1,0 +1,2304 @@
+Nos,ID,Course Name,Stream ID,Stream Name
+1,11,B.Tech in Computer Science Engineering(CSE),1,Engineering and Technology
+2,12,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+3,13,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+4,14,B.Tech in Elecrical Engineering,1,Engineering and Technology
+5,15,B.Tech in Electronics and Communication (ECE),1,Engineering and Technology
+6,16,B.Tech in Fire Technology and Safety Engineering,1,Engineering and Technology
+7,17,B.Tech (LEET) in Computer Science Engineering,1,Engineering and Technology
+8,18,B.Tech (LEET) in Mechanical Engineering,1,Engineering and Technology
+9,19,B.Tech (LEET) in Civil Engineering,1,Engineering and Technology
+10,20,B.Tech (LEET) in Elecrical Engineering,1,Engineering and Technology
+11,21,B.Tech (LEET) in Electronics and Communication,1,Engineering and Technology
+12,22,M.Tech in Computer Science Engineering,1,Engineering and Technology
+13,23,M.Tech in Civil Engineering,1,Engineering and Technology
+14,24,M.Tech in Electronics and Communication Engineering,1,Engineering and Technology
+15,25,M.Tech in Electrical Engineering,1,Engineering and Technology
+16,26,M.Tech in Renewable Energy Engineering,1,Engineering and Technology
+17,27,Diploma(Dual Program)- B.Tech Mechanical Engineering,1,Engineering and Technology
+18,28,Diploma(Dual Program)-B.Tech Civil Engineering,1,Engineering and Technology
+19,29,Diploma(Dual Program)-B.Tech Electrical Engineering,1,Engineering and Technology
+20,30,Diploma(Dual Program)-B.Tech Electronics and communication,1,Engineering and Technology
+21,31,Diploma(Dual Program)-B.Tech Computer Science Engineering,1,Engineering and Technology
+22,32,Diploma(Dual Program)-B.Tech Automobile Engineering,1,Engineering and Technology
+23,33,Diploma in Fire Technology and Safe Engg.,1,Engineering and Technology
+24,34,Diploma in Cyber Forensic and Information,1,Engineering and Technology
+25,35,Diploma in Mechanical Engineering,1,Engineering and Technology
+26,36,Diploma in Metallurgical Engineering,1,Engineering and Technology
+27,37,Diploma in Automobile Engineering,1,Engineering and Technology
+28,38,Diploma (LEET) in Fire Technology and Safe Engg.,1,Engineering and Technology
+29,39,Diploma (LEET) in Cyber Forensic and Information,1,Engineering and Technology
+30,40,Diploma (LEET) in Mechanical Engineering-Steel,1,Engineering and Technology
+31,41,Diploma (LEET) in Metallurgical Engineering,1,Engineering and Technology
+32,42,Diploma (LEET) in Automobile,1,Engineering and Technology
+33,43,Diploma in Civil Engineering,1,Engineering and Technology
+34,44,Diploma in Computer Science Engineering,1,Engineering and Technology
+35,45,Diploma in Mechanical Engineering,1,Engineering and Technology
+36,46,Diploma in Electrical Engineering,1,Engineering and Technology
+37,47,Diploma in Electronics & Communication,1,Engineering and Technology
+38,48,Diploma in (LEET)Civil Engineering,1,Engineering and Technology
+39,49,Diploma in (LEET)Computer Science Engineering,1,Engineering and Technology
+40,50,Diploma in (LEET)Mechanical Engineering,1,Engineering and Technology
+41,51,Diploma in (LEET)Electrical Engineering,1,Engineering and Technology
+42,52,Diploma in (LEET)Electronics & Communication,1,Engineering and Technology
+43,53,ITI in Desiel Mechanic,1,Engineering and Technology
+44,54,ITI in Electrician,1,Engineering and Technology
+45,55,ITI in Refrigiration and Air Conditioning,1,Engineering and Technology
+46,56,ITI in Fashion Design,7,Design Courses
+47,57,MBA in HRM,2,Business and Commerce
+48,58,MBA in Finance,2,Business and Commerce
+49,59,MBA in Marketing,2,Business and Commerce
+50,60,MBA in Logistics & Supply Chain Management,2,Business and Commerce
+51,61,MBA in Food & Beverage Managemen,2,Business and Commerce
+52,62,MBA in Digital and Social Media Marketing,2,Business and Commerce
+53,63,MBA in International Business,2,Business and Commerce
+54,64,"MBA in Banking ,Insurance and Financial Services",2,Business and Commerce
+55,65,MBA in Business Analytics,2,Business and Commerce
+56,66,MBA in Sales & Retail Management,2,Business and Commerce
+57,67,MBA in E- Business,2,Business and Commerce
+58,68,MBA in Pharmaceutical Management,2,Business and Commerce
+59,69,MBA in Family Business Management & Entrepreneurship,2,Business and Commerce
+60,70,Bachelor of Business Administration,2,Business and Commerce
+61,71,Sales &Retail Marketing,2,Business and Commerce
+62,72,Foreign Trade,2,Business and Commerce
+63,73,Banking and Insurance,2,Business and Commerce
+64,74,Digital and Social Media Marketing,2,Business and Commerce
+65,75,Tourism & Hospitality Management,2,Business and Commerce
+66,76,Logistics & Supply Chain Management,2,Business and Commerce
+67,77,E -Commerce,2,Business and Commerce
+68,78,Family Business Management & Entrepreneurship,2,Business and Commerce
+69,79,Finace and Accounting,2,Business and Commerce
+70,80,Dual Programme in BBA-MBA Financial Market Practices in collaboration with NSE,2,Business and Commerce
+71,81,Diploma in Hospital Administration,2,Business and Commerce
+72,82,M.com,2,Business and Commerce
+73,83,M.com (Hons) with specialization in Financial Market Practices in collaboration with NSE,2,Business and Commerce
+74,84,Bachelor of commerce,2,Business and Commerce
+75,85,B.COM in  Banking & Insurance,2,Business and Commerce
+76,86,B.COM in Computer Applications,2,Business and Commerce
+77,87,B.COM in Advanced Cost and Management Accounting,2,Business and Commerce
+78,88,B.COM in Financial Market Practices in collaboration with NSE,2,Business and Commerce
+79,89,B.COM in Tourism & Hospitality Management,2,Business and Commerce
+80,90,B.COM in E -Commerce,2,Business and Commerce
+81,91,B.COM in Foreign Trade,2,Business and Commerce
+82,92,B.COM in Auditing &Taxation,2,Business and Commerce
+83,93,Dual Programme B.Com.-MBA,2,Business and Commerce
+84,94,B.A. - L.L.B. with specialization in Criminal Law/ Labour Law/Constitution Law,3,Law
+85,95,BBA-LLB *with specialization in Corporate Law/ Internation Trade /Finacial Management/Financial accounting,3,Law
+86,96,BCOM-LLB *with specialization in Taxation Law/E-Commerece/Corporate Accounting,3,Law
+87,97,L.L.M. Human Rights/Criminal Law/Family Law/Constitutional Law/Intellectual Property Right/Business Law/Internation Economics Law,3,Law
+88,98,L.L.B. Bachelor of Laws with specialization in Criminal Law/ Labour Law/Constitution Law,3,Law
+89,99,MCA,9,Computer Application
+90,100,MCA (LEET),9,Computer Application
+91,101,M.Sc. Computer Science,9,Computer Application
+92,102,BCA,9,Computer Application
+93,103,BCA (Leet),9,Computer Application
+94,104,B.Sc. In Information Technology,1,Engineering and Technology
+95,105,B.sc Computer Science,9,Computer Application
+96,106,Dual Programme BCA-MCA,9,Computer Application
+97,107,DCA Diploma in Computer application ,9,Computer Application
+98,108,PGDCA Post Graduate Diploma in Computer Application,9,Computer Application
+99,109,M.A. Education,4,Education
+100,110,M. Ed. Master of Education,4,Education
+101,111,B.Sc.- B.Ed.,4,Education
+102,112,B.A. - B.Ed.,4,Education
+103,113,B. ED. Bachelor of Education,4,Education
+104,114,E.T.T. Elementary Teacher Training,4,Education
+105,115,M.Pharma Ayurvedic,5,Pharmacy
+106,116,B. Pharma Bachelor of Pharmacy (Ayurvedic),5,Pharmacy
+107,117,D. Pharma Diploma in Pharmacy,5,Pharmacy
+108,118,B.Pharma(LEET) Bachelor of Pharmacy (Ayurvedic) ,5,Pharmacy
+109,119,Msc. In Physics with spacialization in Material Science/Nano Technology/Electronics,6,Medical
+110,120,Msc. In Physics by Research,6,Medical
+111,121,Msc. In Chemistry by Research,6,Medical
+112,122,Msc. In Botany,6,Medical
+113,123,Msc. In Botany by Research,6,Medical
+114,124,Msc. In Zoology with specialization in Entomology/Molecular Biology/Fishery,6,Medical
+115,125,Msc. In Zoology by Research,6,Medical
+116,126,Msc. In Microbiology,6,Medical
+117,127,Msc. In Microbiology by Research,6,Medical
+118,128,Msc. In Mathematics with specialization in Pure / Applied/Statistics,6,Medical
+119,129,Msc. In Mathematics by Research,6,Medical
+120,130,Msc. In Bio Technology,6,Medical
+121,131,Msc. In Bio Technology By Research,6,Medical
+122,132,Msc. In Bio- Chemistry,6,Medical
+123,133,Msc. In Bio- Chemistry By Research,6,Medical
+124,134,Msc. In Cyber Security and Forensic,6,Medical
+125,135,Msc. In Digital Forensics and Information Security,6,Medical
+126,136,Msc. In Forensic Sciences with specialization in Forensic Chemistry/Forensic Biology/ Questioned Document,6,Medical
+127,137,BSc. (Hons) Microbiology,6,Medical
+128,138,BSc. (Hons) Physics,6,Medical
+129,139,BSc. (Hons) Chemistry,6,Medical
+130,140,BSc. (Hons) Zoology,6,Medical
+131,141,BSc. (Hons) Forensic Sciences,6,Medical
+132,142,BSc. (Hons) Cyber Security and Computer Forensic,6,Medical
+133,143,BSc. (Hons) Bio Chemistry,6,Medical
+134,144,BSc. (Hons) Bio Technology,6,Medical
+135,145,BSc. (Hons) Mathematics,6,Medical
+136,146,BSc. (Hons) Business Analytics in Collaboration with IBM,6,Medical
+137,147,B.Sc In Medical,6,Medical
+138,148,"B.Sc In Non- Medical (With following combinations 1.(Physics,Chemistry,Mathematics) 2(Physics,Mathematics,Electronics) 3.(Physics,Mathematics,Computer Science) .",6,Medical
+139,149,B.Sc In Electronics,6,Medical
+140,150,PG Diploma Cyber Security and Forensic,6,Medical
+141,151,PG Diploma Forensic Management,6,Medical
+142,152,PG Diploma Forensic Odontology,6,Medical
+143,153,PG DiplomaForensic Document Examination,6,Medical
+144,154,B.P.T. Bachelor of Physiotherapy,6,Medical
+145,155,M.P.T. With specialization in Orthopaedics/Neurosciences/ Cardiopulmonary Science,6,Medical
+146,156,B.O.T Bachelor of Occupational Therapy,6,Medical
+147,157,M.O.T Masters of Occupational Therapy,6,Medical
+148,158,M.Sc.(M.L.T.) in Clinical Microbiology,6,Medical
+149,159,M.Sc.(M.L.T.) in Clinical Biochemistry,6,Medical
+150,160,B.M.L.T. in Bachelor of Medical Lab Technology,6,Medical
+151,161,B.M.L.T. (LEET) in Bachelor of Medical Lab Technology,6,Medical
+152,162,Dual Programme in DMLT-B.Sc.(Medical Lab.Technology),6,Medical
+153,163,D.M.L.T. in Diploma in Medical Lab.Technology(DMLT),6,Medical
+154,164,M.Sc in Operation Theatre & Anaesthesia Technology,6,Medical
+155,165,M.Sc in Radiology and Imaging Technology,6,Medical
+156,166,M.Sc in Dialysis Technology,6,Medical
+157,167,M.Sc in Optometry,6,Medical
+158,168,M.Sc in Clinical Research,6,Medical
+159,169,B.Sc in Optometry,6,Medical
+160,170,B.Sc in Dialysis Technology,6,Medical
+161,171,B.Sc in Operation Theatre & Anaesthesia Technology,6,Medical
+162,172,B.Sc in Medical Record Technology,6,Medical
+163,173,B.Sc in Clinical Research & Healthcare Management,6,Medical
+164,174,B.Sc in Radiology and Imaging Technology,6,Medical
+165,175,Certificate in X-Ray Technician,6,Medical
+166,176,Certificate in Dialysis Technician,6,Medical
+167,177,Certificate in Operation Theater Technician,6,Medical
+168,178,Certificate in Patient Care,6,Medical
+169,179,Certificate in Ophthalmic Assistant,6,Medical
+170,180,Diploma in Operation Theatre & Anaesthesia Technology,6,Medical
+171,181,Diploma in Dialysis Technology,6,Medical
+172,182,Diploma in Radiology and Imaging Technology,6,Medical
+173,183,Diploma in Ophthalmic Technology,6,Medical
+174,184,Diploma in Dental Mechanics,6,Medical
+175,185,B.Sc Nursing,6,Medical
+176,186,General Nursing & Midwifery,6,Medical
+177,187,M. Lib Master of Library and Information Science,6,Medical
+178,188,B.Lib Bachelor of Library and Information Sciences,6,Medical
+179,189,M.A. Journalism & Mass Communication,8,Mass Communication
+180,190,B.A. Journalism & Mass Communication,8,Mass Communication
+181,191,Diploma Video Production,8,Mass Communication
+182,192,M.A. Music and Dance,8,Mass Communication
+183,193,B.A. Music and Dance,8,Mass Communication
+184,194,B.Design/ B.sc in,7,Design Courses
+185,195,B.Design/ B.sc in Interior Design,7,Design Courses
+186,196,B.Design/ B.sc in Fashion Design,7,Design Courses
+187,197,B.Design/ B.sc in Film & Video,7,Design Courses
+188,198,B.Design/ B.sc in Graphic Communication Design,7,Design Courses
+189,199,B.Design/ B.sc in Animation and Game Design,7,Design Courses
+190,200,B.Design/ B.sc in Fashion Communication,7,Design Courses
+191,201,B.Design/ B.Sc (LEET) in Interior Designin Interior Design,7,Design Courses
+192,202,B.Design/ B.Sc (LEET) in Interior Designin Fashion Design,7,Design Courses
+193,203,B.Design/ B.Sc (LEET) in Interior Designin Graphic Communication Design,7,Design Courses
+194,204,B.Design/ B.Sc (LEET) in Interior Designin Animation and Multimedia,7,Design Courses
+195,205,B.Design/ B.Sc (LEET) in Interior Designin Fashion Communication,7,Design Courses
+196,206,B.Design/ B.Sc (LEET) in Interior Designin Film & Video,7,Design Courses
+197,207,M.Design  in Interior Design with specialization in Space/Exhibition,7,Design Courses
+198,208,M.Design  in Animation and Multimedia,7,Design Courses
+199,209,M.Design  in Communication Design,7,Design Courses
+200,210,B.SC in Animation and Multimedia,7,Design Courses
+201,211,M.SC in Animation and Multimedia,7,Design Courses
+202,212,MFA in Applied Arts (Graphics),7,Design Courses
+203,213,MFA in Creative Painting,7,Design Courses
+204,214,MFA in Art Education,7,Design Courses
+205,215,MFA in Digital Drawing and Illustration,7,Design Courses
+206,216,BFA in Applied Arts (Graphics),7,Design Courses
+207,217,BFA in Creative Painting,7,Design Courses
+208,218,BFA in Digital Drawing and Illustration,7,Design Courses
+209,219,B.A in Resource Management and Design Application,7,Design Courses
+210,220,B.A in Fine Arts,7,Design Courses
+211,221,Diploma in Interior Design,7,Design Courses
+212,222,Diploma in fashion Design,7,Design Courses
+213,223,Diploma in Garment Design and Fashion Technology,7,Design Courses
+214,224,Diploma in Textile Designing,7,Design Courses
+215,225,Diploma in Commercial Art,7,Design Courses
+216,226,Diploma in Art Teacher,4,Education
+217,227,Diploma in 3 -D Animation and Graphics,7,Design Courses
+218,228,Dual Programe in Diploma in Interior Design-B.Design(Interior),7,Design Courses
+219,229,Dual Programe in Diploma in Fashion Design-B.Design(Fashion),7,Design Courses
+220,230,Bachelor of Architecture,7,Design Courses
+221,231,Post Graduate- Geo Informatics,7,Design Courses
+222,232,Diploma-Architecture Assistantship,7,Design Courses
+223,233,Dual- Diploma in Architecture,7,Design Courses
+224,234,Dual Programme- Diploma in Architecture Assistantship-B.Tech (Civil Engg.),7,Design Courses
+225,235,B.A (Hons)- Built Environment Studies,4,Education
+226,236,B.SC in Hospitality and Hotel Administration,10,Hospitality and Tourism Management
+227,237,B.SC in Culinary Arts,10,Hospitality and Tourism Management
+228,238,B.SC (LEET) in Hospitality and Hotel Administration,10,Hospitality and Tourism Management
+229,239,B.SC (LEET) in Culinary Arts,10,Hospitality and Tourism Management
+230,240,Certificate in Bakery & Confectionary,10,Hospitality and Tourism Management
+231,241,Certificate in Food Production,10,Hospitality and Tourism Management
+232,242,Certificate in Food and Beverage Service,10,Hospitality and Tourism Management
+233,243,Diploma in Bakery & Confectionary,10,Hospitality and Tourism Management
+234,244,Diploma in Food Production,10,Hospitality and Tourism Management
+235,245,Diploma in Hotel Management and Catering Technology,10,Hospitality and Tourism Management
+236,246,M.SC In Hospitality and Hotel Administration,10,Hospitality and Tourism Management
+237,247,M.SC In Hotel Management,10,Hospitality and Tourism Management
+238,248,M.SC In PG Diploma in Culinary Arts,10,Hospitality and Tourism Management
+239,249,M.SC In Dual Programme Diploma-B.Sc.(Hospitality and Hotel Administration),10,Hospitality and Tourism Management
+240,250,Bachelor in Computer applications (BCA),9,Computer Application
+241,251,Bachelor in business administration (BBA),2,Business and Commerce
+242,252,Post graduate in diploma management(PGDM),2,Business and Commerce
+243,253,Master in Business Administration (MBA),2,Business and Commerce
+244,254,B.Tech in Computer Science Engineering(CSE),1,Engineering and Technology
+245,255,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+246,256,B.Tech in Elecrical Engineering,1,Engineering and Technology
+247,257,B.Tech in Electronics and Communication (ECE),1,Engineering and Technology
+248,258,Masters of Business Administration MBA,2,Business and Commerce
+249,259,Masters of Technology (M.Tech),1,Engineering and Technology
+250,260,B.Tech in Computer Science Engineering(CSE),1,Engineering and Technology
+251,261,B.Tech in Electrical Engineering,1,Engineering and Technology
+252,262,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+253,263,B.Tech in Bio Technology,1,Engineering and Technology
+254,264,B.Tech in Electronics and Communication (ECE),1,Engineering and Technology
+255,265,B.Tech in Electrical Engineering,1,Engineering and Technology
+256,266,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+257,267,M.Tech in Computer Science Engineering,1,Engineering and Technology
+258,268,M.Tech in Electrical Engineering,1,Engineering and Technology
+259,269,M.Tech in Structural Engineering,1,Engineering and Technology
+260,270,M.Tech in Bio Technology,1,Engineering and Technology
+261,271,M.Tech in Electronics and Communication,1,Engineering and Technology
+262,272,M.Tech in Enviromental Engineering,1,Engineering and Technology
+263,273,M.Tech in Manufacturing Systems,1,Engineering and Technology
+264,274,B.Tech (LEET) in Computer Science Engineering,1,Engineering and Technology
+265,275,B.Tech (LEET) in Electrical Engineering,1,Engineering and Technology
+266,276,B.Tech (LEET) in Civil Engineering,1,Engineering and Technology
+267,277,B.Tech (LEET) in Bio Technology,1,Engineering and Technology
+268,278,B.Tech (LEET) in Electronics and Communication,1,Engineering and Technology
+269,279,B.Tech (LEET) in Electrical Engineering,1,Engineering and Technology
+270,280,B.Tech (LEET) in Mechanical Engineering,1,Engineering and Technology
+271,281,Bachelor of Business Administration,2,Business and Commerce
+272,282,Bachelor of Commerce (Hons),2,Business and Commerce
+273,283,MBA Dual Specialisation Finance Mgt. / HR Management/ International Business/ Information Tech./ Marketing Mgt. Hospital Mgt. / Hospitality Mgt. / Retail Management,2,Business and Commerce
+274,284,Diploma in Business Management,2,Business and Commerce
+275,285,BA-LLB B.Com-LLB BBA-LLB,3,Law
+276,286,LLM,3,Law
+277,287,B. Pharm,5,Pharmacy
+278,288,Pharm. D,5,Pharmacy
+279,289,Pharm. D (Post Baccalaureate),5,Pharmacy
+280,290,M. Pharm,5,Pharmacy
+281,291,B.Sc. (NURSING),6,Medical
+282,292,Post Basic B.Sc. (NURSING),6,Medical
+283,293,M.Sc. Nursing,6,Medical
+284,294,BPT,6,Medical
+285,295,MPT,6,Medical
+286,296,B.Sc.(Medical),6,Medical
+287,297,B.Sc.(Non-Medical),6,Medical
+288,298,B.Sc. (Bio-Tech),6,Medical
+289,299,B.Sc. (Hons.) Chemistry,6,Medical
+290,300,B.Sc (Radiography & Imaging Technology),6,Medical
+291,301,B.Sc (Radiotherapy),6,Medical
+292,302,B.Sc (Audiology & Speech Language Pathology-BASLP),6,Medical
+293,303,M.Sc (Medical),6,Medical
+294,304,M.Sc,6,Medical
+295,305,M.Sc Chemistry (Hons.),6,Medical
+296,306,B.Sc. (Operation Theater Tech. ),6,Medical
+297,307,B.Sc. (Medical Lab Tech.),6,Medical
+298,308,Bachelor of Optometry,6,Medical
+299,309,B.Sc. Cardiovascular Technology,6,Medical
+300,310,DMLT,6,Medical
+301,311,M.Sc. (Operation Theater Tech.),6,Medical
+302,312,M.Sc. (Medical Lab Tech.),6,Medical
+303,313,BHM & CT,10,Hospitality and Tourism Management
+304,314,B.Sc. (Hospitality & Catering Management Home Science),10,Hospitality and Tourism Management
+305,315,B.Sc. (Food Science & Technology),10,Hospitality and Tourism Management
+306,316,M.Sc. (Dietetics & Nutrition),10,Hospitality and Tourism Management
+307,317,"Diploma Courses - Airlines, Tourism & Hospitality Management - Bakery and Confectionery - Food Production - Room Division Management - Health & Fitness Nutrition",10,Hospitality and Tourism Management
+308,318,Diploma in Mechanical,1,Engineering and Technology
+309,319,Diploma in Electrical,1,Engineering and Technology
+310,320,Diploma in Computer,9,Computer Application
+311,321,Diploma in Aeronautical,1,Engineering and Technology
+312,322,Diploma in Architectural Assistanship,1,Engineering and Technology
+313,323,Diploma in Chemical,1,Engineering and Technology
+314,324,Diploma in Civil,1,Engineering and Technology
+315,325,Diploma in Electronis and Communication,1,Engineering and Technology
+316,326,Diploma in Infofmation and technology,1,Engineering and Technology
+317,327,Diploma in Automobile Engineering,1,Engineering and Technology
+318,328,Diploma in Bio-Medical,1,Engineering and Technology
+319,329,Diploma in Agricultural,1,Engineering and Technology
+320,330,B.Tech in Mechanical,1,Engineering and Technology
+321,331,B.Tech in Electrical,1,Engineering and Technology
+322,332,B.Tech in Computer Science,1,Engineering and Technology
+323,333,B.Tech in Aeronautical,1,Engineering and Technology
+324,334,B.Tech in Architectural Assistanship,1,Engineering and Technology
+325,335,B.Tech in Chemical,1,Engineering and Technology
+326,336,B.Tech in Civil,1,Engineering and Technology
+327,337,B.Tech in Electronis and in Communication,1,Engineering and Technology
+328,338,B.Tech in Infofmation and technology,1,Engineering and Technology
+329,339,B.Tech in Automobile,1,Engineering and Technology
+330,340,B.Tech in Bio-Medical,1,Engineering and Technology
+331,341,B.Tech in Agricultural,1,Engineering and Technology
+332,342,B.Tech in Mechatronics,1,Engineering and Technology
+333,343,B.Tech in Instrumentation and control,1,Engineering and Technology
+334,344,B.Tech in Petroleum,1,Engineering and Technology
+335,345,B.Tech in Mining,1,Engineering and Technology
+336,346,B.Tech in Production,1,Engineering and Technology
+337,347,B.Tech in Enviromental,1,Engineering and Technology
+338,348,B.Tech in Industrial,1,Engineering and Technology
+339,349,B.Tech in Diary Technology,1,Engineering and Technology
+340,350,B.Tech in Bio-Technology,1,Engineering and Technology
+341,351,M.Tech in Thermal,1,Engineering and Technology
+342,352,M.Tech in Structural,1,Engineering and Technology
+343,353,M.Tech in Electrical,1,Engineering and Technology
+344,354,M.Tech in Computer,1,Engineering and Technology
+345,355,M.Tech in Power Systems,1,Engineering and Technology
+346,356,M.Tech in Production,1,Engineering and Technology
+347,357,M.Tech in Machine Design,1,Engineering and Technology
+348,358,M.Tech in Remote sensing and GIS,1,Engineering and Technology
+349,359,M.Tech in Water resource Management,1,Engineering and Technology
+350,360,M.Tech in Electronis and Communication,1,Engineering and Technology
+351,361,M.Tech in Transportation,1,Engineering and Technology
+352,362,M.Tech in Information and technology,1,Engineering and Technology
+353,363,M.Tech in Computer science,1,Engineering and Technology
+354,364,M.Tech in Internal Combusition Engine and Automobiles,1,Engineering and Technology
+355,365,M.Tech in VLSI & Embedded System,1,Engineering and Technology
+356,366,M.Tech in Construction Project Management,1,Engineering and Technology
+357,367,M.Tech in Industrial,1,Engineering and Technology
+358,368,M.Tech in Geotechnical,1,Engineering and Technology
+359,369,M.Tech in Enviromental,1,Engineering and Technology
+360,370,M.Tech in Infrastructure Engineering and Technology,1,Engineering and Technology
+361,371,M.Tech in CAD & CAM,1,Engineering and Technology
+362,372,M.Tech in Energy,1,Engineering and Technology
+363,373,M.Tech in IT System and Netwrok security,1,Engineering and Technology
+364,374,M.Tech in Chemical,1,Engineering and Technology
+365,375,Bachelor of Business Administration,2,Business and Commerce
+366,376,Masters of Business Administration MBA,2,Business and Commerce
+367,377,PGDM,2,Business and Commerce
+368,378,Integrated MBA,2,Business and Commerce
+369,379,Bachelor of Hotel Management,10,Hospitality and Tourism Management
+370,380,Bachelor of Commerce (Hons.),2,Business and Commerce
+371,381,Master of Commerce,2,Business and Commerce
+372,382,"Intergrated Program : B.B.A , L.L.B",3,Law
+373,383,"Intergrated Program : B.Com , L.L.B",3,Law
+374,384,"Intergrated Program : B.A , L.L.B",3,Law
+375,385,Bachelor of Arts,4,Education
+376,386,Master of Arts,4,Education
+377,387,Bachelor of Arts in mass communication,4,Education
+378,388,Bachelor of Social Work BSW,4,Education
+379,389,Master of Social work MSW,4,Education
+380,390,Master of Social Work (Human Resource Management),4,Education
+381,391,Bachlor of Visual Arts,8,Mass Communication
+382,392,B.Sc Pharmaceutical Science,5,Pharmacy
+383,393,Bachelor of Pharmacy,5,Pharmacy
+384,394,Diploma Pharmacy (D.pham),5,Pharmacy
+385,395,Master of Pharmacy (M.pharm),5,Pharmacy
+386,396,B.Sc Microbiology,6,Medical
+387,397,B.Sc Biotechnology,6,Medical
+388,398,B.Sc Biochemistry,6,Medical
+389,399,B.Sc Chemistry,6,Medical
+390,400,M.Sc Microbiology,6,Medical
+391,401,M.Sc Biotechnology,6,Medical
+392,402,M.Sc Biochemistry,6,Medical
+393,403,M.Sc Chemistry,6,Medical
+394,404,Diploma In Anesthesia and critical care,6,Medical
+395,405,Diploma In Radiography,6,Medical
+396,406,Diploma In Blood Bank Technology,6,Medical
+397,407,Diploma In Medical Laboratory Technology,6,Medical
+398,408,Diploma In Renal Dialysis,6,Medical
+399,409,B.Sc in Anesthesia and critical care,6,Medical
+400,410,B.Sc in Radiography,6,Medical
+401,411,B.Sc in Blood Bank Technology,6,Medical
+402,412,B.Sc in Medical Laboratory Technology,6,Medical
+403,413,B.Sc in Renal Dialysis,6,Medical
+404,414,Master of Public Helths (MPH),6,Medical
+405,415,Master of Helth Administration(MHA),6,Medical
+406,416,Auxiliary Nursing & Midwifery (ANM),6,Medical
+407,417,General Nursing & Midwifery (GNM),6,Medical
+408,418,Bachelor of Science in Nursing (B.Sc - Nursing),6,Medical
+409,419,Master of Science in Nursing (M.Sc- Nursing),6,Medical
+410,420,Bachelor of Library & Information Science (B.Lib),4,Education
+411,421,Master of Library & Information Science (M.Lib),4,Education
+412,422,Bachelor of Physiotherapy (BPT),6,Medical
+413,423,Master of Physiotherapy (MPT),6,Medical
+414,424,Bachelor of Science in Agriculture (B.Sc (Hons.),6,Medical
+415,425,Bachelor of Science in Horticulture (B.Sc (Hons.),6,Medical
+416,426,Bachelor of Design,7,Design Courses
+417,427,Bachelor of Architecture & Interior Design,7,Design Courses
+418,428,Master Of planning,7,Design Courses
+419,429,Bachelor of Computer Application,9,Computer Application
+420,430,Master of Computer Application,9,Computer Application
+421,431,Master of Computer Application (LEET),9,Computer Application
+422,432,Integrated MCA,9,Computer Application
+423,433,Diploma in Computer Science & Engineering,1,Engineering and Technology
+424,434,Diploma  in Mechanical Engineering,1,Engineering and Technology
+425,435,Diploma  in Civil Engineering,1,Engineering and Technology
+426,436,Diploma in in Electronics & Communications Engineering,1,Engineering and Technology
+427,437,Diploma in Auto Mobile Engineering,1,Engineering and Technology
+428,438,Diploma in ELECTRICAL Engineering,1,Engineering and Technology
+429,439,B.Tech. in Computer Science & Engineering,1,Engineering and Technology
+430,440,B.Tech. in Mechanical Engineering,1,Engineering and Technology
+431,441,B.Tech. in Civil Engineering,1,Engineering and Technology
+432,442,B.Tech. in Electronics & Communications Engineering,1,Engineering and Technology
+433,443,B.Tech. in Petroleum Engineering,1,Engineering and Technology
+434,444,Bachelor of Computer Application (BCA),9,Computer Application
+435,445,M.Tech (Computer Science),1,Engineering and Technology
+436,446,M.Tech. in Mechanical Engineering,1,Engineering and Technology
+437,447,M.Tech. in Civil Engineering,1,Engineering and Technology
+438,448,M.Tech. in Electronics & Communications Engineering,1,Engineering and Technology
+439,449,Masters of Computer Applications (MCA),9,Computer Application
+440,450,Ph.D. in Mechanical Engineering,1,Engineering and Technology
+441,451,Ph.D. in Civil Engineering,1,Engineering and Technology
+442,452,Ph.D. in Electronics & Communications Engineering,1,Engineering and Technology
+443,453,Ph.D.in Computer Science & Engineering,1,Engineering and Technology
+444,454,Ph.D. in Computer Application,9,Computer Application
+445,455,"Ph.D. in Applied Science(Physics ,Chemistry, Mathematics)",6,Medical
+446,456,Bachelor of Businesss Administration (B.B.A.),2,Business and Commerce
+447,457,Bachelor of Commerce B.Com (Hons),2,Business and Commerce
+448,458,Master of Business Administration,2,Business and Commerce
+449,459,Ph.D. Management Studies,2,Business and Commerce
+450,460,B.A.LL.B,3,Law
+451,461,B.B.A.LL.B.,3,Law
+452,462,Ph.D. in LAW And Legal Studies,3,Law
+453,463,Diploma In Elementary Education (D.El.Ed),4,Education
+454,464,Bachelor of Education (B.Ed),4,Education
+455,465,Ph.D. in Education,4,Education
+456,466,D.Pharm. (Diploma in pharmacy),5,Pharmacy
+457,467,B.Pharm. (Bachelor of Pharmacy),5,Pharmacy
+458,468,Ph.D. in Pharmacy,5,Pharmacy
+459,469,B.Sc. Agriculture,6,Medical
+460,470,Ph.D. in Agricultural Science,6,Medical
+461,471,B.Sc. (Hons.) Biotechnology,6,Medical
+462,472,B.Sc. (Hons.) in Microbiology,6,Medical
+463,473,B.Sc. (Hons.) Medical Lab Technology,6,Medical
+464,474,M.Sc. Biotechnology,6,Medical
+465,475,M.Sc. Microbiology,6,Medical
+466,476,Diploma in Emergency & Trauma care Technician,6,Medical
+467,477,Diploma in Dialysis Technician,6,Medical
+468,478,Diploma in Cardiology Technician,6,Medical
+469,479,Diploma in C.T.Scan,6,Medical
+470,480,Diploma in Optometry,6,Medical
+471,481,Diploma in O.T Technician,6,Medical
+472,482,Diploma in MRI Technician,6,Medical
+473,483,B.Sc in Caridac Care Technology,6,Medical
+474,484,B.Sc in Anesthesia Technology,6,Medical
+475,485,B.Sc in Radiology,6,Medical
+476,486,B.Sc in Operation Theater,6,Medical
+477,487,B.Sc. Nursing,6,Medical
+478,488,General Nursing & Mildwifery (G.N.M),6,Medical
+479,489,Auxiliary Nurse MildWifery(A.N.M),6,Medical
+480,490,M.phil Programs,6,Medical
+481,491,Bachelor of Ayurvedic Medicine and Surgery(B.A.M.S),6,Medical
+482,492,Bachelor of Unani Medicine and Surgery (B.U.M.S),6,Medical
+483,493,Diploma in  Computer Science & Engineering,1,Engineering and Technology
+484,494,Diploma in Mechanical Engineering,1,Engineering and Technology
+485,495,Diploma in  Civil Engineering,1,Engineering and Technology
+486,496,Diploma in  Electronics & Communications Engineering,1,Engineering and Technology
+487,497,Diploma in Auto Mobile Engineering,1,Engineering and Technology
+488,498,Diploma in Electrical Engineering,1,Engineering and Technology
+489,499,B.Tech. in Computer Science & Engineering,1,Engineering and Technology
+490,500,B.Tech. in Mechanical Engineering,1,Engineering and Technology
+491,501,B.Tech. in Civil Engineering,1,Engineering and Technology
+492,502,B.Tech. in Electronics & Communications Engineering,1,Engineering and Technology
+493,503,B.Tech. in Petroleum Engineering,1,Engineering and Technology
+494,504,Bachelor of Computer Application (BCA),9,Computer Application
+495,505,M.Tech (Computer Science),1,Engineering and Technology
+496,506,M.Tech. in Mechanical Engineering,1,Engineering and Technology
+497,507,M.Tech. in Civil Engineering,1,Engineering and Technology
+498,508,M.Tech. in Electronics & Communications Engineering,1,Engineering and Technology
+499,509,B.Tech (LEET) in Computer Science Engineering,1,Engineering and Technology
+500,510,B.Tech (LEET) in Mechanical Engineering,1,Engineering and Technology
+501,511,B.Tech (LEET) in Civil Engineering,1,Engineering and Technology
+502,512,B.Tech (LEET) in Elecrical Engineering,1,Engineering and Technology
+503,513,B.Tech (LEET) in Electronics and Communication,1,Engineering and Technology
+504,514,Diploma in (LEET)Civil Engineering,1,Engineering and Technology
+505,515,Diploma in (LEET)Computer Science Engineering,1,Engineering and Technology
+506,516,Diploma in (LEET)Mechanical Engineering,1,Engineering and Technology
+507,517,Diploma in (LEET)Electrical Engineering,1,Engineering and Technology
+508,518,Diploma in (LEET)Electronics & Communication,1,Engineering and Technology
+509,519,Diploma in Computer Application,9,Computer Application
+510,520,Bachelor of Science (Computer science),9,Computer Application
+511,521,PGDCA,9,Computer Application
+512,522,Bachelor in Computer applications (BCA),9,Computer Application
+513,523,Master in Computer application (MCA),9,Computer Application
+514,524,MCA (LEET),9,Computer Application
+515,525,Master of Computer science,9,Computer Application
+516,526,Master of Computer science (LEET),9,Computer Application
+517,527,Bachelor of Business Administration,2,Business and Commerce
+518,528,Bachelor of Business Administration (Global management),2,Business and Commerce
+519,529,Master of Business Administration (Solar & Renewable Energy),2,Business and Commerce
+520,530,MBA Dual Specialization,2,Business and Commerce
+521,531,Executive MBA,2,Business and Commerce
+522,532,Bachelor of Commerce Pass,2,Business and Commerce
+523,533,B.Com Honors (E-commerce),2,Business and Commerce
+524,534,B.Com Honors Banking and Finance,2,Business and Commerce
+525,535,Master of Commerce,2,Business and Commerce
+526,536,Master of commerce Banking and Finance,2,Business and Commerce
+527,537,LL.B.,3,Law
+528,538,LL.M.,3,Law
+529,539,B.A.L.L.B.,3,Law
+530,540,B.B.A.L.L.B.,3,Law
+531,541,B.Pharm. (Bachelor of Pharmacy),5,Pharmacy
+532,542,B.Pharm. (Bachelor of Pharmacy) (LEET),5,Pharmacy
+533,543,D.Pharm. (Diploma in pharmacy),5,Pharmacy
+534,544,Bachelor of Science (Medical&non Medical),6,Medical
+535,545,Bachelor of science (Non Conventional Energy),6,Medical
+536,546,Bachelor of science Bio-Technology,6,Medical
+537,547,Master of Science Bio-Technology,6,Medical
+538,548,Master of Science,6,Medical
+539,549,Bachelor of Library & Information Science (B.Lib),4,Education
+540,550,Master of Library & Information Science (M.Lib),4,Education
+541,551,Bachelor of Education (B.Ed),4,Education
+542,552,Bachelor of Physical Education,4,Education
+543,553,B.Sc in Fashion Design,7,Design Courses
+544,554,B.Sc in interior Design,7,Design Courses
+545,555,B.Sc FD (Lateral Entry),7,Design Courses
+546,556,B.Sc.ID (Lateral Entry),7,Design Courses
+547,557,BJMC,8,Mass Communication
+548,558,MJMC,8,Mass Communication
+549,559,Bachelor in Animation & VFX,8,Mass Communication
+550,560,Master in Animation & VFX,8,Mass Communication
+551,561,B.Tech. in Computer Science & Engineering,1,Engineering and Technology
+552,562,B.Tech. in Textile Engineering,1,Engineering and Technology
+553,563,B.Tech. in Mechanical Engineering,1,Engineering and Technology
+554,564,B.Tech. in Civil Engineering,1,Engineering and Technology
+555,565,B.Tech. in Chemical Engineering,1,Engineering and Technology
+556,566,B.Tech. in Information and Technology,1,Engineering and Technology
+557,567,Bachelor of Commerce B.Com +MBA/CA,2,Business and Commerce
+558,568,Bachelor of business administration BBA,2,Business and Commerce
+559,569,Bachelor of Business Administration (Family Business Owner & Enterprenuership) Based,2,Business and Commerce
+560,570,B.Sc. In Information Technology,1,Engineering and Technology
+561,571,B.Sc. Biotechnology,6,Medical
+562,572,B.Sc. Microbiology,6,Medical
+563,573,B.Sc. Environmental Science,6,Medical
+564,574,B.Sc. Chemistry,6,Medical
+565,575,M.Sc. Integrated Biotech,6,Medical
+566,576,M.Sc. Integrated Microbiology,6,Medical
+567,577,M.Sc. Biotech,6,Medical
+568,578,M.Sc. Microbiology,6,Medical
+569,579,B.Sc. Nursing,6,Medical
+570,580,GNM (General Nursing Midwifery),6,Medical
+571,581,Bachelor of Physiotherapy (BPT),6,Medical
+572,582,Fashion and textile design,7,Design Courses
+573,583,Visual and communication Design,7,Design Courses
+574,584,Product Design,7,Design Courses
+575,585,Interior design,7,Design Courses
+576,586,Bachelor of Arts,7,Design Courses
+577,587,Bachelor of Architecture (B.Arch),7,Design Courses
+578,588,Bachelor of Buisness Administration,2,Business and Commerce
+579,589,Diploma in Electrical Engineering,1,Engineering and Technology
+580,590,Diploma in Mechanical Engineering,1,Engineering and Technology
+581,591,Diploma in Civil Engineering,1,Engineering and Technology
+582,592,Diploma in Automobile Engineering,1,Engineering and Technology
+583,593,Diploma in Computer Science & Engineering,1,Engineering and Technology
+584,594,B.Tech in Electrical Engineering,1,Engineering and Technology
+585,595,B.Tech in Electrical & Electronics Engineering,1,Engineering and Technology
+586,596,B.Tech in Computer Science & Engineering,1,Engineering and Technology
+587,597,B.Tech in Electornics & Communication Engineering,1,Engineering and Technology
+588,598,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+589,599,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+590,600,B.Tech in Information Technology,1,Engineering and Technology
+591,601,B.Tech in Electronics Instrumentation & Control,1,Engineering and Technology
+592,602,B.Tech in Automobile Engineering,1,Engineering and Technology
+593,603,B.Tech in Fire & Safety,1,Engineering and Technology
+594,604,B.Tech in Biotechnology,1,Engineering and Technology
+595,605,B.Tech(Hons) With IBM Certification in Cloud Computing,1,Engineering and Technology
+596,606,B.Tech(Hons) With IBM Certification in Business Analytics,1,Engineering and Technology
+597,607,B.Tech LEET - 2nd year (All Branches ),1,Engineering and Technology
+598,608,Dual Degree in B. Tech + M.Tech (Dual Degree),1,Engineering and Technology
+599,609,Dual Degree in Business Analytics,1,Engineering and Technology
+600,610,M.Tech in Biotechnology,1,Engineering and Technology
+601,611,M.Tech in Power System & Control Engineering,1,Engineering and Technology
+602,612,M.Tech in Energy Management,1,Engineering and Technology
+603,613,M.Tech in Digital Communication,1,Engineering and Technology
+604,614,M.Tech in Software Engineering,1,Engineering and Technology
+605,615,M.Tech in Thermal Engineering,1,Engineering and Technology
+606,616,M.Tech in Building Construction & Management,1,Engineering and Technology
+607,617,M.Tech in Environmental Engineering,1,Engineering and Technology
+608,618,M.Tech in Industrial & Production Engineering,1,Engineering and Technology
+609,619,M.Tech in Information & Communication Technology,1,Engineering and Technology
+610,620,M.Tech (by research),1,Engineering and Technology
+611,621,B.Sc General in Physics,B.Sc General in Physics,Design Courses
+612,622,B.Sc General in Chemistry,B.Sc General in Chemistry,Design Courses
+613,623,B.Sc General in Maths,B.Sc General in Maths,Design Courses
+614,624,B.Sc. (Hons) in Physics,B.Sc. (Hons) in Physics,Hospitality and Tourism Management
+615,625,B.Sc. (Hons) in Chemistry,B.Sc. (Hons) in Chemistry,Hospitality and Tourism Management
+616,626,B.Sc. (Hons) in Environmental Science,B.Sc. (Hons) in Environmental Science,Hospitality and Tourism Management
+617,627,B.Sc. (Hons) in Mathematics,B.Sc. (Hons) in Mathematics,Hospitality and Tourism Management
+618,628,B.Sc. (Hons) in Biotechnology,B.Sc. (Hons) in Biotechnology,Design Courses
+619,629,B.Sc. (Hons) in Computer Sciences,B.Sc. (Hons) in Computer Sciences,Mass Communication
+620,630,B.Sc. (Hons) in Microbiology,B.Sc. (Hons) in Microbiology,Mass Communication
+621,631,B.Sc. (Hons) in Agriculture,B.Sc. (Hons) in Agriculture,Law
+622,632,M.Sc.in Physics,M.Sc.in Physics,Law
+623,633,M.Sc.in Chemistry,M.Sc.in Chemistry,Law
+624,634,M.Sc.in Maths,M.Sc.in Maths,Law
+625,635,M.Sc.in Conputer Science,M.Sc.in Computer Science,Law
+626,636,M.Sc.in Biotechnology,M.Sc.in Biotechnology,Law
+627,637,M.Sc.in Microbiology,M.Sc.in Microbiology,Medical
+628,638,Bachelor in Computer Application,Bachelor in Computer Application,Medical
+629,639,Master in Computer Application,Master in Computer Application,Medical
+630,640,Master in Computer Application (LEET),Master in Computer Application (LEET),Medical
+631,641,BBA LLB.,BBA LLB.,Medical
+632,642,BA LLB. Hons.,BA LLB. Hons.,Pharmacy
+633,643,LLB,LLB,Pharmacy
+634,644,LLM. (Full time Program),LLM. (Full time Program),Pharmacy
+635,645,B. Com (Hons.),B. Com (Hons.),Pharmacy
+636,646,Bachelor of Business Administration,Bachelor of Business Administration,Pharmacy
+637,647,Integrated (BBA + MBA),Integrated (BBA + MBA),Pharmacy
+638,648,B.A (Hons.) in Economics,B.A (Hons.) in Economics,Pharmacy
+639,649,MBA (Dual Specialisation) in Marketing,MBA (Dual Specialisation) in Marketing,Pharmacy
+640,650,MBA (Dual Specialisation) in Finance,MBA (Dual Specialisation) in Finance,Education
+641,651,MBA (Dual Specialisation) In HR,MBA (Dual Specialisation) In HR,Medical
+642,652,MBA (Dual Specialisation) in Production & Operations Management,MBA (Dual Specialisation) in Production & Operations Management,Medical
+643,653,MBA (Dual Specialisation) in International Business,MBA (Dual Specialisation) in International Business,Medical
+644,654,MBA (Dual Specialisation) in Banking & Financial Services,MBA (Dual Specialisation) in Banking & Financial Services,Computer Application
+645,655,MBA (Dual Specialisation) in Retail Management,MBA (Dual Specialisation) in Retail Management,Medical
+646,656,MBA (Dual Specialisation) in Hospitality Management & Insurance,MBA (Dual Specialisation) in Hospitality Management & Insurance,Medical
+647,657,MBA (Dual Specialisation) in Information Technology,MBA (Dual Specialisation) in Information Technology,Medical
+648,658,MA in Economics,MA in Economics,Medical
+649,659,M. Com in Masters of Commerce,M. Com in Masters of Commerce,Medical
+650,660,Diploma in Financial Management,Diploma in Financial Management,Medical
+651,661,Diploma in Marketing Management,Diploma in Marketing Management,Medical
+652,662,Diploma in Business & Entrepreneurship,Diploma in Business & Entrepreneurship,Medical
+653,663,Diploma in Business Management,Diploma in Business Management,Medical
+654,664,Diploma in Industrial Relations,Diploma in Industrial Relations,Medical
+655,665,BA (Hons) in English,BA (Hons) in English,Medical
+656,666,BA (Hons) in History,BA (Hons) in History,Medical
+657,667,BA (Hons) in Psychology,BA (Hons) in Psychology,Medical
+658,668,BA (Hons) in Sociology,BA (Hons) in Sociology,Education
+659,669,BA (Hons) in Poltical Science,BA (Hons) in Poltical Science,Hospitality and Tourism Management
+660,670,BA (Hons) in Public Administration,BA (Hons) in Public Administration,Medical
+661,671,BA (Hons) in Geography,BA (Hons) in Geography,Hospitality and Tourism Management
+662,672,BA (Hons) in International Relations,BA (Hons) in International Relations,Medical
+663,673,MA in English,MA in English,Business and Commerce
+664,674,MA in History,MA in History,Business and Commerce
+665,675,MA in Poltical Science,MA in Poltical Science,Mass Communication
+666,676,MA in Sociology,MA in Sociology,Business and Commerce
+667,677,MA in Psychology,MA in Psychology,Business and Commerce
+668,678,MA in Geography,MA in Geography,Business and Commerce
+669,679,MA in Public Administration,MA in Public Administration,Business and Commerce
+670,680,MA in International Relations,MA in International Relations,Law
+671,681,Master in Social Work (MSW),Master in Social Work (MSW),Business and Commerce
+672,682,Bachelor of Arts,Bachelor of Arts,Business and Commerce
+673,683,Bachelor in Arts - Journalism & Mass Communication (BA-JMC ),Bachelor in Arts - Journalism & Mass Communication (BA-JMC ),Business and Commerce
+674,684,Masters in Arts- Journalism & Mass Communication (MA-JMC ),Masters in Arts- Journalism & Mass Communication (MA-JMC ),Business and Commerce
+675,685,MBA (MM) Media Management,MBA (MM) Media Management,Business and Commerce
+676,686,PG Diploma Hindi Journalism,PG Diploma Hindi Journalism,Business and Commerce
+677,687,PG Diploma PR & Event Management,PG Diploma PR & Event Management,Law
+678,688,BFA in Painting,BFA in Painting,Computer Application
+679,689,BFA in Applied Arts,BFA in Applied Arts,Computer Application
+680,690,MFA in Painting,MFA in Painting,Computer Application
+681,691,MFA in Applied Arts,MFA in Applied Arts,Business and Commerce
+682,692,Bachelor of Architecture (B.Arch),Bachelor of Architecture (B.Arch),Law
+683,693,Bachelor of Interior Designing,Bachelor of Interior Designing,Engineering and Technology
+684,694,Diploma in Architecture,Diploma in Architecture,Engineering and Technology
+685,695,B.Ed,B.Ed,Engineering and Technology
+686,696,M. Ed,M. Ed,Design Courses
+687,697,Ph.D.,Ph.D.,Design Courses
+688,698,M. Phil.,M. Phil (All Streams ),Design Courses
+689,699,General Nursing & Midwifery (GNM),General Nursing & Midwifery (GNM),Design Courses
+690,700,Auxiliary Nursing & Midwifery (ANM),Auxiliary Nursing & Midwifery (ANM),Design Courses
+691,701,Bachelors in Physiotherapy (BPT),Bachelors in Physiotherapy (BPT),Hospitality and Tourism Management
+692,702,Bachelor in Medical Lab Technician (BMLT ),Bachelor in Medical Lab Technician (BMLT ),Mass Communication
+693,703,B.Sc in OT Technique+Diploma in Clinical Nurse Assistant,B.Sc in OT Technique+Diploma in Clinical Nurse Assistant,Medical
+694,704,B.Sc in Optometry/Renal Dialsis/Radiology,B.Sc in Optometry/Renal Dialsis/Radiology,Medical
+695,705,B.Sc in Allied Health Science-Respiratory Care Tech./Public Health./Sc./OTT/Hospital Administration/Cardic Care,B.Sc in Allied Health Science-Respiratory Care Tech./Public Health./Sc./OTT/Hospital Administration/Cardic Care,Medical
+696,706,Master of Public Health (MPH),Master of Public Health (MPH),Medical
+697,707,Diploma in Hospital Administration/Physiotherapy/OTT/CT/Optemetry/Blood Transfusion/X-Ray/Cardic,Diploma in Hospital Administration/Physiotherapy/OTT/CT/Optemetry/Blood Transfusion/X-Ray/Cardic,Medical
+698,708,Diploma in Ambulance Technician/ Critical Care/ ICU Technician/ Hospital Front Office,Diploma in Ambulance Technician/ Critical Care/ ICU Technician/ Hospital Front Office,Medical
+699,709,Diploma in Clinical Nurse Assistant (First Aid & Emergency Care ),Diploma in Clinical Nurse Assistant (First Aid & Emergency Care ),Medical
+700,710,Diploma in Clinical Nurse Assistant (Home Nursing ),Diploma in Clinical Nurse Assistant (Home Nursing ),Medical
+701,711,Diploma in Clinical Nurse Assistant (Reproductive & Child Health,Diploma in Clinical Nurse Assistant (Reproductive & Child Health,Medical
+702,712,Diploma in Clinical Nurse Assistant (Family Welfare & Population Education ),Diploma in Clinical Nurse Assistant (Family Welfare & Population Education ),Medical
+703,713,Diploma in Clinical Nurse Assistant ( Nutrition & Personal Hygeine ),Diploma in Clinical Nurse Assistant ( Nutrition & Personal Hygeine ),Medical
+704,714,Bachelor of Engineering in Aerospace,1,Engineering and Technology
+705,715,Bachelor of Engineering in Automobile Engineering,1,Engineering and Technology
+706,716,Bachelor of Engineering in Biotechnology Engineering,1,Engineering and Technology
+707,717,Bachelor of Engineering in Chemical Engineering,1,Engineering and Technology
+708,718,Bachelor of Engineering in Civil Engineering,1,Engineering and Technology
+709,719,Bachelor of Engineering in Computer Science Engineering,1,Engineering and Technology
+710,720,Bachelor of Engineering in CSE Artificial Intelligence & Machine Learning Engineering,1,Engineering and Technology
+711,721,Bachelor of Engineering in CSE Internet of Things,1,Engineering and Technology
+712,722,Bachelor of Engineering in CSE Mobile Computing,1,Engineering and Technology
+713,723,Bachelor of Engineering in CSE Open Souce and Open Standard,1,Engineering and Technology
+714,724,Bachelor of Engineering in Electrical Engineering,1,Engineering and Technology
+715,725,Bachelor of Engineering in Electronics and Communicaion Engineering,1,Engineering and Technology
+716,726,Bachelor of Engineering in Petroleum Engineering,1,Engineering and Technology
+717,727,Bachelor of Engineering in Information Technology,1,Engineering and Technology
+718,728,Bachelor of Engineering in Mechanical Engineering,1,Engineering and Technology
+719,729,Bachelor of Engineering in Mechatronics Engineering,1,Engineering and Technology
+720,730,Bachelor of Engineering in Food Technology Engineering,1,Engineering and Technology
+721,731,Bachelor of Engineering in Graphics and Gaming Engineering,1,Engineering and Technology
+722,732,Master of Engineering in Automobile Engineering,1,Engineering and Technology
+723,733,Master of Engineering in Civil Engineering,1,Engineering and Technology
+724,734,Master of Engineering in Computer Science Engineering,1,Engineering and Technology
+725,735,Master of Engineering in Computer Science Engineering (Hons),1,Engineering and Technology
+726,736,Master of Engineering in Electronics and Communicaion Engineering,1,Engineering and Technology
+727,737,Master of Engineering in Electrical Engineering,1,Engineering and Technology
+728,738,Master of Engineering in Electrical Engineering (Hons),1,Engineering and Technology
+729,739,Master of Engineering in Information Technology,1,Engineering and Technology
+730,740,Master of Engineering in Mechanical Engineering,1,Engineering and Technology
+731,741,Master of Engineering in Mechanical Engineering (Hons),1,Engineering and Technology
+732,742,Master of Engineering in Energy System Engineering,1,Engineering and Technology
+733,743,Master of Engineering in Artificial Intelligence in Machine Learning Engineering,1,Engineering and Technology
+734,744,Bachelor of Business Administration (BBA),2,Business and Commerce
+735,745,BBA- Advertising & Marketing,2,Business and Commerce
+736,746,BBA- Banking & Finance,2,Business and Commerce
+737,747,BBA- Insurance & Risk Management,2,Business and Commerce
+738,748,BBA- Tourism & Event Management,2,Business and Commerce
+739,749,BBA - Forex Management,2,Business and Commerce
+740,750,BBA - Family Business Management,2,Business and Commerce
+741,751,Masters of Business Administration (MBA),2,Business and Commerce
+742,752,MBA in Tourism and Hospitality Management,10,Hospitality and Tourism Management
+743,753,MBA Logistics and Supply Chain Management,2,Business and Commerce
+744,754,Bachelor of Computer Applications (BCA),9,Computer Application
+745,755,B.Sc (Computer Science),9,Computer Application
+746,756,Master of Computer Applications (MCA),9,Computer Application
+747,757,Masters of Computer Applications (Lateral Entry for B.Sc IT/BCA Graduates),9,Computer Application
+748,758,BA + B.Ed (Integrated)*,4,Education
+749,759,B.Sc + B.Ed (Integrated)*,4,Education
+750,760,B.P.Ed,4,Education
+751,761,Post Graduate Diploma in Yoga Education,4,Education
+752,762,"B.Sc in Animation, VFX and Gaming",7,Design Courses
+753,763,B.Sc in Film Studies,8,Mass Communication
+754,764,B.Sc in Interior Design,7,Design Courses
+755,765,Bachelor of Fine Arts,7,Design Courses
+756,766,Bachelor of Fashion & Design,7,Design Courses
+757,767,M.Sc in Animation and Multimedia Technology,7,Design Courses
+758,768,"B.Sc. Hotel & Hospitality Management (HHM)
+- Resort & Event Managemen (with specialization from 2nd yr)
+- Restaurant & Catering Management (with specialization from 2nd yr)",10,Hospitality and Tourism Management
+759,769,B.Sc. Airlines & Airport Management,10,Hospitality and Tourism Management
+760,770,B.Sc. Travel & Tourism Management,10,Hospitality and Tourism Management
+761,771,B.Sc. Hospitality and Hotel Administration Affiliated to National Council for Hotel Management & Catering Technology,10,Hospitality and Tourism Management
+762,772,B.Sc. Culinary Arts,10,Hospitality and Tourism Management
+763,773,MBA in Tourism and Hospitality Management,10,Hospitality and Tourism Management
+764,774,Pharm D,5,Pharmacy
+765,775,Bachelor of Physiotherapy,6,Medical
+766,776,Bachelor of Optometry,6,Medical
+767,777,Bachelor of Pharmacy (B.Pharma),5,Pharmacy
+768,778,Bachelor of Pharmacy - Lateral Entry,5,Pharmacy
+769,779,B.Sc Medical Lab Technology - (MLT),6,Medical
+770,780,B.Sc Medical Lab Technology - (MLT) Lateral Entry,6,Medical
+771,781,M.Sc in Forensic Science and Toxicology,6,Medical
+772,782,M.Sc in Forensic Science and Toxicology - Lateral Entry,6,Medical
+773,783,M Pharm,5,Pharmacy
+774,784,M.Sc Clinical Psychology,6,Medical
+775,785,B.Sc in Biotechnology (BT),6,Medical
+776,786,M.Sc in (Bio-Technology),6,Medical
+777,787,M.Sc Industrial Microbiology,6,Medical
+778,788,Bachelor of Design (Industrial Design ),7,Design Courses
+779,789,Bachelor of Architecture (B. Arch),7,Design Courses
+780,790,Bachelor of Commerce (B.Com Hons),2,Business and Commerce
+781,791,Master in Commerce - Honors M.Com-(Hons),2,Business and Commerce
+782,792,Bachelor of Arts + Bachelor of Law (B.A. LL.B) - Integrated,3,Law
+783,793,Bachelor of Law (LL.B),3,Law
+784,794,Bachelor of Commerce + Bachelor of Law (B.Com. LL.B) - Integrated,3,Law
+785,795,Bachelor of Business Administration + Bachelor of Law (B.B.A. LL.B) - Integrated,3,Law
+786,796,Master of Law (LL.M),3,Law
+787,797,B.Sc (Agriculture) + MBA – Integrated,6,Medical
+788,798,B.Sc (Hons.) in Agriculture,6,Medical
+789,799,MSC Agronomy,6,Medical
+790,800,Bachelor of Arts (Journalism + Mass Communication),8,Mass Communication
+791,801,Masters of Arts (Journalism + Mass Communication),8,Mass Communication
+792,802,Bachelor of Arts (B.A),4,Education
+793,803,Master of Arts - English,4,Education
+794,804,Master of Arts - Psychology,4,Education
+795,805,Master of Arts - Performing Arts,4,Education
+796,806,Bachelor of Science(B. Sc.) - Non Medical,6,Medical
+797,807,Bachelor of Science(B. Sc.) - Nutrition & Dietetics,6,Medical
+798,808,Bachelor of Science(B. Sc.) - Actuarial Sciences,6,Medical
+799,809,Bachelor of Science(B. Sc.) - Medical,6,Medical
+800,810,Bachelor of Science(B. Sc.) - Physics,6,Medical
+801,811,Bachelor of Science(B. Sc.) - Chemistry,6,Medical
+802,812,Bachelor of Science(B. Sc.) - Economics,6,Medical
+803,813,Master of Science - Chemistry,6,Medical
+804,814,Master of Science - Physics,6,Medical
+805,815,Master of Science - Mathematics,6,Medical
+806,816,Master of Science(M. Sc.) - Economics,6,Medical
+807,817,"BE - Computer Science and Engineering (CSE)
+Big Data and Analytics",1,Engineering and Technology
+808,818,"BE - Computer Science and Engineering (CSE)
+Cloud Computing",1,Engineering and Technology
+809,819,"BE - Computer Science and Engineering (CSE)
+Information Security",1,Engineering and Technology
+810,820,"ME - Computer Science and Engineering (CSE)
+Big Data and Analytics",1,Engineering and Technology
+811,821,"ME - Computer Science and Engineering (CSE)
+Cloud Computing",1,Engineering and Technology
+812,822,"ME - Computer Science and Engineering (CSE)
+Information Security",1,Engineering and Technology
+813,823,B.Tech in Electronics and Communication (ECE),1,Engineering and Technology
+814,824,B. Tech in Computer Science Engineering (CSE),1,Engineering and Technology
+815,825,B. Tech in Mechanical Engineering,1,Engineering and Technology
+816,826,B. Tech in Civil Engineering,1,Engineering and Technology
+817,827,Integrated B.tech + M.Tech (ME/CE/CSE/ECE),1,Engineering and Technology
+818,828,M. Tech in Communication System,1,Engineering and Technology
+819,829,M. Tech in Computer Science & Engineering,1,Engineering and Technology
+820,830,M. Tech in Production Engineering,1,Engineering and Technology
+821,831,M. Tech in Environmental Engineering,1,Engineering and Technology
+822,832,Ph.D in Engineering,1,Engineering and Technology
+823,833,B. Sc. (Hons.) Physics,6,Medical
+824,834,B. Sc. (Hons.) Chemistry,6,Medical
+825,835,B. Sc. (Hons.) Mathematics,6,Medical
+826,836,M.Sc. Physics,6,Medical
+827,837,M.Sc. Chemistry,6,Medical
+828,838,M.Sc. Mathematics,6,Medical
+829,839,Ph.D. (Physics),6,Medical
+830,840,Ph.D. (Chemistry),6,Medical
+831,841,Ph.D. (Mathematics),6,Medical
+832,842,Bachelor of Pharmacy (B.Pharma),5,Pharmacy
+833,843,Master of Pharmacy (M.Pharma),5,Pharmacy
+834,844,Ph. D. (Pharmacy Science),5,Pharmacy
+835,845,B.Com (Hons.),2,Business and Commerce
+836,846,Bachelor of Business Administration (BBA),2,Business and Commerce
+837,847,B.Com. Hons. (IFA),2,Business and Commerce
+838,848,MBA- Dual Specialization,2,Business and Commerce
+839,849,Ph.D. (Management & Commerce),2,Business and Commerce
+840,850,LLB,3,Law
+841,851,B.A.LL.B.,3,Law
+842,852,LL.M (Intellectual Property Rights/ Criminal Law/ Corporate Law),3,Law
+843,853,Ph.D. (LEGAL STUDIES),3,Law
+844,854,Diploma in Computer Science Engineering,1,Engineering and Technology
+845,855,Diploma in Electircal Engineering,1,Engineering and Technology
+846,856,Diploma in Mechanical Engineering,1,Engineering and Technology
+847,857,Diploma in Civil Engineering,1,Engineering and Technology
+848,858,B.Tech in Computer Science Engineering(CSE),1,Engineering and Technology
+849,859,B.Tech in Electrical Engineering,1,Engineering and Technology
+850,860,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+851,861,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+852,862,M.Tech in Power Electronics,1,Engineering and Technology
+853,863,M.Tech in Enviromental Engineering,1,Engineering and Technology
+854,864,M.Tech in structural Engineering,1,Engineering and Technology
+855,865,M.Tech in Computer Engineering,1,Engineering and Technology
+856,866,M.Tech in Industrial Engineering,1,Engineering and Technology
+857,867,BCA,9,Computer Application
+858,868,MCA,9,Computer Application
+859,869,MCA(LEET),9,Computer Application
+860,870,BBA,2,Business and Commerce
+861,871,Master in Business Administration (MBA),2,Business and Commerce
+862,872,B.COM,2,Business and Commerce
+863,873,M.COM,2,Business and Commerce
+864,874,Diploma in Pharmacy (D.Pharma),5,Pharmacy
+865,875,Bachelor of Pharmacy (B.Pharma),5,Pharmacy
+866,876,B.Sc (Hons.) in Agriculture,6,Medical
+867,877,B.Sc in (P-C-M),6,Medical
+868,878,B.Sc in Biology,6,Medical
+869,879,M.Sc (P-C-M),6,Medical
+870,880,Bachelor of Arts,4,Education
+871,881,Master of Arts,4,Education
+872,882,Diploma in Architecture,7,Design Courses
+873,883,Bachelor of Architecture,7,Design Courses
+874,884,BA LLB (Integrated Course),3,Law
+875,885,Bachelor of Laws (LLB),3,Law
+876,886,Master of Laws (LLM),3,Law
+877,887,B.Tech in Computer Science Engineering(CSE),1,Engineering and Technology
+878,888,B.Tech in Electrical Engineering,1,Engineering and Technology
+879,889,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+880,890,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+881,891,B.Tech in Electronics and Communication (ECE),1,Engineering and Technology
+882,892,B.TECH (LEET),1,Engineering and Technology
+883,893,M.Tech in Mechanical Engineering,1,Engineering and Technology
+884,894,M.Tech in Civil Engineering,1,Engineering and Technology
+885,895,M.Tech in Electronics and Communication,1,Engineering and Technology
+886,896,M.Tech in Computer Science Engineering,1,Engineering and Technology
+887,897,Bachelor of Business Administration (BBA),2,Business and Commerce
+888,898,Master in Business Administration (MBA),2,Business and Commerce
+889,899,Bachelor of Computer Aplication (BCA),9,Computer Application
+890,900,Master of Computer Application (MCA),9,Computer Application
+891,901,Bachelor in Fashion & Apparel Design (BFAD),7,Design Courses
+892,902,Diploma in Electrical Engineering,1,Engineering and Technology
+893,903,Diploma in Mechanical Engineering,1,Engineering and Technology
+894,904,Diploma in Computer Science & Engineering,1,Engineering and Technology
+895,905,Diploma in Electrictronics and Communication Engineering,1,Engineering and Technology
+896,906,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+897,907,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+898,908,B.Tech in Computer Science Engineering(CSE),1,Engineering and Technology
+899,909,B.Tech in Electronics and Communication (ECE),1,Engineering and Technology
+900,910,B.Tech in Information Technology,1,Engineering and Technology
+901,911,Bachelor of Business Administration (BBA),2,Business and Commerce
+902,912,Master in Business Administration (MBA),2,Business and Commerce
+903,913,M.Tech in Civil Engineering,1,Engineering and Technology
+904,914,M.Tech in Mechanical Engineering,1,Engineering and Technology
+905,915,M.Tech in Electronics and Communication Engineering,1,Engineering and Technology
+906,916,M.Tech in Computer Science Engineering,1,Engineering and Technology
+907,917,B.Tech in Computer Science Engineering(CSE),1,Engineering and Technology
+908,918,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+909,919,B.Tech in Electronics and Communication (ECE),1,Engineering and Technology
+910,920,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+911,921,M.Tech in Mechanical Engineering,1,Engineering and Technology
+912,922,M.Tech in Electronics and Communication Engineering,1,Engineering and Technology
+913,923,M.Tech in Computer Science Engineering,1,Engineering and Technology
+914,924,Bachelor of Business Administration (BBA),2,Business and Commerce
+915,925,Master in Business Administration (MBA),2,Business and Commerce
+916,926,B.Tech (Electronics & Communication Engineering),1,Engineering and Technology
+917,927,B.Tech (Civil Engineering),1,Engineering and Technology
+918,928,B.Tech (Mechanical Engineering),1,Engineering and Technology
+919,929,B.Tech (Computer Science & Engg.),1,Engineering and Technology
+920,930,Diploma in Mechanical Engineering,1,Engineering and Technology
+921,931,Diploma in Civil Engineering,1,Engineering and Technology
+922,932,Master in Business Administration (MBA),2,Business and Commerce
+923,933,B.Tech (Electronics & Communication Engineering),1,Engineering and Technology
+924,934,B.Tech (Civil Engineering),1,Engineering and Technology
+925,935,B.Tech (Mechanical Engineering),1,Engineering and Technology
+926,936,B.Tech (Computer Science & Engg.),1,Engineering and Technology
+927,937,B.Tech (Electrical Engineering),1,Engineering and Technology
+928,938,B.Tech (Information Technology),1,Engineering and Technology
+929,939,B.Tech LEET - 2nd year (All Branches ),1,Engineering and Technology
+930,940,M.Tech (VLSI & Embedded System),1,Engineering and Technology
+931,941,M.Tech in Computer Science Engineering,1,Engineering and Technology
+932,942,M.Tech in Civil Engineering,1,Engineering and Technology
+933,943,M.Tech in Mechanical Engineering,1,Engineering and Technology
+934,944,Master of Computer Application (MCA),9,Computer Application
+935,945,Master of Computer Application (LEET),9,Computer Application
+936,946,Master in Business Administration (MBA),2,Business and Commerce
+937,947,MBA Integrated (BBA+MBA),2,Business and Commerce
+938,948,B.tech in Computer Science & Information Technology,1,Engineering and Technology
+939,949,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+940,950,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+941,951,B.Tech in Electronics and Communication (ECE),1,Engineering and Technology
+942,952,B.tech in Electrical Engineering,1,Engineering and Technology
+943,953,M.Tech in Mechanical Engineering,1,Engineering and Technology
+944,954,Bachelor of Business Administration (BBA),2,Business and Commerce
+945,955,Master in Business Administration (MBA),2,Business and Commerce
+946,956,Bachelor in Computer Application (BCA),9,Computer Application
+947,957,Master of Computer Application (MCA),9,Computer Application
+948,958,Master of Computer Application (LEET),9,Computer Application
+949,959,Diploma in VOCAL (Automotive Manufacturing Technology),1,Engineering and Technology
+950,960,Post Graduate Diploma in Management (PGDM),2,Business and Commerce
+951,961,Bachelor of Arts + Bachelor of Law (B.A. LL.B) - Integrated,3,Law
+952,962,Bachelor of Law (LL.B),3,Law
+953,963,Bachelor of Commerce + Bachelor of Law (B.Com. LL.B) - Integrated,3,Law
+954,964,Master of Law (LL.M),3,Law
+955,965,B.Tech in Computer Science and Engineering,1,Engineering and Technology
+956,966,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+957,967,B.Tech in Electronics and Communication (ECE),1,Engineering and Technology
+958,968,B.tech in Information Technology,1,Engineering and Technology
+959,969,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+960,970,B.tech in Textile Engineering,1,Engineering and Technology
+961,971,B.tech LEET (All Branches),1,Engineering and Technology
+962,972,M.Tech,1,Engineering and Technology
+963,973,Diploma in Mechanical Engineering,1,Engineering and Technology
+964,974,Bachelor of Business Administration (BBA),2,Business and Commerce
+965,975,Bachelor in Computer Application (BCA),9,Computer Application
+966,976,Master in Business Administration (MBA),2,Business and Commerce
+967,977,Master of Computer Application (MCA),9,Computer Application
+968,978,Master of Computer Application (LEET),9,Computer Application
+969,979,Diploma in Electronics and Communications Engineering,1,Engineering and Technology
+970,980,Diploma in Computer Science and Engineering,1,Engineering and Technology
+971,981,Diploma in Mechanical Engineering,1,Engineering and Technology
+972,982,Diploma in Civil Engineering,1,Engineering and Technology
+973,983,Diploma in Engineering (LEET),1,Engineering and Technology
+974,984,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+975,985,B.Tech in Computer Science and Engineering,1,Engineering and Technology
+976,986,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+977,987,B.tech in Electrical and Electronics Engineering,1,Engineering and Technology
+978,988,B.Tech (Electronics & Communication Engineering),1,Engineering and Technology
+979,989,B.tech LEET (All Branches),1,Engineering and Technology
+980,990,Bachelor in Computer Application (BCA),9,Computer Application
+981,991,Bachelor of Business Administration (BBA),2,Business and Commerce
+982,992,Bachelor of Commerce (B.Com),2,Business and Commerce
+983,993,Bachelor of Tourism and Travel Management (BTTM),10,Hospitality and Tourism Management
+984,994,Master in Business Administration (MBA),2,Business and Commerce
+985,995,Master of Computer Application (MCA),9,Computer Application
+986,996,Master of Computer Application (LEET),9,Computer Application
+987,997,B.Tech in Computer Science and Engineering,1,Engineering and Technology
+988,998,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+989,999,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+990,1000,B.Tech (Electronics & Communication Engineering),1,Engineering and Technology
+991,1001,Bachelor of Business Administration (BBA),2,Business and Commerce
+992,1002,Bachelor in Computer Application (BCA),9,Computer Application
+993,1003,Bachelor of Commerce (B.Com),2,Business and Commerce
+994,1004,Master in Business Administration (MBA),2,Business and Commerce
+995,1005,B.Sc in Biotechnology (Biotech),6,Medical
+996,1006,B.Tech in Computer Science and Engineering,1,Engineering and Technology
+997,1007,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+998,1008,B.tech in Electrical and Electronics Engineering,1,Engineering and Technology
+999,1009,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1000,1010,B.Tech (Electronics & Communication Engineering),1,Engineering and Technology
+1001,1011,B.tech LEET,1,Engineering and Technology
+1002,1012,Bachelor of Business Administration (BBA),2,Business and Commerce
+1003,1013,Bachelor of Commerce (B.Com),2,Business and Commerce
+1004,1014,Master in Business Administration (MBA),2,Business and Commerce
+1005,1015,Master of Computer Application (MCA),9,Computer Application
+1006,1016,B.Tech in Computer Science and Engineering,1,Engineering and Technology
+1007,1017,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+1008,1018,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1009,1019,B.Tech in Electronic & Commutations Engineering,1,Engineering and Technology
+1010,1020,Diploma in Civil,1,Engineering and Technology
+1011,1021,Master of Business Administration (MBA),2,Business and Commerce
+1012,1022,Bachelor of Business Administration (BBA),2,Business and Commerce
+1013,1023,Bachelor in Physiotherapy,6,Medical
+1014,1024,Master in Physiotherapy,6,Medical
+1015,1025,Diploma in Medical,6,Medical
+1016,1026,BSc in Biotechnology,6,Medical
+1017,1027,BSc in Microbiology,6,Medical
+1018,1028,M.Sc in Biotechnology,6,Medical
+1019,1029,M.Sc in Microbiology,6,Medical
+1020,1030,Bachelor in Computer Application(BCA),9,Computer Application
+1021,1031,International Diploma in Hotel Management,10,Hospitality and Tourism Management
+1022,1032,B.sc in Hotel Management,10,Hospitality and Tourism Management
+1023,1033,BA In Tourism & Hotel Management,10,Hospitality and Tourism Management
+1024,1034,Bachelor in Hotel Management,10,Hospitality and Tourism Management
+1025,1035,MBA in Hotel Management,10,Hospitality and Tourism Management
+1026,1036,Bachelor of Business Administration (BBA),2,Business and Commerce
+1027,1037,Bachelor in Computer Application(BCA),9,Computer Application
+1028,1038,Master of Business Administration in (I.B),2,Business and Commerce
+1029,1039,Bachelor Of Education,4,Education
+1030,1040,M.A Education,4,Education
+1031,1041,Bachelor of Library Science(B. Lib),4,Education
+1032,1042,M.Lib,4,Education
+1033,1043,Bachelor in Physiotherapy,6,Medical
+1034,1044,Master in Physiotherapy (MPT) Ortho/ Neuro,6,Medical
+1035,1045,B.Sc Forestry,6,Medical
+1036,1046,B.Sc Agriculture,6,Medical
+1037,1047,M.Sc Forestry,6,Medical
+1038,1048,M.Sc Agronomy,6,Medical
+1039,1049,B.Sc Horticulture,6,Medical
+1040,1050,B.Sc Fishery,6,Medical
+1041,1051,B.Sc Food Technology,6,Medical
+1042,1052,BSc in Medical lab technology (B.Sc. MLT),6,Medical
+1043,1053,BSc Medical Microbiology (B.Sc MM),6,Medical
+1044,1054,BSc in Biotechnology(CBZ),6,Medical
+1045,1055,M.Sc Horticulture,6,Medical
+1046,1056,M.Sc Fishery,6,Medical
+1047,1057,M.Sc Food Technology,6,Medical
+1048,1058,M.Sc Botany,6,Medical
+1049,1059,M.Sc Zoology,6,Medical
+1050,1060,M.Sc in Biochemistry,6,Medical
+1051,1061,M.Sc in Medical Lab Tech (MLT),6,Medical
+1052,1062,M.Sc Chemistry,6,Medical
+1053,1063,M.Sc Enivromental Science,6,Medical
+1054,1064,M.Sc Microbiology,6,Medical
+1055,1065,M.Sc Biotechnology,6,Medical
+1056,1066,M.Sc Pharmaceutical Chemistry,6,Medical
+1057,1067,B.A Mass Communication,8,Mass Communication
+1058,1068,M.A Mass Communication,8,Mass Communication
+1059,1069,Bachelor in Hotel Management( B.H.M),10,Hospitality and Tourism Management
+1060,1070,B.Tech in Applied Science,1,Engineering and Technology
+1061,1071,B.Tech in Information and technology,1,Engineering and Technology
+1062,1072,B.Tech in Computer science,1,Engineering and Technology
+1063,1073,B.Tech in electronics & Communication,1,Engineering and Technology
+1064,1074,B.Tech in Mechanical,1,Engineering and Technology
+1065,1075,B.Tech in Civil,1,Engineering and Technology
+1066,1076,B.Tech in Electronics & Computer,1,Engineering and Technology
+1067,1077,B.Tech in Electrical & Electronics,1,Engineering and Technology
+1068,1078,B.Tech in CSE & IT,1,Engineering and Technology
+1069,1079,Masters of Buisness Administration(MBA),2,Business and Commerce
+1070,1080,Masters of Technology(M.Tech),1,Engineering and Technology
+1071,1081,Master of Business Administration (MBA),2,Business and Commerce
+1072,1082,Bachelor of Business Administration (BBA),2,Business and Commerce
+1073,1083,Post Gradute in Diploma management,2,Business and Commerce
+1074,1084,Bachelor in Computer Application(BCA),9,Computer Application
+1075,1085,Master in Computer application (MCA),9,Computer Application
+1076,1086,B.Tech in Computer Science and Engineering,1,Engineering and Technology
+1077,1087,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+1078,1088,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1079,1089,B.Tech in Electronic & Communication Engineering,1,Engineering and Technology
+1080,1090,B. Tech in electrical engineering,1,Engineering and Technology
+1081,1091,M.Tech in Electronis and communication,1,Engineering and Technology
+1082,1092,M.Tech in Mechanical Engineering,1,Engineering and Technology
+1083,1093,M.Tech in Computer Science and Engineering,1,Engineering and Technology
+1084,1094,Bachelor of Commerce(B.COM) ,2,Business and Commerce
+1085,1095,Bachelor of Business Administration (BBA) ,2,Business and Commerce
+1086,1096,Master of Business Administration (MBA),2,Business and Commerce
+1087,1097,Bachelor in Computer Application (BCA),9,Computer Application
+1088,1098,B.Tech in Computer Science and Engineering,1,Engineering and Technology
+1089,1099,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+1090,1100,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1091,1101,B.Tech in Electronic & Communication Engineering,1,Engineering and Technology
+1092,1102,B.Tech in electrical engineering,1,Engineering and Technology
+1093,1103,B.Tech (LEET),1,Engineering and Technology
+1094,1104,M.Tech in Computer Science and Engineering,1,Engineering and Technology
+1095,1105,M.Tech in Civil Engineering,1,Engineering and Technology
+1096,1106,M.Tech in Mechanical Engineering,1,Engineering and Technology
+1097,1107,M.Tech in Electronic & Communication Engineering,1,Engineering and Technology
+1098,1108,M.Tech in Electrical Engineering,1,Engineering and Technology
+1099,1109,Bachelor of Business Administration (BBA) ,2,Business and Commerce
+1100,1110,Master of Business Administration (MBA),2,Business and Commerce
+1101,1111,B. Pharma,5,Pharmacy
+1102,1112,Bachelor in Physiotherapy,6,Medical
+1103,1113,B.Sc Nursing,6,Medical
+1104,1114,Auxiliary Nursing & Midwifery (ANM),6,Medical
+1105,1115,General Nursing & Midwifery (GNM),6,Medical
+1106,1116,Diploma in medical lab and technology,6,Medical
+1107,1117,Diploma in Civil Engineering,1,Engineering and Technology
+1108,1118,B.Tech in Computer Science & Engineering (CSE),1,Engineering and Technology
+1109,1119,B.Tech in Electronics & Communication Engineering (ECE),1,Engineering and Technology
+1110,1120,B.Tech in Electrical Engineering (EE),1,Engineering and Technology
+1111,1121,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+1112,1122,M.Tech in Masters of Technology,1,Engineering and Technology
+1113,1123,Master of Business Administration (MBA),2,Business and Commerce
+1114,1124,Bachelor of Business Administration (BBA),2,Business and Commerce
+1115,1125,Bachelor in Physiotherapy,6,Medical
+1116,1126,Bachelor in Computer Application(BCA),9,Computer Application
+1117,1127,B.sc Interior Designing,7,Design Courses
+1118,1128,B.Sc in Fashion Designing,7,Design Courses
+1119,1129,Post Graduate Diploma in Management (PGDM),2,Business and Commerce
+1120,1130,B.Tech Civil Engineering,1,Engineering and Technology
+1121,1131,B.Tech Electronics & Communication,1,Engineering and Technology
+1122,1132,B.Tech Mechanical Engineering,1,Engineering and Technology
+1123,1133,B.Tech. in Computer Science & Engineering,1,Engineering and Technology
+1124,1134,Bachelor of Business Administration (BBA),2,Business and Commerce
+1125,1135,Bachelor in Computer Application(BCA),9,Computer Application
+1126,1136,Master of Business Administration (MBA),2,Business and Commerce
+1127,1137,Diploma in Computer Science Engineering,1,Engineering and Technology
+1128,1138,Diploma in Civil Engineering,1,Engineering and Technology
+1129,1139,Diplomai in Mechnaical Engineering,1,Engineering and Technology
+1130,1140,Diploma in Automobile Engineering,1,Engineering and Technology
+1131,1141,"B.Tech in Electrical Engineering
+
+",1,Engineering and Technology
+1132,1142,"B.Tech Electronics & Communication 
+",1,Engineering and Technology
+1133,1143,B Tech in Civil Engineering,1,Engineering and Technology
+1134,1144,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1135,1145,"B.Tech. in Computer Science & Engineering 
+",1,Engineering and Technology
+1136,1146,M.Tech in Computer science,1,Engineering and Technology
+1137,1147,M.Tech in Mechanical Engineering,1,Engineering and Technology
+1138,1148,Bachelor of Business Administration (BBA),2,Business and Commerce
+1139,1149,Bachelor in Computer Application(BCA),9,Computer Application
+1140,1150,"B.Tech. in Computer Science & Engineering 
+",1,Engineering and Technology
+1141,1151,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1142,1152,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+1143,1153,"B.Tech Electronics & Communication
+
+",1,Engineering and Technology
+1144,1154,"B.Tech in Electrical Engineering
+
+",1,Engineering and Technology
+1145,1155,B.Tech in Information Technology,1,Engineering and Technology
+1146,1156,B.tech in Electrical and Electronics Engineering,1,Engineering and Technology
+1147,1157,M.Tech in Information Technology,1,Engineering and Technology
+1148,1158,M.Tech in Computer Science Engineering,1,Engineering and Technology
+1149,1159,M.Tech in Mechanical Engineering,1,Engineering and Technology
+1150,1160,M.Tech in Electronics & Communication,1,Engineering and Technology
+1151,1161,Master of Business Administration (MBA),2,Business and Commerce
+1152,1162,"B.Tech. in Computer Science & Engineering 
+",1,Engineering and Technology
+1153,1163,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1154,1164,"B.Tech Electronics & Communication
+
+",1,Engineering and Technology
+1155,1165,B Tech in Civil Engineering,1,Engineering and Technology
+1156,1166,M.Tech in Computer Science Engineering,1,Engineering and Technology
+1157,1167,M.Tech in Mechanical Engineering,1,Engineering and Technology
+1158,1168,Bachelor of Business Administration (BBA),2,Business and Commerce
+1159,1169,Bachelor in Computer Application(BCA),9,Computer Application
+1160,1170,BBA+UGPM,2,Business and Commerce
+1161,1171,MBA+ PGPM,2,Business and Commerce
+1162,1172,PGDM+PGPM,2,Business and Commerce
+1163,1173,B.Tech in Information Technology,1,Engineering and Technology
+1164,1174,B.Tech in Electronics & Communication,1,Engineering and Technology
+1165,1175,B Tech in Civil Engineering,1,Engineering and Technology
+1166,1176,"B.Tech Mechanical Engineering 
+",1,Engineering and Technology
+1167,1177,B.Tech in Computer Science & Engineering,1,Engineering and Technology
+1168,1178,M.Tech in Mechanical Engineering,1,Engineering and Technology
+1169,1179,Master of Business Administration (MBA),2,Business and Commerce
+1170,1180,Master in Computer application (MCA),9,Computer Application
+1171,1181,Bachelor of Journalism and Mass Communication,8,Mass Communication
+1172,1182,Master of Business Administration (MBA),2,Business and Commerce
+1173,1183,Master in Computer application (MCA),9,Computer Application
+1174,1184,Master of Computer Application (LEET),9,Computer Application
+1175,1185,Post Graduate Diploma in Management (PGDM),2,Business and Commerce
+1176,1186,Bachelor of Arts + Bachelor of Law (B.A. LL.B) - Integrated,3,Law
+1177,1187,Bachelor of Law (LL.B),3,Law
+1178,1188,Diploma in Pharmacy (D.Pharma),5,Pharmacy
+1179,1189,Bachelor of Pharmacy (B.Pharma),5,Pharmacy
+1180,1190,B.Tech Electrical and Electronics Engineering,1,Engineering and Technology
+1181,1191,"B.Tech Electronics & Communication 
+",1,Engineering and Technology
+1182,1192,B Tech in Civil Engineering,1,Engineering and Technology
+1183,1193,B.Tech Mechanical Engineering,1,Engineering and Technology
+1184,1194,B.Tech. in Computer Science & Engineering,1,Engineering and Technology
+1185,1195,Master of Business Administration (MBA),2,Business and Commerce
+1186,1196,Bachelor of Commerce + Bachelor of Law (B.Com. LL.B) - Integrated,3,Law
+1187,1197,Bachelor of Business Administration + Bachelor of Law (B.B.A. LL.B) - Integrated,3,Law
+1188,1198,Bachelor of Arts + Bachelor of Law (B.A. LL.B) - Integrated,3,Law
+1189,1199,Bachelor of Law (LL.B),3,Law
+1190,1200,B.Tech in Electrical Engineering,1,Engineering and Technology
+1191,1201,B.Tech in Chemical Engineering,1,Engineering and Technology
+1192,1202,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1193,1203,B.Tech in Bio-technology Engineering,1,Engineering and Technology
+1194,1204,Master in Computer application (MCA),9,Computer Application
+1195,1205,Master of Computer Application (LEET),9,Computer Application
+1196,1206,Master of Business Administration (MBA),2,Business and Commerce
+1197,1207,Post Graduate Diploma in Management (PGDM),2,Business and Commerce
+1198,1208,Diploma in Civil Engineering,1,Engineering and Technology
+1199,1209,Diploma in Mechnaical Engineering,1,Engineering and Technology
+1200,1210,Diploma in Computer Science Engineering,1,Engineering and Technology
+1201,1211,Diploma in Electrical Engineering,1,Engineering and Technology
+1202,1212,Diploma in Electronics & Communication Engineering,1,Engineering and Technology
+1203,1213,Diploma in Architect Asstt.,1,Engineering and Technology
+1204,1214,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1205,1215,B.Tech in Computer Science & Engineering,1,Engineering and Technology
+1206,1216,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+1207,1217,B.Tech in Electrical Engineering,1,Engineering and Technology
+1208,1218,B.Tech in Electronics & Communication Engineering (ECE),1,Engineering and Technology
+1209,1219,Diploma in Civil Engineering,1,Engineering and Technology
+1210,1220,Diploma in Mechnaical Engineering,1,Engineering and Technology
+1211,1221,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+1212,1222,B.Tech in Electrical Engineering,1,Engineering and Technology
+1213,1223,B.Tech in Electronics & Communication Engineering,1,Engineering and Technology
+1214,1224,B.Tech in Automobile Engineering,1,Engineering and Technology
+1215,1225,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1216,1226,B.Tech. in Computer Science & Engineering,1,Engineering and Technology
+1217,1227,M.Tech in Computer Science Engineering,1,Engineering and Technology
+1218,1228,M.Tech in Mechanical Engineering,1,Engineering and Technology
+1219,1229,M.Tech in Electronics & Communication Engineering,1,Engineering and Technology
+1220,1230,M.Tech in Electrical Engineering,1,Engineering and Technology
+1221,1231,Bachelor of Business Administration (BBA),2,Business and Commerce
+1222,1232,Master of Business Administration (MBA),2,Business and Commerce
+1223,1233,Bachelors in Hotel Management (BHM),10,Hospitality and Tourism Management
+1224,1234,B.Tech in Computer Science and Engineering,1,Engineering and Technology
+1225,1235,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+1226,1236,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1227,1237,B.Tech in Electronic & Tele Communications Engineering,1,Engineering and Technology
+1228,1238,B.Tech in Electrical Engineering,1,Engineering and Technology
+1229,1239,B.Tech in LEET (All Branches),1,Engineering and Technology
+1230,1240,Bachelor of Business Administration (BBA),2,Business and Commerce
+1231,1241,Bachelor in Computer Application(BCA),9,Computer Application
+1232,1242,B.Tech in Computer Science and Engineering,1,Engineering and Technology
+1233,1243,B.Tech in Electronics & Communication Engineering,1,Engineering and Technology
+1234,1244,B.Tech in Automobile Engineering,1,Engineering and Technology
+1235,1245,B.Tech in Bio-technology Engineering,1,Engineering and Technology
+1236,1246,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+1237,1247,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1238,1248,M.Tech in Bio-technology Engineering,1,Engineering and Technology
+1239,1249,M.Tech in (CAD/CAM),1,Engineering and Technology
+1240,1250,M.Tech in Electrical and Electronics Engineering,1,Engineering and Technology
+1241,1251,M.Tech in Computer Science Engineering,1,Engineering and Technology
+1242,1252,Master of Business Administration (MBA),2,Business and Commerce
+1243,1253,Post Graduate Diploma in Management (PGDM),2,Business and Commerce
+1244,1254,Bachelors of Business Administration,2,Business and Commerce
+1245,1255,Bachelors of Business Administration (Entrepreneurship),2,Business and Commerce
+1246,1256,B.Com (Hons),2,Business and Commerce
+1247,1257,MBA in Fintech,2,Business and Commerce
+1248,1258,MBA in Data Analytics,2,Business and Commerce
+1249,1259,MBA in Digital Business,2,Business and Commerce
+1250,1260,MBA in Innovation and Sustainability,2,Business and Commerce
+1251,1261,MBA in Marketing and Innovation,2,Business and Commerce
+1252,1262,MBA in Public Policy & Management,2,Business and Commerce
+1253,1263,Master of Business Administration (MBA),2,Business and Commerce
+1254,1264,MBA (Entrepreneurship),2,Business and Commerce
+1255,1265,BA in Physchology,4,Education
+1256,1266,BA in Economics,4,Education
+1257,1267,BA in Public Policy,4,Education
+1258,1268,BA in Applied Mathematics,4,Education
+1259,1269,BA in Media and Communication,8,Mass Communication
+1260,1270,BA in International Relations,4,Education
+1261,1271,BA in English,4,Education
+1262,1272,BA in Liberal Arts,4,Education
+1263,1273,MA in Physchology,4,Education
+1264,1274,MA in Economics,4,Education
+1265,1275,MA in Media and Communication,4,Education
+1266,1276,MA in History and International Relations,4,Education
+1267,1277,MA in Liberal Arts,4,Education
+1268,1278,Executive MBA in FinTech,2,Business and Commerce
+1269,1279,Executive MBA in Data Analysis,2,Business and Commerce
+1270,1280,Executive MBA in Digital Business,2,Business and Commerce
+1271,1281,Executive MBA in Public Policy,2,Business and Commerce
+1272,1282,Executive MBA in Innovation and Sustainability,2,Business and Commerce
+1273,1283,Executive MBA in Marketing and Innovation,2,Business and Commerce
+1274,1284,Executive MBA in Public Policy and Management,2,Business and Commerce
+1275,1285,Bachelor of Design in Fashion Designs,7,Design Courses
+1276,1286,Bachelor of Design in Interior Design,7,Design Courses
+1277,1287,Bachelor of Design in Product Design,7,Design Courses
+1278,1288,Bachelor of Design in Interaction Design,7,Design Courses
+1279,1289,BA (Hons) Design in 3D Animation and Gaming,7,Design Courses
+1280,1290,BA (Hons) Design in Luxury Design Management,7,Design Courses
+1281,1291,BA (Hons) Design in Graphic Design,7,Design Courses
+1282,1292,BA (Hons) Design in Fine Arts,7,Design Courses
+1283,1293,Master in Design in Fashion Design,7,Design Courses
+1284,1294,Master in Design in Interaction Design,7,Design Courses
+1285,1295,Master in Design in Interior Design,7,Design Courses
+1286,1296,MA Design in Fashion Business Management,7,Design Courses
+1287,1297,MA Design in Luxury Design Management,7,Design Courses
+1288,1298,MA Design in Graphic Design,7,Design Courses
+1289,1299,MA Design in Fine Arts,7,Design Courses
+1290,1300,MA Design in Design Future,7,Design Courses
+1291,1301,"B Sc (Hons) Computer
+Science in Artificial Intelligence",9,Computer Application
+1292,1302,"B Sc (Hons) Computer
+Science in Innovation and Technology",9,Computer Application
+1293,1303,M.Sc Computer Science in Artificial Intelligence,9,Computer Application
+1294,1304,M.Sc Computer Science in Innovation and Technology,9,Computer Application
+1295,1305,Bachelor of Pharmacy (B.Pharma),5,Pharmacy
+1296,1306,Bachelor of Business Administration (BBA),2,Business and Commerce
+1297,1307,Master of Business Administration (MBA),2,Business and Commerce
+1298,1308,Post Graduate Diploma in Management (PGDM),2,Business and Commerce
+1299,1309,"Diploma in Electrical Engineering 
+",1,Engineering and Technology
+1300,1310,Diploma in Mechanical Engineering,1,Engineering and Technology
+1301,1311,"Diploma in Computer Science and Engineering 
+",1,Engineering and Technology
+1302,1312,"Diploma in Civil Engineering 
+",1,Engineering and Technology
+1303,1313,Diploma in Mechanical Engineering,1,Engineering and Technology
+1304,1314,B.Tech in Computer Science & Engineering,1,Engineering and Technology
+1305,1315,B.Tech in Computer Science & Engineering (Evening),1,Engineering and Technology
+1306,1316,B.Tech in Information Technology,1,Engineering and Technology
+1307,1317,B.Tech in Electronics & Communication Engineering,1,Engineering and Technology
+1308,1318,B.Tech in Electrical & Electronics Engineering,1,Engineering and Technology
+1309,1319,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1310,1320,B.Tech in Mechanical Engineering(ME) Evening,1,Engineering and Technology
+1311,1321,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+1312,1322,B.Tech in Civil Engineering (CE) Evening,1,Engineering and Technology
+1313,1323,Bachelor of Architecture (B.Arch),7,Design Courses
+1314,1324,Master in Computer application (MCA),9,Computer Application
+1315,1325,Master of Business Administration (MBA),2,Business and Commerce
+1316,1326,Post Graduate Diploma in Management (PGDM),2,Business and Commerce
+1317,1327,B.SC in Hospitality and Hotel Administration,10,Hospitality and Tourism Management
+1318,1328,Diploma in Hotel Managemet,10,Hospitality and Tourism Management
+1319,1329,Diploma in Food Production,10,Hospitality and Tourism Management
+1320,1330,Diploma in Food & Beverage Service,10,Hospitality and Tourism Management
+1321,1331,Diploma in Bakery & Confectionary,10,Hospitality and Tourism Management
+1322,1332,Certificate Course in Foor Production,10,Hospitality and Tourism Management
+1323,1333,Certificate Course in F&B Services,10,Hospitality and Tourism Management
+1324,1334,Bachelor of Business Administration (BBA),2,Business and Commerce
+1325,1335,Bachelor in Computer Application(BCA),9,Computer Application
+1326,1336,Post Graduate Diploma in Management (PGDM),2,Business and Commerce
+1327,1337,Graphic Designing,7,Design Courses
+1328,1338,Graphic Designing + Web Designing,7,Design Courses
+1329,1339,Animation Prime,7,Design Courses
+1330,1340,VFX Prime,7,Design Courses
+1331,1341,Diploma in Mechanical Engineering,1,Engineering and Technology
+1332,1342,Diploma in Electronics Engineering,1,Engineering and Technology
+1333,1343,"Diploma in Electrical Engineering 
+",1,Engineering and Technology
+1334,1344,Diploma in Civil Engineering,1,Engineering and Technology
+1335,1345,Diploma in Mechanical Engineering,1,Engineering and Technology
+1336,1346,Diploma in Mechanical Engineering,1,Engineering and Technology
+1337,1347,Diploma in Engineering (LEET),1,Engineering and Technology
+1338,1348,B.Tech in Computer Science Engineering(CSE),1,Engineering and Technology
+1339,1349,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1340,1350,B.Tech in Electrical and Electronics Engineering(EEE),1,Engineering and Technology
+1341,1351,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+1342,1352,B.Tech in Electronics and Communication (ECE),1,Engineering and Technology
+1343,1353,B.Tech (LEET),1,Engineering and Technology
+1344,1354,M.Tech in Computer Science Engineering,1,Engineering and Technology
+1345,1355,M.Tech in Civil Engineering,1,Engineering and Technology
+1346,1356,M.Tech in Electronics and Communication Engineering,1,Engineering and Technology
+1347,1357,M.Tech in Mechanical Engineering Thermal,1,Engineering and Technology
+1348,1358,Bachelor in Computer Application(BCA),9,Computer Application
+1349,1359,Master in Computer application (MCA),9,Computer Application
+1350,1360,Master in Computer application (LEET),9,Computer Application
+1351,1361,Bachelor of Business Administration (BBA),2,Business and Commerce
+1352,1362,Master of Business Administration (MBA),2,Business and Commerce
+1353,1363,Bachelor of Commerce (B.Com),2,Business and Commerce
+1354,1364,Diploma in Hotel Managemet,10,Hospitality and Tourism Management
+1355,1365,Bachelor of Hotel Management,10,Hospitality and Tourism Management
+1356,1366,Bachelor of Architecture (B.Arch),7,Design Courses
+1357,1367,Bachelor of Fashion Design,7,Design Courses
+1358,1368,Bachelor of Journalism and Mass Communication (BJMC),8,Mass Communication
+1359,1369,B.Sc. In Information Technology,1,Engineering and Technology
+1360,1370,B.Sc in Forestry,6,Medical
+1361,1371,B.Sc in Agriculture,6,Medical
+1362,1372,B.Sc in PHYSICS/CHEMISTRY/MATHS (PCM),6,Medical
+1363,1373,B.Sc in CHEMISTRY/BOTANY/ZOOLOGY (CBZ),6,Medical
+1364,1374,B.Sc in Food Technology,6,Medical
+1365,1375,M.Sc in Agronomy,6,Medical
+1366,1376,BA in Mass Communication,8,Mass Communication
+1367,1377,MA in Mass Communication,8,Mass Communication
+1368,1378,PGDM Global,2,Business and Commerce
+1369,1379,BBA+MBA (Integrated MBA),2,Business and Commerce
+1370,1380,MBA + BASE,2,Business and Commerce
+1371,1381,Master of Business Administration (MBA),2,Business and Commerce
+1372,1382,MBA-IB,2,Business and Commerce
+1373,1383,Bachelor of Business Administration (BBA),2,Business and Commerce
+1374,1384,Bachelor in Computer Application(BCA),9,Computer Application
+1375,1385,Bachelor of Commerce (B.Com),2,Business and Commerce
+1376,1386,B.Sc in Agriculture,6,Medical
+1377,1387,B.Sc in Horticulture,6,Medical
+1378,1388,B.Sc in Forestry,6,Medical
+1379,1389,PGDM SAP,2,Business and Commerce
+1380,1390,B.Sc in Agriculture,6,Medical
+1381,1391,B.Sc in Forestry,6,Medical
+1382,1392,B.Sc in Bio-Tech (CBZ),6,Medical
+1383,1393,M.Sc in Bio-Tech,6,Medical
+1384,1394,M.Sc in Microbiology,6,Medical
+1385,1395,M.Sc in Physics,6,Medical
+1386,1396,M.Sc in Chemistry,6,Medical
+1387,1397,M.Sc in Mathematics,6,Medical
+1388,1398,M.Sc in Environmental Science,6,Medical
+1389,1399,M.Sc in Agricuture (Agronomy),6,Medical
+1390,1400,M.Sc in Zoology,6,Medical
+1391,1401,M.Sc in Botany,6,Medical
+1392,1402,Bachelor of Hotel Management (BHM),10,Hospitality and Tourism Management
+1393,1403,Certification Course in Hotel Management,10,Hospitality and Tourism Management
+1394,1404,Certification Course in Hotel Management (HM),10,Hospitality and Tourism Management
+1395,1405,Bachelor of Business Administration (BBA),2,Business and Commerce
+1396,1406,Bachelor in Computer Application(BCA),9,Computer Application
+1397,1407,Bachelor of Commerce (B.Com),2,Business and Commerce
+1398,1408,B.Sc. In Information Technology,1,Engineering and Technology
+1399,1409,Diploma in Mechanical Engineering,1,Engineering and Technology
+1400,1410,Diploma in Mechanical Engineering,1,Engineering and Technology
+1401,1411,Diploma in Civil Engineering,1,Engineering and Technology
+1402,1412,Aircraft Maintenance Engineering,1,Engineering and Technology
+1403,1413,Diploma in Pharmacy (D.Pharma),5,Pharmacy
+1404,1414,Diploma in Fashion Design,7,Design Courses
+1405,1415,Diploma in Apparel Merchandising,7,Design Courses
+1406,1416,Diploma in Retail Management,2,Business and Commerce
+1407,1417,Diploma in Textile Design,7,Design Courses
+1408,1418,Diploma in Cutting & Tailoring,7,Design Courses
+1409,1419,Diploma in Pattern Making,7,Design Courses
+1410,1420,B.Sc in Fashion Design,7,Design Courses
+1411,1421,B.Sc in Intering Design,7,Design Courses
+1412,1422,B.Sc in Cosmetology,7,Design Courses
+1413,1423,M.Sc in Fashion Design,7,Design Courses
+1414,1424,M.Sc in Interion Design,7,Design Courses
+1415,1425,M.Sc in Cosmetology,7,Design Courses
+1416,1426,MBA in Fashion Design,7,Design Courses
+1417,1427,MBA in Interior Design,7,Design Courses
+1418,1428,MBA in Cosmetoloy,7,Design Courses
+1419,1429,MBA in Retail Management,2,Business and Commerce
+1420,1430,Diploma in Mechanical Engineering,1,Engineering and Technology
+1421,1431,Diploma in Electrical & Electronics Engineering,1,Engineering and Technology
+1422,1432,B.Tech in Computer Science Engineeirng,1,Engineering and Technology
+1423,1433,B.Tech in Mechanical Engineeirng,1,Engineering and Technology
+1424,1434,B.Tech in Electrical & Electronics Engineering,1,Engineering and Technology
+1425,1435,B.Tech in Electronics and Communication (ECE),1,Engineering and Technology
+1426,1436,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+1427,1437,M.Tech.,1,Engineering and Technology
+1428,1438,Bachelor of Business Administration (BBA),2,Business and Commerce
+1429,1439,Master of Business Administration (MBA),2,Business and Commerce
+1430,1440,Bachelor in Computer Application(BCA),9,Computer Application
+1431,1441,Master in Computer application (MCA),9,Computer Application
+1432,1442,B.Sc in Agriculture,6,Medical
+1433,1443,B.Sc in Forestry,6,Medical
+1434,1444,B.Tech in LEET (All Branches),1,Engineering and Technology
+1435,1445,B.Tech in Computer Science Engineering(CSE),1,Engineering and Technology
+1436,1446,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1437,1447,B.Tech in Electrical and Electronics Engineering(EEE),1,Engineering and Technology
+1438,1448,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+1439,1449,B.Tech in Electronics and Communication (ECE),1,Engineering and Technology
+1440,1450,B.Tech in LEET (All Branches),1,Engineering and Technology
+1441,1451,Diploma in Mechanical Engineering,1,Engineering and Technology
+1442,1452,Diploma in Electronics Engineering,1,Engineering and Technology
+1443,1453,"Diploma in Electrical Engineering 
+",1,Engineering and Technology
+1444,1454,Diploma in Civil Engineering,1,Engineering and Technology
+1445,1455,M.Tech in Computer Science Engineering,1,Engineering and Technology
+1446,1456,M.Tech in Electrical and Electronics Engineering,1,Engineering and Technology
+1447,1457,M.Tech in Thermal Engineering,1,Engineering and Technology
+1448,1458,M.Tech in Software Engineering,1,Engineering and Technology
+1449,1459,M.Tech in VLSI Engineering,1,Engineering and Technology
+1450,1460,Bachelor of Architecture (B.Arch),7,Design Courses
+1451,1461,Bachelor of Pharmacy (B.Pharma),5,Pharmacy
+1452,1462,Master of Pharmacy (M.Pharma),5,Pharmacy
+1453,1463,Bachelor of Hotel Management and Catering Technology,10,Hospitality and Tourism Management
+1454,1464,Diploma in Food Production,10,Hospitality and Tourism Management
+1455,1465,Diploma in Bakery & Confectionery,10,Hospitality and Tourism Management
+1456,1466,Diploma in Food & Beverage Service,10,Hospitality and Tourism Management
+1457,1467,Diploma in Front Office Operation,10,Hospitality and Tourism Management
+1458,1468,Bachelor of Arts + Bachelor of Law (B.A. LL.B) - Integrated,3,Law
+1459,1469,Bachelor of Law (LL.B),3,Law
+1460,1470,Bachelor of Business Administration (BBA),2,Business and Commerce
+1461,1471,Master of Business Administration (MBA),2,Business and Commerce
+1462,1472,Bachelor in Computer Application(BCA),9,Computer Application
+1463,1473,Master in Computer application (MCA),9,Computer Application
+1464,1474,Diploma in IIHM,10,Hospitality and Tourism Management
+1465,1475,Diploma in IIHM,2,Business and Commerce
+1466,1476,Diploma in Apparel Design & Fabrication Technology,7,Design Courses
+1467,1477,Diploma in Commercial Practice,1,Engineering and Technology
+1468,1478,Diploma in Computer Science Engineering,1,Engineering and Technology
+1469,1479,Diploma in Electrical & Electronics Engineering,1,Engineering and Technology
+1470,1480,Diploma in Electronics & Communication Engg.,1,Engineering and Technology
+1471,1481,Diploma in Civil Engineering,1,Engineering and Technology
+1472,1482,Diploma in Mining Engineering,1,Engineering and Technology
+1473,1483,Diploma in Mechatronics Engineering,1,Engineering and Technology
+1474,1484,Diploma in Automobile Engineering,1,Engineering and Technology
+1475,1485,Diploma in Architecture Engineering,1,Engineering and Technology
+1476,1486,Diploma in Aeronautical Engineering,1,Engineering and Technology
+1477,1487,Diploma in Mechanical Engineering,1,Engineering and Technology
+1478,1488,BE in Computer Science Engineering,1,Engineering and Technology
+1479,1489,BE in Aeronautical Engineering,1,Engineering and Technology
+1480,1490,BE in Mechanical Engineering,1,Engineering and Technology
+1481,1491,BE in Information Science & Engineering,1,Engineering and Technology
+1482,1492,BE in Mechatronics Engineering,1,Engineering and Technology
+1483,1493,BE in Automobile Engineering,1,Engineering and Technology
+1484,1494,BE in Electronics & Communication Engg,1,Engineering and Technology
+1485,1495,BE in Biotechnology Engineering,1,Engineering and Technology
+1486,1496,BE in Civil Engineering,1,Engineering and Technology
+1487,1497,BE in Mining Engineering,1,Engineering and Technology
+1488,1498,BE in Electrical & Electronics Engineering,1,Engineering and Technology
+1489,1499,BE in Construction Technology,1,Engineering and Technology
+1490,1500,BE in Manufacturing Science & Engg.,1,Engineering and Technology
+1491,1501,M.Tech in Biotehcnology,1,Engineering and Technology
+1492,1502,M.Tech in Cyber Forensics & Information Security,1,Engineering and Technology
+1493,1503,M.Tech in Product Design & Manufacturing,1,Engineering and Technology
+1494,1504,M.Tech in Digital Communication,1,Engineering and Technology
+1495,1505,M.Tech in Machine Design,1,Engineering and Technology
+1496,1506,M.Tech in Power Systems,1,Engineering and Technology
+1497,1507,M.Tech in Computer Networking,1,Engineering and Technology
+1498,1508,M.Tech in Computer Science Engineering,1,Engineering and Technology
+1499,1509,Master of Computer Application (MCA),9,Computer Application
+1500,1510,Master of Business Administration (MBA),2,Business and Commerce
+1501,1511,Post Graduate Diploma in Management (PGDM),2,Business and Commerce
+1502,1512,"Bachelor of Business Administration (BBA)
+",2,Business and Commerce
+1503,1513,"Bachelor of Computer Application (BCA)
+",9,Computer Application
+1504,1514,"Bachelor of Commerce (B.Com)
+",2,Business and Commerce
+1505,1515,Bachelor of Architecture (B.Arch),7,Design Courses
+1506,1516,Bachelor of Pharmacy (B.Pharma),5,Pharmacy
+1507,1517,Doctor in Pharmacy (Pharma-D),5,Pharmacy
+1508,1518,Diploma in Pharmacy (D.Pharma),5,Pharmacy
+1509,1519,Post Baccalaureate Pharm D,5,Pharmacy
+1510,1520,M.Pharma in Pharmaceutics,5,Pharmacy
+1511,1521,M.Pharma in Industrial Pharmacy,5,Pharmacy
+1512,1522,M.Pharma in Quality Assuran,5,Pharmacy
+1513,1523,M.Pharma in Pharmacology,5,Pharmacy
+1514,1524,M.Pharm - Pharmaceutical Chemistry,5,Pharmacy
+1515,1525,M.Pharm - Drug Regulatory Affairs,5,Pharmacy
+1516,1526,M.Pharm - Pharmacognosy,5,Pharmacy
+1517,1527,M.Pharm - Pharmaceutical Analysis,5,Pharmacy
+1518,1528,Bachelor of Law (LL.B),3,Law
+1519,1529,Bachelor of Arts - LL.B,3,Law
+1520,1530,Bachelor of Business Administration - LL.B,3,Law
+1521,1531,"B.Sc. (Physics/Chemistry)
+",6,Medical
+1522,1532,"B.Sc. in Fashion & Apparel Design (FAD)
+",7,Design Courses
+1523,1533,BA -Marketing / Psy. / Economics / English,4,Education
+1524,1534,B.S.W - Bachelor of Social Work,4,Education
+1525,1535,MIB - Master of International Business,2,Business and Commerce
+1526,1536,"MFA - Master of Finance & Accounting
+",2,Business and Commerce
+1527,1537,M.Com. - Master of Commerce,2,Business and Commerce
+1528,1538,M.Sc. - Psychology,6,Medical
+1529,1539,MA - English / Economics,4,Education
+1530,1540,M.Sc. - Mathematics,6,Medical
+1531,1541,M.Sc. - Physics,6,Medical
+1532,1542,M.Sc. - Chemistry,6,Medical
+1533,1543,MS - Mass Communication,8,Mass Communication
+1534,1544,M.S.W - Master of Social Work,4,Education
+1535,1545,M.A in Electronic Media,8,Mass Communication
+1536,1546,M.Sc. Fashion & Apparel Design,7,Design Courses
+1537,1547,M.Sc. in Nursing,6,Medical
+1538,1548,Post Basic B.Sc. in Nursing,6,Medical
+1539,1549,Basic B.Sc. Nursing,6,Medical
+1540,1550,Diploma in Nursing (GNM),6,Medical
+1541,1551,"Bachelor in Visuial Arts (BVA)
+Graphic Design
+",7,Design Courses
+1542,1552,Bachelor in Visuial Arts (Animation & Multimedia Design),7,Design Courses
+1543,1553,Bachelor in Visuial Arts (Product Design),7,Design Courses
+1544,1554,Bachelor in Visuial Arts (nterior & Spatial Design),7,Design Courses
+1545,1555,Bachelor in Visuial Arts (Painting),7,Design Courses
+1546,1556,Bachelor of Arts - Journalism,8,Mass Communication
+1547,1557,B.Sc in Electronics,1,Engineering and Technology
+1548,1558,B.Sc in (Maths),2,Business and Commerce
+1549,1559,Diploma (Engg.) Electronics & Comm. Engg. (ECE),1,Engineering and Technology
+1550,1560,Diploma (Engg.) Computer Sc. & Engg. (CSE),1,Engineering and Technology
+1551,1561,Diploma (Engg.) Information Technology (IT),1,Engineering and Technology
+1552,1562,Diploma (Engg.) Mechanical Engg. (ME),1,Engineering and Technology
+1553,1563,Diploma (Engg.) Civil Engg. (CE),1,Engineering and Technology
+1554,1564,Diploma (Engg.) Electrical Engg. (EE),1,Engineering and Technology
+1555,1565,Diploma (Engg.) Automobile Engg. (AE),1,Engineering and Technology
+1556,1566,Dual ProgrammeDiploma (Engg.) - B.Tech. (Electronics & Communication Engineering),1,Engineering and Technology
+1557,1567,Dual ProgrammeDiploma (Engg.) - B.Tech. (Computer Science & Engineering),1,Engineering and Technology
+1558,1568,Dual ProgrammeDiploma (Engg.) - B.Tech. (Information Technology),1,Engineering and Technology
+1559,1569,Dual ProgrammeDiploma (Engg.) - B.Tech. (Mechanical Engineering),1,Engineering and Technology
+1560,1570,Dual ProgrammeDiploma (Engg.) - B.Tech. (Civil Engineering),1,Engineering and Technology
+1561,1571,Dual ProgrammeDiploma (Engg) - B.Tech. (Electrical Engineering),1,Engineering and Technology
+1562,1572,Dual ProgrammeDiploma (Engg) - B.Tech. (Automobile Engineering),1,Engineering and Technology
+1563,1573,Diploma in Business Administration,2,Business and Commerce
+1564,1574,Diploma in Food Production,10,Hospitality and Tourism Management
+1565,1575,Diploma in Bakery & Confectionary,10,Hospitality and Tourism Management
+1566,1576,Diploma in Architectural Assistantship,7,Design Courses
+1567,1577,Dual ProgrammeDiploma in Architectural Assistantship - B.Tech. (Civil Engineering),1,Engineering and Technology
+1568,1578,Dual Programme Diploma in Architectural Assistantship - B.Design (Interior & Furniture),7,Design Courses
+1569,1579,Diploma in Fashion Design,7,Design Courses
+1570,1580,Dual Programme Diploma in Fashion Design - B.Design (Fashion),7,Design Courses
+1571,1581,Diploma in Medical Lab. Technology (DMLT),6,Medical
+1572,1582,Dual Programme DMLT - B.Sc. (Medical Lab. Technology),6,Medical
+1573,1583,B.Tech. (Electronics & Communication Engineering),1,Engineering and Technology
+1574,1584,B.Tech. (Computer Science & Engineering),1,Engineering and Technology
+1575,1585,B.Tech. (Information Technology),1,Engineering and Technology
+1576,1586,B.Tech. (Mechanical Engineering),1,Engineering and Technology
+1577,1587,B.Tech. (ME - Mechatronics),1,Engineering and Technology
+1578,1588,B.Tech. (Aerospace Engineering),1,Engineering and Technology
+1579,1589,B.Tech. (Civil Engineering),1,Engineering and Technology
+1580,1590,B.Tech. (Electrical Engineering),1,Engineering and Technology
+1581,1591,B.Tech. (Electrical and Electronics Engineering),1,Engineering and Technology
+1582,1592,B.Tech. (Electronics & Computer Engineering),1,Engineering and Technology
+1583,1593,B.Tech. (Biotechnology),1,Engineering and Technology
+1584,1594,B.Tech. (Food Technology),1,Engineering and Technology
+1585,1595,B.Tech. (Biomedical Engineering),1,Engineering and Technology
+1586,1596,B.Tech. (Automobile Engineering),1,Engineering and Technology
+1587,1597,B.Tech. (Chemical Engineering),1,Engineering and Technology
+1588,1598,B.Tech. (CHE - Petroleum),1,Engineering and Technology
+1589,1599,Dual Degree B.Tech. (Electronics & Communication Engineering)-MBA,1,Engineering and Technology
+1590,1600,Dual Degree B.Tech. (Computer Science & Engineering)-MBA,1,Engineering and Technology
+1591,1601,Dual Degree B.Tech. (Mechanical Engineering)-MBA,1,Engineering and Technology
+1592,1602,Dual Degree B.Tech. - M.Tech. (Electronics & Communication Engineering),1,Engineering and Technology
+1593,1603,Dual Degree B.Tech. - M.Tech. (Computer Science & Engineering),1,Engineering and Technology
+1594,1604,Dual Degree B.Tech. - M.Tech. (Mechanical Engineering),1,Engineering and Technology
+1595,1605,B.Tech. (Electronics & Communication Engineering) (Hons.),1,Engineering and Technology
+1596,1606,B.Tech. (Computer Science & Engineering) (Hons.),1,Engineering and Technology
+1597,1607,B.Tech. (Mechanical Engineering) (Hons.),1,Engineering and Technology
+1598,1608,B.Tech. (Electrical and Electronics Engineering) (Hons.),1,Engineering and Technology
+1599,1609,B.Tech. (Biotechnology) (Hons.),1,Engineering and Technology
+1600,1610,Integrated B.Tech. - M.Tech. (Electronics & Communication Engineering),1,Engineering and Technology
+1601,1611,Integrated B.Tech. - M.Tech. (Computer Science & Engineering),1,Engineering and Technology
+1602,1612,Integrated B.Tech. - M.Tech. (Mechanical Engineering),1,Engineering and Technology
+1603,1613,Integrated B.Tech. - M.Tech. (Biotechnology),1,Engineering and Technology
+1604,1614,Integrated B.Tech. (Computer Science & Engineering) - MBA,1,Engineering and Technology
+1605,1615,Integrated B.Tech. (Mechanical Engineering) - MBA,1,Engineering and Technology
+1606,1616,BCA,2,Business and Commerce
+1607,1617,Dual Degree BCA - MCA,2,Business and Commerce
+1608,1618,BCA (Hons.),2,Business and Commerce
+1609,1619,Dual Degree BCA (Hons.) - MCA (Hons.),2,Business and Commerce
+1610,1620,B.Sc. In Information Technology,1,Engineering and Technology
+1611,1621,B.Sc. In  Computer Science,1,Engineering and Technology
+1612,1622,B.Sc. (Hons.) Agriculture,6,Medical
+1613,1623,B.Sc. (Hons.) Food Technology,10,Hospitality and Tourism Management
+1614,1624,B.Sc. (Nutrition & Dietetics),10,Hospitality and Tourism Management
+1615,1625,B.Sc. (Biotechnology),6,Medical
+1616,1626,B.Sc. (Hons.) Biotechnology,6,Medical
+1617,1627,B.Sc. (Hons.) Microbiology,6,Medical
+1618,1628,B.Sc. (Forensic Sciences),6,Medical
+1619,1629,B.Sc. (Hons.) Botany,6,Medical
+1620,1630,B.Sc. (Hons.) Zoology,6,Medical
+1621,1631,B.Sc. (Medical),6,Medical
+1622,1632,B.Sc. (Hons.) Chemistry,6,Medical
+1623,1633,B.Sc. (Hons.) Physics,6,Medical
+1624,1634,B.Sc. (Hons.) Mathematics,6,Medical
+1625,1635,B.Sc. (Non - Medical),6,Medical
+1626,1636,BBA,2,Business and Commerce
+1627,1637,Integrated BBA - MBA,2,Business and Commerce
+1628,1638,Dual Degree BBA - MBA,2,Business and Commerce
+1629,1639,BBA (Hons.),2,Business and Commerce
+1630,1640,Dual Degree BBA (Hons.) - MBA,2,Business and Commerce
+1631,1641,BBA (Financial Markets),2,Business and Commerce
+1632,1642,BBA (Information Technology ),2,Business and Commerce
+1633,1643,BBA (Oil & Gas Management),2,Business and Commerce
+1634,1644,BBA (International Finance),2,Business and Commerce
+1635,1645,B.Com.,2,Business and Commerce
+1636,1646,B.Com. (Hons.),2,Business and Commerce
+1637,1647,Dual Degree B.Com (Hons.)-MBA,2,Business and Commerce
+1638,1648,B.Com. (Management Accounting and International Finance),2,Business and Commerce
+1639,1649,Integrated B.Com.- MBA,2,Business and Commerce
+1640,1650,B.Sc. (Hons.) Economics,4,Education
+1641,1651,"B.A., LL.B.(Hons.)
+{No exit/discontinue option after B.A.}",3,Law
+1642,1652,"B.Com., LL.B.(Hons.)
+{No exit/discontinue option after B.Com}",3,Law
+1643,1653,"BBA, LL.B. (Hons.)
+{No exit/discontinue option after BBA}",3,Law
+1644,1654,Diploma in Airline Cabin Crew and Hospitality,10,Hospitality and Tourism Management
+1645,1655,"B.Sc. (Airlines, Tourism & Hospitality)",10,Hospitality and Tourism Management
+1646,1656,BBA (Tourism & Hospitality),10,Hospitality and Tourism Management
+1647,1657,B.Sc. (Hotel Management),10,Hospitality and Tourism Management
+1648,1658,Bachelor of Hotel Mgt & Catering Technology (BHMCT),10,Hospitality and Tourism Management
+1649,1659,B. Arch.,7,Design Courses
+1650,1660,B. Plan.,7,Design Courses
+1651,1661,B.Sc. (Design - Interior & Furniture),7,Design Courses
+1652,1662,B.Design (Interior & Furniture),7,Design Courses
+1653,1663,B.Design (Product & Industrial),7,Design Courses
+1654,1664,B.Sc. (Design - Fashion),7,Design Courses
+1655,1665,B.Design (Fashion),7,Design Courses
+1656,1666,B.Sc. (Design - Multimedia),7,Design Courses
+1657,1667,B.Design (Multimedia),7,Design Courses
+1658,1668,B.Sc. (Design - Gaming),7,Design Courses
+1659,1669,B.Design (Gaming),7,Design Courses
+1660,1670,B.Sc. (Design - Graphics),7,Design Courses
+1661,1671,B.Design (Graphics),7,Design Courses
+1662,1672,B.A. (Journalism & Mass Communication),8,Mass Communication
+1663,1673,B.Sc. (Film & TV Production),8,Mass Communication
+1664,1674,B.Design (Film & TV Production),8,Mass Communication
+1665,1675,B.A. (Fine Arts),4,Education
+1666,1676,Bachelor of Fine Arts (BFA),4,Education
+1667,1677,B.A. (Music Vocal),8,Mass Communication
+1668,1678,B.A. (Theatre),8,Mass Communication
+1669,1679,BPA (Music Vocal),8,Mass Communication
+1670,1680,BPA (Theatre),8,Mass Communication
+1671,1681,Bachelor of Arts (B.A.),4,Education
+1672,1682,B.A. (Hons.),4,Education
+1673,1683,Integrated B.A. - B.Ed.,4,Education
+1674,1684,Integrated B.Sc. - B.Ed.,4,Education
+1675,1685,B.Sc. (Health and Physical Education),4,Education
+1676,1686,Bachelor of Physical Education & Sports (BPES),4,Education
+1677,1687,B.Pharm.,5,Pharmacy
+1678,1688,B.Pharm. (Ayurveda),5,Pharmacy
+1679,1689,Bachelor of Physiotherapy (BPT),6,Medical
+1680,1690,B.Sc. (Medical Laboratory Technology),6,Medical
+1681,1691,Diploma (Engg.) Electronics & Comm. Engg. (ECE) [LEET],1,Engineering and Technology
+1682,1692,Diploma (Engg.) Computer Sc. & Engg. (CSE) [LEET],1,Engineering and Technology
+1683,1693,Diploma (Engg.) Information Technology (IT) [LEET],1,Engineering and Technology
+1684,1694,Diploma (Engg.) Mechanical Engg. (ME) [LEET],1,Engineering and Technology
+1685,1695,Diploma (Engg.) Civil Engg. (CE) [LEET],1,Engineering and Technology
+1686,1696,Diploma (Engg.) Electrical Engg. (EE) [LEET],1,Engineering and Technology
+1687,1697,Diploma (Engg.) Automobile Engg. (AE) [LEET],1,Engineering and Technology
+1688,1698,B.Tech. (Electronics & Communication Engineering) [LEET],1,Engineering and Technology
+1689,1699,B.Tech. (Computer Science & Engineering) [LEET],1,Engineering and Technology
+1690,1700,B.Tech. (Information Technology) [LEET],1,Engineering and Technology
+1691,1701,B.Tech. (Mechanical Engineering) [LEET],1,Engineering and Technology
+1692,1702,B.Tech. (ME - Mechatronics) [LEET],1,Engineering and Technology
+1693,1703,B.Tech. (Civil Engineering) [LEET],1,Engineering and Technology
+1694,1704,B.Tech. (Electrical Engineering) [LEET],1,Engineering and Technology
+1695,1705,B.Tech. (Electrical and Electronics Engineering) [LEET],1,Engineering and Technology
+1696,1706,B.Tech. (Biotechnology) [LEET],1,Engineering and Technology
+1697,1707,B.Tech. (Food Technology) [LEET],1,Engineering and Technology
+1698,1708,B.Tech. (Automobile Engineering) [LEET],1,Engineering and Technology
+1699,1709,B.Tech. (Aerospace Engineering) [LEET],1,Engineering and Technology
+1700,1710,B.Tech. (Electronics & Computer Engineering) [LEET],1,Engineering and Technology
+1701,1711,B.Tech. (Chemical Engineering) [LEET],1,Engineering and Technology
+1702,1712,B.Tech. (CHE - Petroleum) [LEET],1,Engineering and Technology
+1703,1713,B.Tech. (Biomedical Engineering) [LEET],1,Engineering and Technology
+1704,1714,BCA [Lateral Entry],9,Computer Application
+1705,1715,B.Sc. In Information Technology [LEET],1,Engineering and Technology
+1706,1716,MCA [Lateral Entry],9,Computer Application
+1707,1717,MCA (Hons.) [Lateral Entry],9,Computer Application
+1708,1718,M.Sc. (Computer Science) [Lateral Entry],9,Computer Application
+1709,1719,BBA [Lateral Entry],2,Business and Commerce
+1710,1720,B.Com. [Lateral Entry],2,Business and Commerce
+1711,1721,B.Sc. (Hotel Management) [Lateral Entry],10,Hospitality and Tourism Management
+1712,1722,Bachelor of Hotel Mgt & Catering Technology (BHMCT) [Lateral Entry],10,Hospitality and Tourism Management
+1713,1723,M.Sc. (Hotel Management) [Lateral Entry],10,Hospitality and Tourism Management
+1714,1724,"B.Sc. (Airlines, Tourism & Hospitality) [Lateral Entry]",10,Hospitality and Tourism Management
+1715,1725,Diploma in Architectural Assistantship [Lateral Entry],7,Design Courses
+1716,1726,B.Sc. (Design - Interior & Furniture) [Lateral Entry],7,Design Courses
+1717,1727,B.Design (Interior & Furniture) [Lateral Entry],7,Design Courses
+1718,1728,B.Design (Product & Industrial) [Lateral Entry],7,Design Courses
+1719,1729,B.Sc. (Design - Fashion) [Lateral Entry],7,Design Courses
+1720,1730,B.Design (Fashion) [Lateral Entry],7,Design Courses
+1721,1731,B.Sc.(Health and Physical Education) [Lateral Entry],6,Medical
+1722,1732,B.Pharm. [Lateral Entry],5,Pharmacy
+1723,1733,B.Pharm. (Ayurveda) [Lateral Entry],5,Pharmacy
+1724,1734,Bachelor of Physiotherapy (BPT) [Lateral Entry],6,Medical
+1725,1735,B.Sc. (Medical Lab. Technology) [Lateral Entry],6,Medical
+1726,1736,Master in Business Administration (MBA),2,Business and Commerce
+1727,1737,MBA (Hons.),2,Business and Commerce
+1728,1738,MBA (International Business),2,Business and Commerce
+1729,1739,MBA (Hospital & Healthcare Management),2,Business and Commerce
+1730,1740,MBA (Information Technology),2,Business and Commerce
+1731,1741,MBA (Supply Chain & Logistics),2,Business and Commerce
+1732,1742,MBA (Financial Markets),2,Business and Commerce
+1733,1743,MBA (Banking & Insurance),2,Business and Commerce
+1734,1744,M.Com.,2,Business and Commerce
+1735,1745,M.Sc. (Economics),2,Business and Commerce
+1736,1746,LL.B.,3,Law
+1737,1747,LL.M.,3,Law
+1738,1748,MBA (Tourism and Hospitality),10,Hospitality and Tourism Management
+1739,1749,M.Sc. (Hotel Management),10,Hospitality and Tourism Management
+1740,1750,M.Arch. (Executive) [Part Time],7,Design Courses
+1741,1751,M. Plan.,7,Design Courses
+1742,1752,M.Sc. (Design - Interior & Furniture),7,Design Courses
+1743,1753,M.Design (Interior & Furniture),7,Design Courses
+1744,1754,M.Design (Interior & Furniture) [Part time],7,Design Courses
+1745,1755,M.Design (Product & Industrial),7,Design Courses
+1746,1756,M.Sc. (Design - Fashion),7,Design Courses
+1747,1757,M.Design (Fashion),7,Design Courses
+1748,1758,M.Sc. (Design - Multimedia),7,Design Courses
+1749,1759,M.Design (Multimedia),7,Design Courses
+1750,1760,M.A. (Journalism & Mass Communication),8,Mass Communication
+1751,1761,M.Sc. (Film and TV Production),8,Mass Communication
+1752,1762,Master of Fine Arts (MFA),4,Education
+1753,1763,M.A. (Music Vocal),8,Mass Communication
+1754,1764,M.A. (Theatre and Television),8,Mass Communication
+1755,1765,M.A. (Psychology),4,Education
+1756,1766,M.A. (Clinical Psychology),4,Education
+1757,1767,M.A. (Sociology),4,Education
+1758,1768,M.A. (History),4,Education
+1759,1769,M.A. (Political Science),4,Education
+1760,1770,M.A. (Public Administration),4,Education
+1761,1771,M.Sc. (Geography),4,Education
+1762,1772,M.A. (English),4,Education
+1763,1773,Bachelor of Library & Information Sciences (B. Lib. I.Sc.),4,Education
+1764,1774,M.A. (Punjabi),4,Education
+1765,1775,B.Ed.,4,Education
+1766,1776,M.Ed.,4,Education
+1767,1777,M.A. (Education),4,Education
+1768,1778,M.A. (Education - Leadership & Management),4,Education
+1769,1779,B.P.Ed.,4,Education
+1770,1780,M.P.Ed.,4,Education
+1771,1781,M.Tech. (Electronics and Communication Engineering) [Full Time],1,Engineering and Technology
+1772,1782,M.Tech. (Computer Science and Engineering) [Full Time],1,Engineering and Technology
+1773,1783,M.Tech. (Thermal Engineering) [Full Time],1,Engineering and Technology
+1774,1784,M.Tech. (Manufacturing Engineering) [Full Time],1,Engineering and Technology
+1775,1785,M.Tech. (Automobile Engineering) [Full Time],1,Engineering and Technology
+1776,1786,M.Tech. (Geotechnical Engineering) [Full Time],1,Engineering and Technology
+1777,1787,M.Tech. (Structural Engineering) [Full Time],1,Engineering and Technology
+1778,1788,M.Tech. (Transportation Engineering) [Full Time],1,Engineering and Technology
+1779,1789,M.Tech. (Construction Management) [Full Time],1,Engineering and Technology
+1780,1790,M. Tech. (Electrical Engineering) [Full Time],1,Engineering and Technology
+1781,1791,M.Tech. (Power Systems) [Full Time],1,Engineering and Technology
+1782,1792,M.Tech. (Food Technology) [Full Time],1,Engineering and Technology
+1783,1793,MCA,9,Computer Application
+1784,1794,MCA (Hons.),9,Computer Application
+1785,1795,M.Sc. (Computer Science),9,Computer Application
+1786,1796,M.Sc. (Information Technology),9,Computer Application
+1787,1797,PGDCA,9,Computer Application
+1788,1798,M.Sc. Ag. (Agronomy),6,Medical
+1789,1799,M.Sc. Ag. (Soil Science and Agriculture Chemistry),6,Medical
+1790,1800,M.Sc. Ag. (Genetics & Plant Breeding),6,Medical
+1791,1801,M.Sc. Ag. (Entomology),6,Medical
+1792,1802,M.Sc. Ag. (Plant Pathology),6,Medical
+1793,1803,M.Sc. Ag. Horticulture (Vegetable Science),6,Medical
+1794,1804,M.Sc. Ag. Horticulture (Fruit Science),6,Medical
+1795,1805,M.Sc. (Food Science & Technology),10,Hospitality and Tourism Management
+1796,1806,M.Sc. (Nutrition & Dietetics),10,Hospitality and Tourism Management
+1797,1807,M.Sc. (Biotechnology),6,Medical
+1798,1808,M.Sc. (Hons.) (Biotechnology),6,Medical
+1799,1809,M.Sc. (Microbiology),6,Medical
+1800,1810,M.Sc. (Forensic Sciences),6,Medical
+1801,1811,M.Sc. (Botany),6,Medical
+1802,1812,M.Sc. (Zoology),6,Medical
+1803,1813,M.Sc. (Hons.) Zoology,6,Medical
+1804,1814,M.Sc. (Chemistry),6,Medical
+1805,1815,M.Sc. (Hons.) Chemistry,6,Medical
+1806,1816,M.Sc. (Physics),6,Medical
+1807,1817,M.Sc. (Hons.) Physics,6,Medical
+1808,1818,M.Sc. (Mathematics),6,Medical
+1809,1819,M.Sc. (Hons.) Mathematics,6,Medical
+1810,1820,M.Pharm. (Pharmaceutics),5,Pharmacy
+1811,1821,M.Pharm. (Pharmacology),5,Pharmacy
+1812,1822,M.Pharm. (Pharmaceutical Quality Assurance),5,Pharmacy
+1813,1823,MPT (Orthopedics),6,Medical
+1814,1824,MPT (Neurology),6,Medical
+1815,1825,M.Sc. (Clinical Microbiology),6,Medical
+1816,1826,M.Sc. (Clinical Biochemistry),6,Medical
+1817,1827,Integrated B.Ed.-M.Ed.,4,Education
+1818,1828,Master of Library & Information Sciences (M. Lib. I. Sc.),4,Education
+1819,1829,Post Graduate Diploma in Guidance and Counselling,4,Education
+1820,1830,Ph.D. (Computer Science & Engineering) [Full Time],1,Engineering and Technology
+1821,1831,Ph.D. (Computer Science & Engineering) [Part Time],1,Engineering and Technology
+1822,1832,Ph.D. (Electronics & Communication Engineering) [FullTime],1,Engineering and Technology
+1823,1833,Ph.D. (Electronics & Communication Engineering) [Part Time],1,Engineering and Technology
+1824,1834,Ph.D. (Electrical Engineering) [FullTime],1,Engineering and Technology
+1825,1835,Ph.D. (Electrical Engineering) [Part Time],1,Engineering and Technology
+1826,1836,Ph.D. (Mechanical Engineering) [FullTime],1,Engineering and Technology
+1827,1837,Ph.D. (Mechanical Engineering) [Part Time],1,Engineering and Technology
+1828,1838,Ph.D. (Civil Engineering) [FullTime],1,Engineering and Technology
+1829,1839,Ph.D. (Civil Engineering) [Part Time],1,Engineering and Technology
+1830,1840,Ph.D. (Chemical Engineering) [FullTime],1,Engineering and Technology
+1831,1841,Ph.D. (Chemical Engineering) [Part Time],1,Engineering and Technology
+1832,1842,Ph.D. (Molecular Biology and Genetic Engineering) [Full Time],6,Medical
+1833,1843,Ph.D. (Molecular Biology and Genetic Engineering) [Part Time],6,Medical
+1834,1844,Ph.D. (Computer Applications) [Full Time],9,Computer Application
+1835,1845,Ph.D. (Computer Applications) [Part Time],9,Computer Application
+1836,1846,Ph.D. (Vegetable Science) [FullTime],6,Medical
+1837,1847,Ph.D. (Vegetable Science) [Part Time],6,Medical
+1838,1848,Ph.D. (Plant Breeding & Genetics) [FullTime],6,Medical
+1839,1849,Ph.D.(Plant Breeding & Genetics) [Part Time],6,Medical
+1840,1850,Ph.D. (Soil Science) [FullTime],6,Medical
+1841,1851,Ph.D. (Soil Science) [Part Time],6,Medical
+1842,1852,Ph.D (Agronomy) [Full Time],6,Medical
+1843,1853,Ph.D (Agronomy) [Part Time],6,Medical
+1844,1854,Ph.D. (Entomology) [Full Time],6,Medical
+1845,1855,Ph.D. (Entomology) [Part Time],6,Medical
+1846,1856,Ph.D. (Plant Pathology) [Full Time],6,Medical
+1847,1857,Ph.D. (Plant Pathology) [Part Time],6,Medical
+1848,1858,Ph.D. (Fruit Science) [Full Time],6,Medical
+1849,1859,Ph.D. (Fruit Science) [Part Time],6,Medical
+1850,1860,Ph.D. (Food Technology) [Full Time],6,Medical
+1851,1861,Ph.D. (Food Technology) [Part Time],6,Medical
+1852,1862,Ph.D. (Biotechnology) [FullTime],6,Medical
+1853,1863,Ph.D. (Biotechnology) [Part Time],6,Medical
+1854,1864,Ph.D. (Microbiology) [FullTime],6,Medical
+1855,1865,Ph.D. (Microbiology) [Part Time],6,Medical
+1856,1866,Ph.D. (Biochemistry) [FullTime],6,Medical
+1857,1867,Ph.D. (Biochemistry) [Part Time],6,Medical
+1858,1868,Ph.D. (Environmental Sciences) [FullTime],6,Medical
+1859,1869,Ph.D. (Environmental Sciences) [Part Time],6,Medical
+1860,1870,Ph.D. (Botany) [FullTime],6,Medical
+1861,1871,Ph.D. (Botany) [Part Time],6,Medical
+1862,1872,Ph.D. (Zoology) [FullTime],6,Medical
+1863,1873,Ph.D. (Zoology) [Part Time],6,Medical
+1864,1874,Ph.D. (Chemistry) [FullTime],6,Medical
+1865,1875,Ph.D. (Chemistry) [Part Time],6,Medical
+1866,1876,Ph.D. (Physics) [FullTime],6,Medical
+1867,1877,Ph.D. (Physics) [Part Time],6,Medical
+1868,1878,Ph.D. (Mathematics) [FullTime],6,Medical
+1869,1879,Ph.D. (Mathematics) [Part Time],6,Medical
+1870,1880,Ph.D. (Management) [FullTime],2,Business and Commerce
+1871,1881,Ph.D. (Management) [Part Time],2,Business and Commerce
+1872,1882,Ph.D. (Commerce) [FullTime],2,Business and Commerce
+1873,1883,Ph.D. (Commerce) [Part Time],2,Business and Commerce
+1874,1884,Ph.D. (Economics) [FullTime],2,Business and Commerce
+1875,1885,Ph.D. (Economics) [Part Time],2,Business and Commerce
+1876,1886,Ph.D. (Law) [FullTime],3,Law
+1877,1887,Ph.D. (Law) [Part Time],3,Law
+1878,1888,Ph.D. (Fine Arts) [FullTime],4,Education
+1879,1889,Ph.D. (Fine Arts) [Part Time],4,Education
+1880,1890,Ph.D. (Hotel Management) [FullTime],10,Hospitality and Tourism Management
+1881,1891,Ph.D. (Hotel Management) [Part Time],10,Hospitality and Tourism Management
+1882,1892,Ph.D. (Tourism Management) [Full Time],10,Hospitality and Tourism Management
+1883,1893,Ph.D. (Tourism Management) [Part Time],10,Hospitality and Tourism Management
+1884,1894,Ph.D. (Journalism and Mass Communication) [FullTime],8,Mass Communication
+1885,1895,Ph.D. (Journalism and Mass Communication) [Part Time],8,Mass Communication
+1886,1896,Ph.D. (Performing Arts) [FullTime],4,Education
+1887,1897,Ph.D. (Performing Arts) [Part Time],4,Education
+1888,1898,Ph.D. (Psychology) [FullTime],6,Medical
+1889,1899,Ph.D. (Psychology) [Part Time],6,Medical
+1890,1900,Ph.D. (History) [FullTime],4,Education
+1891,1901,Ph.D. (History) [Part Time],4,Education
+1892,1902,Ph.D. (Sociology) [FullTime],4,Education
+1893,1903,Ph.D. (Sociology) [Part Time],4,Education
+1894,1904,Ph.D. (Political Science) [FullTime],4,Education
+1895,1905,Ph.D. (Political Science) [Part Time],4,Education
+1896,1906,Ph.D. (Geography) [FullTime],4,Education
+1897,1907,Ph.D. (Geography) [Part Time],4,Education
+1898,1908,Ph.D. (English) [FullTime],4,Education
+1899,1909,Ph.D. (English) [Part Time],4,Education
+1900,1910,Ph.D. (Punjabi) [FullTime],4,Education
+1901,1911,Ph.D. (Punjabi) [PartTime],4,Education
+1902,1912,Ph.D. (Hindi) [FullTime],4,Education
+1903,1913,Ph.D. (Hindi) [Part Time],4,Education
+1904,1914,Ph.D. (Library Science) [FullTime],4,Education
+1905,1915,Ph.D. (Library Science) [Part Time],4,Education
+1906,1916,Ph.D. (Pharmaceutics) [FullTime],5,Pharmacy
+1907,1917,Ph.D. (Pharmaceutics) [Part Time],5,Pharmacy
+1908,1918,Ph.D. (Pharmaceutical Chemistry) [FullTime],5,Pharmacy
+1909,1919,Ph.D. (Pharmaceutical Chemistry) [Part Time],5,Pharmacy
+1910,1920,Ph.D. (Pharmacognosy) [FullTime],5,Pharmacy
+1911,1921,Ph.D. (Pharmacognosy) [Part Time],5,Pharmacy
+1912,1922,Ph.D. (Pharmacology) [FullTime],5,Pharmacy
+1913,1923,Ph.D. (Pharmacology) [Part Time],5,Pharmacy
+1914,1924,Ph.D. (Ayurvedic Pharmacy) [FullTime],6,Medical
+1915,1925,Ph.D. (Ayurvedic Pharmacy) [Part Time],6,Medical
+1916,1926,Ph.D. (Clinical Microbiology) [FullTime],6,Medical
+1917,1927,Ph.D. (Clinical Microbiology) [Part Time],6,Medical
+1918,1928,Ph.D. (Clinical Biochemistry) [FullTime],6,Medical
+1919,1929,Ph.D. (Clinical Biochemistry) [Part Time],6,Medical
+1920,1930,Ph.D. (Education) [FullTime],4,Education
+1921,1931,Ph.D. (Education) [Part Time],4,Education
+1922,1932,Ph.D. (Physical Education) [FullTime],4,Education
+1923,1933,Ph.D. (Physical Educaiton) [Part Time],4,Education
+1924,1934,Diploma in Mechanical Engineering,1,Engineering and Technology
+1925,1935,Diploma in Electrical Engineering,1,Engineering and Technology
+1926,1936,Diploma in Computer Science & Engineering,1,Engineering and Technology
+1927,1937,Diploma in Civil Engineering,1,Engineering and Technology
+1928,1938,Diploma in Automobile Engineering,1,Engineering and Technology
+1929,1939,Diploma in Electronis and Communication Engineering,1,Engineering and Technology
+1930,1940,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+1931,1941,B.Tech in Electrical Engineering,1,Engineering and Technology
+1932,1942,B.Tech in Computer Science & Engineering,1,Engineering and Technology
+1933,1943,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+1934,1944,B.Tech in Automobile Engineering,1,Engineering and Technology
+1935,1945,B.Tech in Production Industrial Engineering,1,Engineering and Technology
+1936,1946,B.Tech CSE Android Development (Google),1,Engineering and Technology
+1937,1947,B.Tech CSEIOT & JAVA (Oracle),1,Engineering and Technology
+1938,1948,B.Tech CSE Database & Analytics (Oracle),1,Engineering and Technology
+1939,1949,B.Tech CSE Cloud Computing (IBM),1,Engineering and Technology
+1940,1950,B.Tech CSE Business Analytics/IT Infratructure Mgt(IBM),1,Engineering and Technology
+1941,1951,B.Tech CSEIOS Development (Apple),1,Engineering and Technology
+1942,1952,B. Planning (Urban Planning),1,Engineering and Technology
+1943,1953,M.Tech Computer Science Engineering,1,Engineering and Technology
+1944,1954,M.Tech in Mechanical Engineering,1,Engineering and Technology
+1945,1955,M.Tech in Civil Engineering,1,Engineering and Technology
+1946,1956,M.Tech in Electronis and Communication Engineering,1,Engineering and Technology
+1947,1957,M.Tech in ECE VLSI Design,1,Engineering and Technology
+1948,1958,M.Tech in (ECE) Embedded Systems,1,Engineering and Technology
+1949,1959,M.Tech in Renewable Energy,1,Engineering and Technology
+1950,1960,M.Tech in Industrial Engineering,1,Engineering and Technology
+1951,1961,PGDiploma in Railway Signaling & Tele Communications,1,Engineering and Technology
+1952,1962,B.tech +M.Tech CSE,1,Engineering and Technology
+1953,1963,B.tech +M.Tech CE (Infrastructural Engg.),1,Engineering and Technology
+1954,1964,B.tech +M.Tech CE (Enviromental Engg.),1,Engineering and Technology
+1955,1965,B.tech +M.Tech CE (Construction Technology & Mgt.),1,Engineering and Technology
+1956,1966,B.tech (Civil Engineering) + MBA,1,Engineering and Technology
+1957,1967,M.Sc Chemistry,6,Medical
+1958,1968,M.Sc Physics,6,Medical
+1959,1969,M.Sc Applied Chemistry,6,Medical
+1960,1970,M.Sc Mathematics,6,Medical
+1961,1971,M.Sc Mathematics with Computing,6,Medical
+1962,1972,B.Sc Life Sciences,6,Medical
+1963,1973,B.Sc Physical Sciences,6,Medical
+1964,1974,B.Sc  Mathematics (hons),6,Medical
+1965,1975,B.Sc  Chemistry (hons),6,Medical
+1966,1976,B.Sc Physics (hons),6,Medical
+1967,1977,B.Sc Agriculture,6,Medical
+1968,1978,Diploma in B.Sc Agriculture,6,Medical
+1969,1979,Diploma in B.Sc Agriculture (After 10+2),6,Medical
+1970,1980,Diploma in Culinary Arts,10,Hospitality and Tourism Management
+1971,1981,Diploma in House keeping and Laundry operations,10,Hospitality and Tourism Management
+1972,1982,Diploma in IF & B Operations,10,Hospitality and Tourism Management
+1973,1983,PG Diploma in Intellectual Property Rights(IPR),3,Law
+1974,1984,PG Diploma in Alternate Dispute Resolution (ADR),3,Law
+1975,1985,L.L.B,3,Law
+1976,1986,L.L.M,3,Law
+1977,1987,B.A.L.L.B,3,Law
+1978,1988,B.COM.L.L.B,3,Law
+1979,1989,MBA Hospitality  Management,10,Hospitality and Tourism Management
+1980,1990,MBA in Hotel Management,10,Hospitality and Tourism Management
+1981,1991,Bachelor in Hotel Management & Catering Technology,10,Hospitality and Tourism Management
+1982,1992,Bachelor in Hotel Management ,10,Hospitality and Tourism Management
+1983,1993,M.ED,4,Education
+1984,1994,M.A Education,4,Education
+1985,1995,B.ED,4,Education
+1986,1996,B.A + B.ED,4,Education
+1987,1997,B.Sc + B.Ed,4,Education
+1988,1998,PG Diploma in Guidance & Couseling,4,Education
+1989,1999,M.A in Economics,4,Education
+1990,2000,M.A in English,4,Education
+1991,2001,M.A in History,4,Education
+1992,2002,M.A in Political Science,4,Education
+1993,2003,M.A in Physcology,4,Education
+1994,2004,M.A in Punjabi,4,Education
+1995,2005,M.A in Socialogy,4,Education
+1996,2006,B.A Dual Specialization (Punabi/Hindi/Socilogy/Psychology/Political Science/History/Economics/Education/Publicadministration/Computer Application,4,Education
+1997,2007,B.Voc Appliet arts (Fashion Technology & Interior Design),7,Design Courses
+1998,2008,B.Voc Entertainment (Theatre Studies),8,Mass Communication
+1999,2009,BA in film making & television,8,Mass Communication
+2000,2010,BA in Journalism & Mass Communication,8,Mass Communication
+2001,2011,Diploma in Cinematography,8,Mass Communication
+2002,2012,Diploma in Video Editing & VFX,8,Mass Communication
+2003,2013,Diploma in Sound Designing,8,Mass Communication
+2004,2014,Diploma in Acting & dance,8,Mass Communication
+2005,2015,Diploma in Direction,8,Mass Communication
+2006,2016,"M.A (Journalism,Mass Commounication)",8,Mass Communication
+2007,2017,PG Diploma in Event management & Public Relations,8,Mass Communication
+2008,2018,Bachelor of Physiotherapy (BPT),6,Medical
+2009,2019,B.Sc in Medical Laboratory Technology,6,Medical
+2010,2020,B.Sc in Medical Microbilogy,6,Medical
+2011,2021,B.Sc in Bio Chemistry,6,Medical
+2012,2022,B.Sc in  Medical Biochemistry,6,Medical
+2013,2023,Diploma in operation theatre & Anasthesia Technology in association with fortis Hospitals,6,Medical
+2014,2024,Diploma in Renal Dialysis technology in association with fortis hospitals,6,Medical
+2015,2025,Diploma MBA health care management in association with fortis hospitals,6,Medical
+2016,2026,Diploma in Medical manual therapy,6,Medical
+2017,2027,M.Pharm Pharmaceutics,5,Pharmacy
+2018,2028,M.Pharm Pharmacology,5,Pharmacy
+2019,2029,M.Sc Clinical research certified by oracle University,6,Medical
+2020,2030,B.Pharm,5,Pharmacy
+2021,2031,B.Pharm (LEET),5,Pharmacy
+2022,2032,D.Pharm,5,Pharmacy
+2023,2033,Executive MBA (Pharmaceuatical Management),6,Medical
+2024,2034,PG Diploma in Pharamaceutical Management (Professional),6,Medical
+2025,2035,MBA Dual Specialization(Finance/Marketing/HR/Operations & SCM/ Enterpreneurship & Family Business /IT),6,Medical
+2026,2036,MBA Retails Management,2,Business and Commerce
+2027,2037,MBA Rural Management,2,Business and Commerce
+2028,2038,MBA in Banking & Financial Analytics,2,Business and Commerce
+2029,2039,MBA in Digital Marketing Google,9,Computer Application
+2030,2040,MBA in Business Analytics IBM,2,Business and Commerce
+2031,2041,MBA in ERP Oracle,9,Computer Application
+2032,2042,MBA in Forex Trading,2,Business and Commerce
+2033,2043,MBA Health Care Management*(Offered By USMAS in association with Fortis Hospitals),6,Medical
+2034,2044,MBA Hospitality  Management (Offered by USHMCT in association with Leading Hotel Industry),6,Medical
+2035,2045,MBA Pharmaceutical Management (Digital Marketing) (Offered by USPS in association with Google),6,Medical
+2036,2046,PG Diploma in Pharmaceutical Management,6,Medical
+2037,2047,BBA/BBA (Hons),2,Business and Commerce
+2038,2048,M.COM Dual Specialization (Banking & Finance /Accounting & Taxation/ Business Management),2,Business and Commerce
+2039,2049,B.Com/B.Com (Hons) Dual Specializaiton (Accounting & Finance/Economics/Banking & Insurance /Marketing/Equity & Commodity Markets/IT/Office Management),2,Business and Commerce
+2040,2050,MCA Dual Specialization (Software Engineering/Networking/Artificial Intelligence/Application Development /Database Management Systems),9,Computer Application
+2041,2051,BCA Dual Specialization (Algorithm Design & Language/Hardware & Networking/Operating Systems/Application Development /Database Management Systems.,9,Computer Application
+2042,2052,Master in Business Administration (MBA),2,Business and Commerce
+2043,2053,Integrated MBA (4 Year),2,Business and Commerce
+2044,2054,B.Com.,2,Business and Commerce
+2045,2055,Dual Degree MBA,2,Business and Commerce
+2046,2056,MCA,9,Computer Application
+2047,2057,M.Sc.(IT),9,Computer Application
+2048,2058,Integrated MCA,9,Computer Application
+2049,2059,Integrated M.Sc.(CA-IT),9,Computer Application
+2050,2060,B.Arch.,7,Design Courses
+2051,2061,B.Design,7,Design Courses
+2052,2062,B.Tech in Automobile Engineering,1,Engineering and Technology
+2053,2063,B.Tech in Civil Engineering (CE),1,Engineering and Technology
+2054,2064,B.Tech in Electronics & Communication Engineering,1,Engineering and Technology
+2055,2065,B.Tech in Mechanical Engineering(ME),1,Engineering and Technology
+2056,2066,B.Tech in Electrical Engineering,1,Engineering and Technology
+2057,2067,B.Tech in Metallurgy,1,Engineering and Technology
+2058,2068,B.Tech in Computer,1,Engineering and Technology
+2059,2069,B.Tech in Information and technology,1,Engineering and Technology
+2060,2070,B.Tech in Computer Science Engineering(CSE),1,Engineering and Technology
+2061,2071,M.Tech.in CAD_CAM,1,Engineering and Technology
+2062,2072,M.Techin DC,1,Engineering and Technology
+2063,2073,M.Tech.in CPM,1,Engineering and Technology
+2064,2074,M.Tech.inSE,1,Engineering and Technology
+2065,2075,M.Tech.in EPS,1,Engineering and Technology
+2066,2076,M.Tech in IM,1,Engineering and Technology
+2067,2077,B.A B.Ed,4,Education
+2068,2078,B.Ed,4,Education
+2069,2079,M.Phill,4,Education
+2070,2080,Ph.D,4,Education
+2071,2081,B.A,4,Education
+2072,2082,B.Com,2,Business and Commerce
+2073,2083,BBA,2,Business and Commerce
+2074,2084,BCA,9,Computer Application
+2075,2085,"B.Sc- Chemistry,Physics,Maths",6,Medical
+2076,2086,B.Sc MLT,6,Medical
+2077,2087,B.Sc- IT/CS,6,Medical
+2078,2088,B.A (JMC),8,Mass Communication
+2079,2089,BSW,4,Education
+2080,2090,BLIS,4,Education
+2081,2091,LLB,3,Law
+2082,2092,"M.A( Specializations: Hindi,English,Gujarati,Geography,Economics,Political Science, History,Sociology,Physcology,Philosophy,Music)",4,Education
+2083,2093,M.COM,2,Business and Commerce
+2084,2094,MA Edu,4,Education
+2085,2095,M.Sc- IT/CS,6,Medical
+2086,2096,M.Sc -PCM,6,Medical
+2087,2097,MCA,6,Medical
+2088,2098,MSW,4,Education
+2089,2099,MLIS,4,Education
+2090,2100,"MBA (Specialization in Marketing ,Finance ,HR,IT, Media Management)",2,Business and Commerce
+2091,2101,Post Graduate Diploma in Guidance and Counselling,4,Education
+2092,2102,Post Graduate Diploma in Cyber Security,4,Education
+2093,2103,PGDCA,4,Education
+2094,2104,Diploma in Pharmacy,6,Medical
+2095,2105,Diploma in Ethical Hecking and Information Security,9,Computer Application
+2096,2106,Diploma in Catering Science & Hotel Management,10,Hospitality and Tourism Management
+2097,2107,Diploma in Journalism& Mass Communication,8,Mass Communication
+2098,2108,Diploma in Computer Application,9,Computer Application
+2099,2109,Diploma in Health & Sanitary Inspector,6,Medical
+2100,2110,DMLT,6,Medical
+2101,2111,Diploma in X-ray- Technician,6,Medical
+2102,2112,Diploma Operation Theater -Technician,6,Medical
+2103,2113,PG Certificate in Digital Marketing and Analytics,9,Computer Application
+2104,2114,Certified Cyber Security Professional,9,Computer Application
+2105,2115,Certificate in Early Childhood Care & Education,4,Education
+2106,2116,Bachelor of Technology -Computer Science Engineering,1,Engineering and Technology
+2107,2117,Bachelor of Technology -Civil Engineering,1,Engineering and Technology
+2108,2118,Bachelor of Technology -Mechanical Engineering,1,Engineering and Technology
+2109,2119,Bachelor of Technology -Electrical Engineering,1,Engineering and Technology
+2110,2120,Bachelor of Technology -Electronics and Communication,1,Engineering and Technology
+2111,2121,B.Tech (Brand Management & Communication),1,Engineering and Technology
+2112,2122,Master of Technology -Computer Science Engineering,1,Engineering and Technology
+2113,2123,Master of Technology -Civil Engineering,1,Engineering and Technology
+2114,2124,Master of Technology -Mechanical Engineering,1,Engineering and Technology
+2115,2125,Master of Technology -Electrical Engineering,1,Engineering and Technology
+2116,2126,Master of Technology -(Renewable Energy),1,Engineering and Technology
+2117,2127,Doctor of Philosophy -Mechanical Engineering,1,Engineering and Technology
+2118,2128,Bachelor of Business Administration (BBA),2,Business and Commerce
+2119,2129,BBA (Brand Management & Communication),2,Business and Commerce
+2120,2130,Bachelor of Commerce (Hons.),2,Business and Commerce
+2121,2131,Master of Business Administration (MBA) HR/IT/IB/Finance/Marketing),2,Business and Commerce
+2122,2132,MBA ( Digital Marketing & E Commerce),2,Business and Commerce
+2123,2133,MBA ( Banking and financial Services),2,Business and Commerce
+2124,2134,Doctor of Philosophy-Management,2,Business and Commerce
+2125,2135,Bachelor of Law,3,Law
+2126,2136,Bachelor of Arts-Bachelor of Law (Integrated) BALLB,3,Law
+2127,2137,Master of Law,3,Law
+2128,2138,Doctor of Philosophy-Law,3,Law
+2129,2139,B.A. English (Hons.),4,Education
+2130,2140,Certificate Course in English Communication,4,Education
+2131,2141,Bachelor of Pharmacy-B.Pharma*,5,Pharmacy
+2132,2142,Diploma in Pharmacy- D.Pharma*,5,Pharmacy
+2133,2143,Radiology Technicians*,6,Medical
+2134,2144,Dialysis Technicians*,6,Medical
+2135,2145,Pathology Lab Technicians and Phlebotomist/Medical Laboratory Technicians*,6,Medical
+2136,2146,Bio Medical Technicians*,6,Medical
+2137,2147,Optician Technicians*,6,Medical
+2138,2148,OT Technicians*,6,Medical
+2139,2149,(BCLS) Basic Cardiac Life Support Technician + (ACLS) Advanced Cardiac Life Support Technician (Integrated)* Note: With option to move after 2 years BCLS,6,Medical
+2140,2150,"Bachelor of Science- Physics,Chemistry & Mathematics",6,Medical
+2141,2151,Master of Science in Physics (M.Sc - Physics),6,Medical
+2142,2152,Master of Science in Chemistry (M.Sc -Chemistry),6,Medical
+2143,2153,Master of Science in Maths (M.Sc - Mathematics),6,Medical
+2144,2154,Doctor of Philosophy-Chemistry,6,Medical
+2145,2155,Doctor of Philosophy-Physics,6,Medical
+2146,2156,Bachelor of Science -Fashion Design,7,Design Courses
+2147,2157,Bachelor of Architecture,7,Design Courses
+2148,2158,Bachelor of Arts-Journalism & Mass Communication (BAJMC),8,Mass Communication
+2149,2159,Master of Arts-Journalism & Mass Communication (MAJMC),8,Mass Communication
+2150,2160,Doctor of Philosophy-Journalism,8,Mass Communication
+2151,2161,Bachelor of Computer Applications BCA,9,Computer Application
+2152,2162,BCA (Cloubd Technology & Information Security),9,Computer Application
+2153,2163,Masters of Computer Applications (MCA) ,9,Computer Application
+2154,2164,Bachelor of Hotel Management (BHM),10,Hospitality and Tourism Management
+2155,2165,Bachelor of Tourism and Travel Management* (BTTM),10,Hospitality and Tourism Management
+2156,2166,B.Tech in Mechanical Engineering,1,Engineering and Technology
+2157,2167,B.Tech in Computer Science and Engineering,1,Engineering and Technology
+2158,2168,B.Tech in Civil Engineering,1,Engineering and Technology
+2159,2169,B.Tech in Biotechnology,1,Engineering and Technology
+2160,2170,Polytechnic,1,Engineering and Technology
+2161,2171,BCA,9,Computer Application
+2162,2172,BA Journalism,8,Mass Communication
+2163,2173,MA Journalism,8,Mass Communication
+2164,2174,PGDJMC,8,Mass Communication
+2165,2175,BBA,2,Business and Commerce
+2166,2176,MBA,2,Business and Commerce
+2167,2177,B.Sc. Agriculture,6,Medical
+2168,2178,LLB,3,Law
+2169,2179,BA-LLB,3,Law
+2170,2180,BBA-LLB,3,Law
+2171,2181,B.Sc. (Hons.) Biotechnology,6,Medical
+2172,2182,M.Sc. Biotechnology,6,Medical
+2173,2183,B.tech in Automation & Robotics,1,Engineering and Technology
+2174,2184,B.tech in Civil Engineering,1,Engineering and Technology
+2175,2185,B.tech in Mechanical Engineering,1,Engineering and Technology
+2176,2186,B.tech in Automobile Engineering,1,Engineering and Technology
+2177,2187,B.tech in Information Technology,1,Engineering and Technology
+2178,2188,B.tech in Computer Science & Engineering,1,Engineering and Technology
+2179,2189,B.tech in Electronics & Electrical Engineering,1,Engineering and Technology
+2180,2190,B.tech in Electronics & Communication Engineering,1,Engineering and Technology
+2181,2191,MBA in Human Resource (HR),2,Business and Commerce
+2182,2192,MBA in Marketing,2,Business and Commerce
+2183,2193,MBA in Finance,2,Business and Commerce
+2184,2194,MBA in Information Technology (IT),2,Business and Commerce
+2185,2195,B.Tech in Computer Science Engineering (Lateral Entry),1,Engineering and Technology
+2186,2196,B.Tech in Civil Engineering (Lateral Entry),1,Engineering and Technology
+2187,2197,B.Tech in Information Technology (Lateral Entry),1,Engineering and Technology
+2188,2198,B.Tech in Mechanical Engineering (Lateral Entry),1,Engineering and Technology
+2189,2199,B.Tech in Automation & Robotics (Lateral Entry),1,Engineering and Technology
+2190,2200,B.Tech in Automobile Engineering (Lateral Entry),1,Engineering and Technology
+2191,2201,B.Tech in Electronics and Communication Engineering (Lateral Entry),1,Engineering and Technology
+2192,2202,B.Tech in Electronics and Electrical Engineering (Lateral Entry),1,Engineering and Technology
+2193,2203,B.Sc. Agriculture,6,Medical
+2194,2204,Bachelor in Hotel Management in Catering Technology,10,Hospitality and Tourism Management
+2195,2205,B.Sc in Medical Lab Science,6,Medical
+2196,2206,M.com,2,Business and Commerce
+2197,2207,M.Sc (IT),1,Engineering and Technology
+2198,2208,Bachelor of Business Administration (BBA),2,Business and Commerce
+2199,2209,Bachelor of Computer Application (BCA),9,Computer Application
+2200,2210,B.Com (Hons),2,Business and Commerce
+2201,2211,B.Sc in Fashion Designing,7,Design Courses
+2202,2212,B.Sc (Computer Science),9,Computer Application
+2203,2213,BCA (Leet),9,Computer Application
+2204,2214,Bachelor's of Travel and Tourism Management,10,Hospitality and Tourism Management
+2205,2215,B.A (Journalism and Mass Communication),8,Mass Communication
+2206,2216,Diploma in Computer Science Engineering (CSE),1,Engineering and Technology
+2207,2217,Diploma in Electronics & Communication Engineering (ECE),1,Engineering and Technology
+2208,2218,ATHM (Airline Tourism & Hospitality Management),10,Hospitality and Tourism Management
+2209,2219,MBA in Human Resource (HR),2,Business and Commerce
+2210,2220,MBA in Finance,2,Business and Commerce
+2211,2221,MBA in Information Technology,2,Business and Commerce
+2212,2222,MBA in Marketing,2,Business and Commerce
+2213,2223,MBA in International Business (IB),2,Business and Commerce
+2214,2224,MBA in Operations,2,Business and Commerce
+2215,2225,B.Tech in Computer Science Engineering ,1,Engineering and Technology
+2216,2226,B.Tech in Cloud technology & mobile application,1,Engineering and Technology
+2217,2227,B.Tech in Mechanical Engineering,1,Engineering and Technology
+2218,2228,B.Tech in Civil Engineering,1,Engineering and Technology
+2219,2229,B.Tech in Electrical Science,1,Engineering and Technology
+2220,2230,B.Tech in Electronic & Communication ,1,Engineering and Technology
+2221,2231,B.ARCH,7,Design Courses
+2222,2232,BCA(Bachelor of computer application ) ,9,Computer Application
+2223,2233,BCA in Data Science ,9,Computer Application
+2224,2234,"BCA in Mobile application ,Information security ,ITIMS, and automation.",9,Computer Application
+2225,2235,MCA(Master of computer application),9,Computer Application
+2226,2236,B.COM ,2,Business and Commerce
+2227,2237,B.COM(HONS),2,Business and Commerce
+2228,2238,BBA General ,2,Business and Commerce
+2229,2239,BBA (Finance) ,2,Business and Commerce
+2230,2240,BBA (Retail Management) ,2,Business and Commerce
+2231,2241,MBA,2,Business and Commerce
+2232,2242,MBA in Hospitality Management ,10,Hospitality and Tourism Management
+2233,2243,MBA in Insurance,2,Business and Commerce
+2234,2244,MBA in Data Analytics /Actuarial Science ,2,Business and Commerce
+2235,2245,B.SC ,6,Medical
+2236,2246,B.SC in Hospitality & Hotel administration ,10,Hospitality and Tourism Management
+2237,2247,B.SC in Animation & VFX ,7,Design Courses
+2238,2248,B.DES in Interior Design,7,Design Courses
+2239,2249,B.DES in Fashion & Textile Design,7,Design Courses
+2240,2250,B.VOC in Interior Design ,7,Design Courses
+2241,2251,B.VOC in Apparel Design,7,Design Courses
+2242,2252,BVA( Bachelor in Visual Art ,7,Design Courses
+2243,2253,M.TECH ,1,Engineering and Technology
+2244,2254,Masters in Design ,1,Engineering and Technology
+2245,2255,Masters in Planning ,1,Engineering and Technology
+2246,2256,M.Tech in Computer Engineering,1,Engineering and Technology
+2247,2257,M.Tech in Power System,1,Engineering and Technology
+2248,2258,M.Tech in Product Design& Manufacturing,1,Engineering and Technology
+2249,2259,B.tech in Electrical Engineering,1,Engineering and Technology
+2250,2260,Ph.D in Engineering,1,Engineering and Technology
+2251,2261,Ph.D in Engineering Dual Degree,1,Engineering and Technology
+2252,2262,B.Tech (LEET),1,Engineering and Technology
+2253,2263,MBA in Banking,2,Business and Commerce
+2254,2264,MBA in Finance,2,Business and Commerce
+2255,2265,MBA in Human Resource,2,Business and Commerce
+2256,2266,MBA in Marketing,2,Business and Commerce
+2257,2267,MBA in Hosiptality Management,10,Hospitality and Tourism Management
+2258,2268,Ph.D in Management,2,Business and Commerce
+2259,2269,Ph.D in Management Dual Degree,2,Business and Commerce
+2260,2270,Doctor of Philosophy (Ph.D) Adavanced Science & Research Centre,9,Computer Application
+2261,2271,Doctor of Philosophy (Ph.D) Dual Degree in Adavanced Science & Research Centre,9,Computer Application
+2262,2272,Doctor of Philosophy (Ph.D) in Value Added with IBM,9,Computer Application
+2263,2273,Doctor of Philosophy (Ph.D) Dual Degree in Value Added with IBM,9,Computer Application

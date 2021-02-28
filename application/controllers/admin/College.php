@@ -12,6 +12,8 @@ class College extends CI_Controller {
             header('location:' . base_url() . 'admin/alogin');
         }
         $this->load->model('madmin/m_college', 'mcollege');
+        $this->load->model('common_model');
+        
     }
 
     public function index() {         
@@ -27,20 +29,20 @@ class College extends CI_Controller {
         $this->load->view('admin/footer');
     }
 
-    public function saveCourse(){
+    public function saveCollege(){
         $post = $this->input->post();
         if(!empty($post)){
-            $res = $this->mcourse->saveCourse($post);
+            $res = $this->mcollege->saveCollage($post);
             if($res){
-                $this->session->set_flashdata('msg', '<p style="color:green">Course added successfully!</p>');
-                redirect('admin/course');
+                $this->session->set_flashdata('msg', '<p style="color:green">Collage added successfully!</p>');
+                redirect('admin/college');
             }else{
                 $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-                redirect('admin/course');
+                redirect('admin/college');
             }
         }else{
             $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-                redirect('admin/course');
+                redirect('admin/college');
         }
     }
 
@@ -130,7 +132,20 @@ class College extends CI_Controller {
         echo json_encode($data);
     }
 
-    public function college_edit(){
-        
+    public function college_edit($collageId = NULL){
+        if($streamId != ''){
+            $where = array('college_id'=>$collageId);
+            $data['streamDetails'] = $this->common_model->getData();
+            if($data['streamDetails'] != ''){
+                $this->load->view('admin/header');
+                $this->load->view('admin/collage_edit', $data);
+                $this->load->view('admin/footer');           
+            }else{
+                redirect('admin/college');    
+            }
+        }else{
+            $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
+            redirect('admin/college');
+        } 
     }
 }

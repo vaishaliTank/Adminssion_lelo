@@ -20,7 +20,7 @@
                             College Add
                         </div>
                         <div class="panel-body bg-white" style="border: 1px solid #3395ff;">
-                            <form name="streamFrm" method="POST" enctype="multipart/form-data" id="streamFrm" action="<?= base_url() ?>admin/course/<?= isset($collegeDetails) ? 'updateCollege' : 'saveCollege' ?>"> 
+                            <form name="streamFrm" method="POST" enctype="multipart/form-data" id="streamFrm" action="<?= base_url() ?>admin/college/<?= isset($collegeDetails) ? 'updateCollege' : 'saveCollege' ?>"> 
                                 <input type="hidden" name="college_id" id="college_id" value="<?= isset($collegeDetails) ? $collegeDetails->college_id : '' ?>">
                                 <div class="col-md-12">
                                     <div class="form-group">
@@ -44,6 +44,116 @@
                                         <input type="text" class="form-control" name="city" id="city" value="<?= isset($courseDetails) ? $courseDetails->course_name : '' ;?>" placeholder="Enter City">
                                         <span id="errorCity" style="color: red;"></span>
                                     </div>
+
+
+                                    <div class="form-group">
+                                        <label for="state">State<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" name="state" id="state" value="<?= isset($courseDetails) ? $courseDetails->state : '' ;?>" placeholder="Enter State">
+                                        <span id="errorState" style="color: red;"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="zipcode">Zipcode<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" name="zipcode" id="zipcode" value="<?= isset($courseDetails) ? $courseDetails->zipcode : '' ;?>" placeholder="Enter Zipcode">
+                                        <span id="errorZip" style="color: red;"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="phone1">Phone1<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" name="phone1" id="phone1" value="<?= isset($courseDetails) ? $courseDetails->phone1 : '' ;?>" placeholder="Enter Phone">
+                                        <span id="errorZip" style="color: red;"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="phone2">Phone2<span class="text-danger"></span></label>
+                                        <input type="text" class="form-control" name="phone1" id="phone2" value="<?= isset($courseDetails) ? $courseDetails->phone2 : '' ;?>" placeholder="Enter Phone">
+                                        
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="fax">Fax<span class="text-danger"></span></label>
+                                        <input type="text" class="form-control" name="fax" id="fax" value="<?= isset($courseDetails) ? $courseDetails->fax : '' ;?>" placeholder="Enter Fax">
+                                        
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="fax">About Content<span class="text-danger"></span></label>
+                                        <textarea name="aboutus" id="aboutus" class="wysiwyg"><?php echo @$_POST['aboutus']; ?></textarea>
+                                    </div>
+
+                                    <div class="input medium" id="catname_label">
+                    <label for="input1">College Image <span class="star">*</span></label>
+                    <input type="file" id="college_image" name="college_image" required>
+                </div>
+                <div class="input medium">
+                    <label>About Content</label>                    
+                    
+                </div>
+                <div class="input medium">
+                    <label>Promoter Content</label>                    
+                    <textarea name="promotercontent" id="promotercontent" class="wysiwyg"><?php echo @$_POST['promotercontent']; ?></textarea>
+                </div>
+                <div class="input medium">
+                    <label>Infrastructure Content</label>                    
+                    <textarea name="infrastructurecontent" id="infrastructurecontent" class="wysiwyg"><?php echo @$_POST['infrastructurecontent']; ?></textarea>
+                </div>
+                <div class="input medium">
+                    <label>Sports Content</label>                    
+                    <textarea name="sportscontent" id="sportscontent" class="wysiwyg"><?php echo @$_POST['sportscontent']; ?></textarea>
+                </div>
+                <div class="input medium">
+                    <label>Transportation Content</label>                    
+                    <textarea name="transportationcontent" id="transportationcontent" class="wysiwyg"><?php echo @$_POST['transportationcontent']; ?></textarea>
+                </div>
+                <div class="input medium">
+                    <label>Cafeteria Content</label>                    
+                    <textarea name="cafetariacontent" id="cafetariacontent" class="wysiwyg"><?php echo @$_POST['cafetariacontent']; ?></textarea>
+                </div>
+                <div class="input medium">
+                    <label>Achievement Content</label>                    
+                    <textarea name="acivementcontent" id="acivementcontent" class="wysiwyg"><?php echo @$_POST['acivementcontent']; ?></textarea>
+                </div>
+                <div class="input medium">
+                    <label>Placement Content</label>                    
+                    <textarea name="placementcontent" id="placementcontent" class="wysiwyg"><?php echo @$_POST['placementcontent']; ?></textarea>
+                </div>
+                <div class="input medium">
+                    <label>Library Content</label>                    
+                    <textarea name="librarycontent" id="librarycontent" class="wysiwyg"><?php echo @$_POST['librarycontent']; ?></textarea>
+                </div>
+                <div class="input medium">
+                    <label>Hostel Content</label>                    
+                    <textarea name="hostelcontent" id="hostelcontent" class="wysiwyg"><?php echo @$_POST['hostelcontent']; ?></textarea>
+                </div>
+
+                <div class="input medium">
+                    <label>Meta Title</label>  
+                    <input type="text" value="<?php echo @$_POST['metatitle']; ?>" size="54" id="metatitle" name="metatitle" class="NFText" >                  
+                </div>
+
+                <div class="input medium">
+                    <label>Meta Keywords</label>       
+                    <input type="text" value="<?php echo @$_POST['metakeyword']; ?>" size="54" id="metakeyword" name="metakeyword" class="NFText" >                
+                </div>
+
+                <div class="input medium">
+                    <label>Meta Description</label>                    
+                    <textarea name="metadescription" id="metadescription" ><?php echo @$_POST['metadescription']; ?></textarea>
+                </div>
+
+                                    <div class="form-group">
+                                        <?php
+                                            $sts = 0;
+                                            if(isset($courseDetails)){
+                                                if($courseDetails->featured == 1){
+                                                    $sts = 1;
+                                                }
+                                            }
+                                        ?>
+                                        <label for="featured">Featured</label>
+                                        <input type="checkbox" name="featured" <?= ($sts == 1) ? 'checked' : '' ?> id="college_status" value="1" class="form-control">
+                                    </div>
+
                                     <div class="form-group">
                                         <?php
                                             $sts = 0;

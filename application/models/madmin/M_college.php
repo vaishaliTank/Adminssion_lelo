@@ -16,25 +16,28 @@ class M_college extends CI_Model {
     	}
     }
 
-    function saveCourse($post){
-    	$course_name = addslashes(trim($post['course_name']));
-		$courseid = addslashes(trim($post['course_id']));
-		$stream_id = addslashes(trim($post['stream_id']));
-		$status = isset($post['course_status']) ? 1 : 0;
+    function saveCollage($post){
+    	$collage_name = addslashes(trim($post['college_name']));
+		$address1 = addslashes(trim($post['address1']));
+		$address2 = addslashes(trim($post['address2']));
+        $city = addslashes(trim($post['city']));
+		$status = isset($post['college_status']) ? 1 : 0;
 
-    	$stream_array = array(
-    		'course_name' => $course_name,
-    		'courseid' => $courseid,
-    		'stream_id' => $stream_id,
-    		'status' => $status,
+    	$clg_array = array(
+    		'college_name' => $collage_name,
+    		'address1' => $address1,
+    		'address2' => $address2,
+    		'city' => $city,
+            'status'=> $status,
     		'created_date' => date('Y-m-d H:i:s'),
     		'updated_date' => date('Y-m-d H:i:s'),
     	);
 
-    	$this->db->insert('tbl_course', $stream_array);
-    	$courseId = $this->db->insert_id();
+    	$this->db->insert('tbl_college', $clg_array);
+        echo $this->db->last_query();die;
+    	$collageId = $this->db->insert_id();
     	if($courseId){
-    		return $courseId;
+    		return $collageId;
     	}else{
     		return '';
     	}

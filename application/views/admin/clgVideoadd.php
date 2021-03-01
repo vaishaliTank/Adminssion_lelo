@@ -8,7 +8,7 @@
         <section id="page-title">
             <div class="row">
                 <div class="col-sm-8">
-                    <h1 class="mainTitle">College Facility Add </h1>
+                    <h1 class="mainTitle">College Video Add  </h1>
                 </div>
             </div>
         </section>
@@ -17,19 +17,19 @@
                 <div class="col-md-offset-0 col-md-12">
                     <div class="panel panel-light-primary" id="panel5">
                         <div class="panel-heading">
-                            College Facility Add
+                            College Video Add 
                         </div>
                         <div class="panel-body bg-white" style="border: 1px solid #3395ff;">
-                            <form name="streamFrm" method="POST" enctype="multipart/form-data" id="streamFrm" action="<?= base_url() ?>admin/Collage_Facility/<?= isset($FaciltyDetails) ? 'updateCollage_Facility' : 'saveCollage_Facility' ?>"> 
-                                <input type="hidden" name="facility_id" id="facility_id" value="<?= isset($FaciltyDetails) ? $FaciltyDetails->facility_id : '' ?>">
+                            <form name="streamFrm" method="POST" enctype="multipart/form-data" id="streamFrm" action="<?= base_url() ?>admin/Collage_Video/<?= isset($VideoDetails) ? 'updateCollage_video' : 'saveCollage_video' ?>"> 
+                                <input type="hidden" name="video_id" id="video_id" value="<?= isset($VideoDetails) ? $VideoDetails->video_id : '' ?>">
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="college_name">College Name<span class="text-danger">*</span></label>
                                         <select name="collage">
                                             <?php foreach($collage as $cl){
                                                 $str = '';
-                                                if(!empty($FaciltyDetails)){
-                                                    if($FaciltyDetails->college_id == $cl->college_id){
+                                                if(!empty($VideoDetails)){
+                                                    if($VideoDetails->college_id == $cl->college_id){
                                                         $str = 'selected';
                                                     }
                                                 }
@@ -40,37 +40,24 @@
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="texttest">First Name<span class="text-danger">*</span></label>
-                                        <input type="text" class="form-control" name="fname" id="fname" value="<?= isset($FaciltyDetails) ? $FaciltyDetails->facility_fname : '' ;?>" placeholder="First Name">
-                                        <span id="errorfname" style="color: red;"></span>
+                                        <label for="videoname">Video Name<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" name="videoname" id="videoname" value="<?= isset($VideoDetails) ? $VideoDetails->video_name : '' ;?>" placeholder="Video Name">
+                                        <span id="errorvideoname" style="color: red;"></span>
                                     </div>
                                     
                                     <div class="form-group">
-                                        <label for="texttest">Last Name<span class="text-danger">*</span></label>
-                                        <input type="text" class="form-control" name="lname" id="lname" value="<?= isset($FaciltyDetails) ? $FaciltyDetails->facility_lname : '' ;?>" placeholder="Last Name">
-                                        <span id="errorlname" style="color: red;"></span>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="texttest">Designation<span class="text-danger">*</span></label>
-                                        <input type="text" class="form-control" name="designation" id="designation" value="<?= isset($FaciltyDetails) ? $FaciltyDetails->designation : '' ;?>" placeholder="Designation">
-                                        <span id="errorDes" style="color: red;"></span>
-                                    </div>
-                                    
-                                    <div class="form-group">
-                                        <label for="texttest">Description/Bio</label>
-                                        <textarea cols="100" rows="5" name="bio"><?= isset($FaciltyDetails) ? $FaciltyDetails->facility_bio : '' ;?><?php ?></textarea>
-                                        
+                                        <label for="videolink">Video Link<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" name="videolink" id="videolink" value="<?= isset($VideoDetails) ? $VideoDetails->video_link : '' ;?>" placeholder="Video Link">
+                                        <span id="errorvideolink" style="color: red;"></span>
                                     </div>
 
                                     
-
                                     
                                     <div class="form-group">
                                         <?php
                                             $sts = 0;
-                                            if(isset($FaciltyDetails)){
-                                                if($FaciltyDetails->status == 1){
+                                            if(isset($VideoDetails)){
+                                                if($VideoDetails->status == 1){
                                                     $sts = 1;
                                                 }
                                             }
@@ -79,7 +66,7 @@
                                         <input type="checkbox" name="status" <?= ($sts == 1) ? 'checked' : '' ?> id="status" value="1" class="form-control">
                                     </div>
                                     <div class="form-action">
-                                        <button type="submit" class="btn btn-primary" name="saveClgBtn" id="saveClgBtn">Submit</button>
+                                        <button type="submit" class="btn btn-primary" name="saveClgVBtn" id="saveClgVBtn">Submit</button>
                                         <button type="reset" class="btn btn-danger" name="cancelTestBtn" id="cancelTestBtn">Cancel</button>
                                     </div>
                                 </div>
@@ -134,16 +121,13 @@
             alertify.<?= $t ?>("<?= $m ?>");
         <?php endif; ?>
 
-        $('#saveClgBtn').click(function(){
+        $('#saveClgVBtn').click(function(){
             
-            if($('#fname').val() == ''){
-                $('#errorfname').text('Enter First Name').fadeIn('slow').fadeOut(5000);
+            if($('#videoname').val() == ''){
+                $('#errorvideoname').text('Enter Video Name').fadeIn('slow').fadeOut(5000);
                 return false;
-            }else if($('#lname').val() == ''){
-                $('#errorlname').text('Enter Last Name').fadeIn('slow').fadeOut(5000);
-                return false;
-            }else if($('#designation').val() == ''){
-                $('#errorDes').text('Enter Designation').fadeIn('slow').fadeOut(5000);
+            }else if($('#videolink').val() == ''){
+                $('#errorvideolink').text('Enter Video Link').fadeIn('slow').fadeOut(5000);
                 return false;
             }else{
                 return true;

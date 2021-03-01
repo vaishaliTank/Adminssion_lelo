@@ -3,7 +3,7 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-class Collage_Facility extends CI_Controller {
+class Collage_Video extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
@@ -11,119 +11,119 @@ class Collage_Facility extends CI_Controller {
         if ($login_type != 'admin') {
             header('location:' . base_url() . 'admin/alogin');
         }
-        $this->load->model('madmin/M_Clgfacility', 'clgfacility');
+        $this->load->model('madmin/M_ClgVideo', 'clgvideo');
         $this->load->model('common_model');
         
     }
 
     public function index() { 
-        $sql= "SELECT tbl_college_facility.*,tbl_college.college_name FROM `tbl_college_facility` left join tbl_college on tbl_college.college_id=tbl_college_facility.college_id WHERE facility_id != 0 ORDER BY facility_fname ASC";
-        $data['facilitylist'] = $this->common_model->coreQueryObject($sql);
+        $sql= "SELECT tbl_college_video.*,tbl_college.college_name FROM `tbl_college_video` left join tbl_college on tbl_college.college_id=tbl_college_video.college_id WHERE video_id != 0 ORDER BY video_name ASC";
+        $data['videolist'] = $this->common_model->coreQueryObject($sql);
         //echo "<PRE>";print_r($data['facilitylist']);die;
         $this->load->view('admin/header');
-        $this->load->view('admin/facility_list',$data);
+        $this->load->view('admin/clg_video_list',$data);
         $this->load->view('admin/footer');
     }
 
-    public function clgfacility_add(){
+    public function collegevideo_add(){
         $sql1 = "select college_id,college_name from tbl_college";
         $data['collage'] = $this->common_model->coreQueryObject($sql1);
         $this->load->view('admin/header');
-        $this->load->view('admin/clgFacility_add',$data);
+        $this->load->view('admin/clgVideoadd',$data);
         $this->load->view('admin/footer');
     }
 
-    public function saveCollage_Facility(){
+    public function saveCollage_video(){
         $post = $this->input->post();
         if(!empty($post)){
-            $res = $this->clgfacility->saveCollage_Facility($post);
+            $res = $this->clgvideo->saveCollage_Video($post);
             //echo "<PRE>";print_r($res);die;
             if($res){
-                $this->session->set_flashdata('msg', '<p style="color:green">Collage Facility added successfully!</p>');
-                redirect('admin/Collage_Facility');
+                $this->session->set_flashdata('msg', '<p style="color:green">Collage Video added successfully!</p>');
+                redirect('admin/Collage_Video');
             }else{
                 $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-                redirect('admin/Collage_Facility');
+                redirect('admin/Collage_Video');
             }
         }else{
             $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-                redirect('admin/Collage_Facility');
+                redirect('admin/Collage_Video');
         }
     }
 
-    public function clgfacility_edit($facility_id = NULL){
-        if($facility_id != ''){
-            $data['FaciltyDetails'] = $this->clgfacility->getFaciltyDetails($facility_id);
+    public function collegeV_edit($vid = NULL){
+        if($vid != ''){
+            $data['VideoDetails'] = $this->clgvideo->getClgVDetails($vid);
             $sql1 = "select college_id,college_name from tbl_college";
             $data['collage'] = $this->common_model->coreQueryObject($sql1);
             //echo "<PRE>";print_r($data['FaciltyDetails']);die;
-            if($data['FaciltyDetails'] != ''){
+            if($data['VideoDetails'] != ''){
                 $this->load->view('admin/header');
-                $this->load->view('admin/clgFacility_add', $data);
+                $this->load->view('admin/clgVideoadd', $data);
                 $this->load->view('admin/footer');           
             }else{
-                redirect('admin/Collage_Facility');    
+                redirect('admin/Collage_Video');    
             }
         }else{
             $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-            redirect('admin/Collage_Facility');
+            redirect('admin/Collage_Video');
         } 
     }
 
     
 
-    public function updateCollage_Facility(){
+    public function updateCollage_video(){
         $post = $this->input->post();
         if($post){
-            $res = $this->clgfacility->updateTestimonials($post);
+            $res = $this->clgvideo->updateClgVideo($post);
             if($res){
-                $this->session->set_flashdata('msg', '<p style="color:green">College Facility successfully updated!</p>');
-                redirect('admin/Collage_Facility');
+                $this->session->set_flashdata('msg', '<p style="color:green">College Video successfully updated!</p>');
+                redirect('admin/Collage_Video');
             }else{
                 $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-                redirect('admin/Collage_Facility');
+                redirect('admin/Collage_Video');
             }
         }else{
             $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-            redirect('admin/testimonial');
+            redirect('admin/Collage_Video');
         }
     }
 
     
 
-    public function status($listid = NULL,$status){
-        $post = $listid;
+    public function status($vid = NULL,$status){
+        $post = $vid;
         if($post != ''){
-            $result = $this->clgfacility->updateStatus($post,$status);
+            $result = $this->clgvideo->updateStatus($post,$status);
             if($result){
-                $this->session->set_flashdata('msg', '<p style="color:green">Testimonial Update successfully!</p>');
-                redirect('admin/Collage_Facility');
+                $this->session->set_flashdata('msg', '<p style="color:green">College Video Update successfully!</p>');
+                redirect('admin/Collage_Video');
             }else{
                 $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-                redirect('admin/Collage_Facility');
+                redirect('admin/Collage_Video');
             }
         }else{
             $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-                redirect('admin/Collage_Facility');
+                redirect('admin/Collage_Video');
         }
         //echo json_encode($data);
     }
 
     
 
-    public function delete($clgId = NULL){
-        if($clgId != ''){
-            $res = $this->clgfacility->deleteFacility($clgId);
+    public function delete($vid = NULL){
+        if($vid != ''){
+            $res = $this->clgvideo->deleteClgVideo($vid);
             if($res){
                 $this->session->set_flashdata('msg', '<p style="color:green">Collage Facility successfully deleted!</p>');
-                redirect('admin/Collage_Facility');
+                redirect('admin/Collage_Video');
             }else{
                 $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-                redirect('admin/Collage_Facility');
+                redirect('admin/Collage_Video');
             }
         }else{
             $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-            redirect('admin/Collage_Facility');
+            redirect('admin/Collage_Video');
         }
     }
 }

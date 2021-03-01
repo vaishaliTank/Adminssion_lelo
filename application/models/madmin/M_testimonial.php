@@ -67,7 +67,7 @@ class M_testimonial extends CI_Model {
             'created_date' => date('Y-m-d H:i:s'),
         );
         //echo "<PRE>";print_r($test_array);die;
-        if(!empty($_FILES['college_image'])){
+        if(!empty($_FILES['college_image']['name'])){
             $config['upload_path'] = './upload/';
             $config['allowed_types'] = 'jpg|png|jpeg|JPG|PNG|JPEG';
             $config['file_name'] = random_string('alnum', 16);
@@ -87,7 +87,7 @@ class M_testimonial extends CI_Model {
         else{
             $test_array['customer_image'] = $_POST['old_image'];
         }
-        echo "<PRE>";print_r($test_array);die;
+        //echo "<PRE>";print_r($test_array);die;
         $this->db->update('testimonials', $test_array, array('id' => $post['testiminial_id']));
         if($this->db->affected_rows()){
             return true;

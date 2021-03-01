@@ -205,6 +205,55 @@ $uri_segment = $this->uri->segment(2);
                                     </li>
                                 </ul>
                             </li>
+                            <li class="<?= ($uri_segment == 'Collage_Video') ? 'active' : ''; ?>">
+                                <a href="javascript:void(0)">
+                                    <div class="item-content">
+                                        <div class="item-media">
+                                            <i class="ti-layout-grid2"></i>
+                                        </div>
+                                        <div class="item-inner">
+                                            <span class="title">College Video Master</span><i class="icon-arrow"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li class="active">
+                                        <a href="<?= base_url() ?>admin/Collage_Video">
+                                            <span class="title">College Video List</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/Collage_Video/collegevideo_add">
+                                            <span class="title">College Video ADD</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="<?= ($uri_segment == 'Collage_Social') ? 'active' : ''; ?>">
+                                <a href="javascript:void(0)">
+                                    <div class="item-content">
+                                        <div class="item-media">
+                                            <i class="ti-layout-grid2"></i>
+                                        </div>
+                                        <div class="item-inner">
+                                            <span class="title">College Social Master</span><i class="icon-arrow"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li class="active">
+                                        <a href="<?= base_url() ?>admin/Collage_Social">
+                                            <span class="title">College Social List</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/Collage_Social/collegesocial_add">
+                                            <span class="title">College Social ADD</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
                             <li class="<?= ($uri_segment == 'testimonial') ? 'active' : ''; ?>">
                                 <a href="javascript:void(0)">
                                     <div class="item-content">

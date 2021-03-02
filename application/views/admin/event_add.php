@@ -86,12 +86,13 @@
                                     <div class="input medium" id="image_label">
                                         <label class="col-sm-3 control-label" for="file">Upload Event Image<span class="star">*</span> </label>
                                         <div class="col-sm-4"><input type="file" name="event_image" id="event_image" event_image="image" class="form-control"></div>
+                                        <input type="hidden" value="<?= $eventData[0]->image; ?>" name="old_image">
                                          <span id="errorevent_image" style="color: red;"></span>
                                     </div> 
                                     <div class="clearfix MT20"></div>
                                     <div class="input medium" id="image_label">
                                         <label class="col-sm-3 control-label" for="file">Upload Event Gallery<span class="star">*</span> </label>
-                                        <div class="col-sm-4"><input type="file" id="galleryimage" name="galleryimage[]" multiple class="form-control"></div>
+                                        <div class="col-sm-4"><input type="file" id="galleryimage" name="image_name[]" multiple class="form-control"></div>
                                          <span id="errorgalleryimage" style="color: red;"></span>
                                     </div>
                                     <div class="clearfix MT20"></div>

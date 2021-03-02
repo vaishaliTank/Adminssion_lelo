@@ -45,17 +45,29 @@
                                                 if(!empty($List)){
                                                     $sr=0;
                                                     foreach($List as $row){
-                                                        $whereArr = array('stream_id'=>$row->course_id);
+                                                        /*$whereArr = array('stream_id'=>$row->course_id);
                                                         $whereArr1 = array('stream_id'=>$row->stream_id);
                                                         $whereArr2 = array('course_id'=>$row->course_id);
                                                         $college = array();
                                                         $stream = array();
                                                         $course = $this->common_model->getData('tbl_course',$whereArr);
                                                         $stream = $this->common_model->getData('tbl_stream',$whereArr1);
-                                                        $stream2 = $this->common_model->getData('tbl_course',$whereArr2);
+                                                        $stream2 = $this->common_model->getData('tbl_course',$whereArr2);*/
+                                                         $stream = "SELECT * FROM tbl_stream WHERE stream_id='".$row->stream_id."'";
+                                                         //echo $stream;die;
+                                                         $streamData =  $this->common_model->coreQueryObject($stream);
+                                                        $course =  "SELECT * FROM tbl_course WHERE course_id='".$row->stream_id."'";
+                                                        $courseData =  $this->common_model->coreQueryObject($course);
                                                        // print_r($college);
                                                         //echo "<PRE>";print_r($stream);
-                                                       
+                                                        $streamName = '';
+                                                       if(!empty($streamData)){
+                                                        $streamName = $streamData[0]->stream_name;
+                                                       }
+                                                       $courseName = '';
+                                                       if(!empty($courseData)){
+                                                        $courseName = $courseData[0]->course_name;
+                                                       }
 
                                                         $sr++;
                                                         ?>
@@ -64,11 +76,11 @@
                                                                 <td><?= $row->counselor_email; ?></td>
                                                                 <td><?= $row->counselor_mobile; ?></td>
                                                                 <td><?= $row->counselor_name; ?></td>
-                                                                 <td><?= 'fdnk' ?></td>
+                                                                 <td><?= $streamName; ?></td>
                                                                     <td >
                                                                 <?php
                                                                 if($row->counselling_type == 'college'){
-                                                                    echo $course[0]->course_name;
+                                                                    echo $courseName;
                                                                 }
                                                                 if($row->counselling_type =='stream'){
                                                                     echo $row->course_id;
@@ -76,7 +88,7 @@
                                                                 ?>
                                                             </td>
                                                                 <td ><?php  if($row->acount==1){echo 'Y';}else{echo 'N';} ?></td>
-                                                                <td ><?php 
+                                                                <td ><?= 
                                                                  $newDate = date("d M Y  H:i", strtotime($row->updated_date));?></td>  
                                                                 <td><a rel="facebox" href="apply_course_list.php?filename=<?php echo base64_encode($row->counselor_email); ?>"><?php echo $row->bcount;?></a></td>
                                                 

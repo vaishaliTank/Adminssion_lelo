@@ -35,6 +35,37 @@ class Event extends CI_Controller {
     public function saveEvent(){
        // print_r($_POST);die;
         if(!empty($_POST)){
+            if(!empty($_FILES['image_name']['name'])){
+              $ImageCount = count($_FILES['image_name']['name']);
+              $uploadImgData = array();
+          //echo $ImageCount;die;
+            for($i = 0; $i < $ImageCount; $i++){
+                $_FILES['file']['name']       = $_FILES['image_name']['name'][$i];
+                $_FILES['file']['type']       = $_FILES['image_name']['type'][$i];
+                $_FILES['file']['tmp_name']   = $_FILES['image_name']['tmp_name'][$i];
+                $_FILES['file']['error']      = $_FILES['image_name']['error'][$i];
+                $_FILES['file']['size']       = $_FILES['image_name']['size'][$i];
+
+                // File upload configuration
+                $uploadPath = './upload/';
+                $config['upload_path'] = $uploadPath;
+                $config['allowed_types'] = 'jpg|jpeg|png|gif';
+
+                // Load and initialize upload library
+                $this->load->library('upload', $config);
+                $this->upload->initialize($config);
+
+                // Upload file to server
+                if($this->upload->do_upload('file')){
+                    // Uploaded file data
+                    $imageData = $this->upload->data();
+                    $uploadImgData[$i]['image_name'] = $imageData['file_name'];
+                }
+
+            }
+           // echo "<PRE>";print_r($uploadImgData);die;
+          }
+          
         $config['upload_path'] = './upload/';
         $config['allowed_types'] = 'jpg|png|jpeg|JPG|PNG|JPEG';
         $config['file_name'] = random_string('alnum', 16);
@@ -65,7 +96,15 @@ class Event extends CI_Controller {
 
 
             $insertArr = array('title '=>$_POST['title'],'link_url '=>$_POST['url'],'start_date '=>$_POST['sdate'],'end_date'=>$_POST['edate'],'start_time'=>$_POST['start_time'],'end_time'=>$_POST['end_time'],'content'=>$_POST['content'],'status'=>$_POST['college_status'],'image'=>$test_array['event_image']);
-            $this->common_model->insertData('news',$insertArr);
+            $lastId = $this->common_model->insertData('news',$insertArr);
+
+            //
+            for($i=0;$i<count($uploadImgData);$i++){
+                $insertArr = array();
+                $insertArr = array('event_id'=>$lastId,'gallery_image'=>$uploadImgData[$i]['image_name'],'created_date'=>date('Y-m-d H:i:s'),'updated_date'=>date('Y-m-d H:i:s'));
+                $this->common_model->insertData('tbl_event_gallery',$insertArr);
+            }
+
             $this->session->set_flashdata('msg', '<p style="color:green">Event added successfully!</p>');
                 redirect('admin/Event');
         }else{
@@ -132,21 +171,24 @@ class Event extends CI_Controller {
 
     public function updateEvent(){
         if(!empty($_POST)){
+        if(!empty($_FILES['event_image']['name'])){
+            $config['upload_path'] = './upload/';
+            $config['allowed_types'] = 'jpg|png|jpeg|JPG|PNG|JPEG';
+            $config['file_name'] = random_string('alnum', 16);
+            
+            $this->upload->initialize($config);
 
-             $config['upload_path'] = './upload/';
-        $config['allowed_types'] = 'jpg|png|jpeg|JPG|PNG|JPEG';
-        $config['file_name'] = random_string('alnum', 16);
-        
-        $this->upload->initialize($config);
-
-        if(!$this->upload->do_upload('event_image')){
-            $error = $this->upload->display_errors();
-            $file_arr = array('error' => $error);
-            $this->session->set_flashdata('msg', '<p style="color:red;">'.$file_arr.'</p>');
-            return '';
+            if(!$this->upload->do_upload('event_image')){
+                $error = $this->upload->display_errors();
+                $file_arr = array('error' => $error);
+                $this->session->set_flashdata('msg', '<p style="color:red;">'.$file_arr.'</p>');
+                return '';
+            }else{
+                $dt = array('upload_data'=>$this->upload->data());
+                $test_array['event_image'] = $dt['upload_data']['file_name'];
+            }
         }else{
-            $dt = array('upload_data'=>$this->upload->data());
-            $test_array['event_image'] = $dt['upload_data']['file_name'];
+            $test_array['event_image'] = $_POST['old_image'];
         }
 
 

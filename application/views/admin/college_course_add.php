@@ -20,7 +20,7 @@
                             College Course Add
                         </div>
                         <div class="panel-body bg-white" style="border: 1px solid #3395ff;">
-                            <form name="streamFrm" method="POST" enctype="multipart/form-data" id="streamFrm" action="<?= base_url() ?>admin/College_Course/<?= isset($coursemetaDetails) ? 'updateCourse' : 'saveCollegeCourse' ?>"> 
+                            <form name="streamFrm" method="POST" enctype="multipart/form-data" id="streamFrm" action="<?= base_url() ?>admin/College_Course/<?= isset($coursemetaDetails) ? 'updateCollegeCourse' : 'saveCollegeCourse' ?>"> 
                                 <input type="hidden" name="id" id="id" value="<?= isset($coursemetaDetails) ? $coursemetaDetails[0]->id : '' ?>">
                                 <?php $disable=''; if(!empty($coursemetaDetails[0]->id)){
                                     $disable = 'readonly';
@@ -60,50 +60,52 @@
                                      <div class="form-group">
                                         <label for="course_id">Course Name<span class="text-danger">*</span></label>
                                         <select name="Course" id="Course" <?= $disable ?>>
-                                            <?php if(!empty($streams)){ foreach($streams as $row){ 
+                                            <?php if(!empty($course)){ foreach($course as $row){ 
                                                 $str1 = ''; 
-                                                 if($coursemetaDetails[0]->stream_id == $row->stream_id){
+                                                 if($coursemetaDetails[0]->course_id == $row->course_id){
                                                     $str1 = 'selected';
                                                  }
 
                                             ?>
-                                            <option value="<?= $row->stream_id ?>" <?= $str1; ?>><?= $row->stream_name ?></option>
+                                            <option value="<?= $row->course_id ?>" <?= $str1; ?>><?= $row->course_name ?></option>
                                             <?php }  } ?>
                                         </select>
-                                        <span id="errorstream" style="color: red;"></span>
+                                        <span id="errorcourse" style="color: red;"></span>
                                     </div>
                                     
                                     <div class="form-group">
                                         <label for="course_name">Duration<span class="text-danger">*</span></label>
-                                        <input type="text" class="form-control" name="duration" id="duration" value="<?= isset($coursemetaDetails) ? $coursemetaDetails[0]->meta_title : '' ;?>" >
-                                        <span id="errormetatitle" style="color: red;"></span>
+                                        <input type="text" class="form-control" name="duration" id="duration" value="<?= isset($coursemetaDetails) ? $coursemetaDetails[0]->duration : '' ;?>" >
+                                        <span id="errorduration" style="color: red;"></span>
                                     </div>
                                     <div class="form-group">
-                                        <label for="course_status">Annual Fees</label>
-                                        <input type="text" name="annual" id="annual" value="<?php  isset($coursemetaDetails) ? $coursemetaDetails[0]->meta_keyword : '' ; ?>" class="form-control">
-                                         <span id="errormetakeyword" style="color: red;"></span>
+                                        <label for="course_status">Annual Fees<span class="text-danger">*</span></label>
+                                        <input type="text" name="annual" id="annual" value="<?=  isset($coursemetaDetails) ? $coursemetaDetails[0]->annual_fees : '' ; ?>" class="form-control">
+                                         <span id="errormanual" style="color: red;"></span>
+                                    </div>
+                                    <?php //echo $coursemetaDetails[0]->international_fees;die; ?>
+                                     <div class="form-group">
+                                        <label for="course_status">International Fees<span class="text-danger">*</span></label>
+                                        <input type="text" name="international" id="international" value="<?= isset($coursemetaDetails) ? $coursemetaDetails[0]->international_fees : '' ?>" class="form-control">
+                                        <span id="errorinternational" style="color: red;"></span>
                                     </div>
                                      <div class="form-group">
-                                        <label for="course_status">International Fees</label>
-                                        <input type="text" name="international" id="international" value="<?php isset($coursemetaDetails) ? $coursemetaDetails[0]->meta_description : '' ?>" class="form-control">
-                                        <span id="errormetadesc" style="color: red;"></span>
-                                    </div>
-                                     <div class="form-group">
-                                        <label for="course_status">Eligibility</label>
-                                        <textarea name="eligibility" id="eligibility" class="form-control"></textarea>
-                                        <span id="errormetadesc" style="color: red;"></span>
+                                        <label for="course_status">Eligibility<span class="text-danger">*</span></label>
+                                        <textarea name="eligibility" id="eligibility" class="form-control"><?= isset($coursemetaDetails) ? $coursemetaDetails[0]->eligibility : '' ?></textarea>
+                                        <span id="erroreligibility" style="color: red;"></span>
                                     </div>
                                     <div class="form-group">
-                                        <?php
-                                            $sts = 0;
-                                            if(isset($courseDetails)){
-                                                if($courseDetails->status == 1){
-                                                    $sts = 1;
+                                        <?=
+                                            $sts = '';
+                                            if(isset($coursemetaDetails)){
+                                                if($coursemetaDetails[0]->status == 1){
+                                                    $sts = 'checked';
                                                 }
+                                                //echo $sts;die;
                                             }
                                         ?>
-                                        <label for="course_status">College Status</label>
-                                        <input type="checkbox" name="college_status" <?= ($sts == 1) ? 'checked' : '' ?> id="college_status" value="1" class="form-control">
+                                        <label for="course_status">Status</label>
+                                        <input type="checkbox" name="college_status" <?= $sts ?> id="college_status" value="1" class="form-control">
                                     </div>
                                     <div class="form-action">
                                         <button type="submit" class="btn btn-primary" name="saveCourseBtn" id="saveCourseBtn">Submit</button>
@@ -177,6 +179,21 @@
                 return false;
             }else if($('#college').val() == ''){
                 $('#errorcollege').text('Enter College').fadeIn('slow').fadeOut(5000);
+                return false;
+            }else if($('#Course').val() == ''){
+                $('#errorcourse').text('Enter Course').fadeIn('slow').fadeOut(5000);
+                return false;
+            }else if($('#duration').val() == ''){
+                $('#errorduration').text('Enter Duration').fadeIn('slow').fadeOut(5000);
+                return false;
+            }else if($('#annual').val() == ''){
+                $('#errormanual').text('Enter Annual Fees').fadeIn('slow').fadeOut(5000);
+                return false;
+            }else if($('#international').val() == ''){
+                $('#errorinternational').text('Enter International Fees').fadeIn('slow').fadeOut(5000);
+                return false;
+            }else if($('#eligibility').val() == ''){
+                $('#erroreligibility').text('Enter Eligibility').fadeIn('slow').fadeOut(5000);
                 return false;
             }else{
                 return true;

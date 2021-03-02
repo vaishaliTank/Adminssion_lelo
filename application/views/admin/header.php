@@ -302,6 +302,84 @@ $uri_segment = $this->uri->segment(2);
                                     </li>
                                 </ul>
                             </li>
+                            <li class="<?= ($uri_segment == 'Event') ? 'active' : ''; ?>">
+                                <a href="javascript:void(0)">
+                                    <div class="item-content">
+                                        <div class="item-media">
+                                            <i class="ti-layout-grid2"></i>
+                                        </div>
+                                        <div class="item-inner">
+                                            <span class="title">College Event Master</span><i class="icon-arrow"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li class="active">
+                                        <a href="<?= base_url() ?>admin/Event">
+                                            <span class="title">College Event List</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/Event/event_add">
+                                            <span class="title">College Event ADD</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="<?= ($uri_segment == 'Lead') ? 'active' : ''; ?>">
+                                <a href="javascript:void(0)">
+                                    <div class="item-content">
+                                        <div class="item-media">
+                                            <i class="ti-layout-grid2"></i>
+                                        </div>
+                                        <div class="item-inner">
+                                            <span class="title">Leads</span><i class="icon-arrow"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li class="active">
+                                        <a href="<?= base_url() ?>admin/Lead/ConsultList">
+                                            <span class="title">Consultation List</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/Lead/careerCounsellingList">
+                                            <span class="title">Career Counselling List</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/Lead/courseCounsellingList">
+                                            <span class="title">Course Counselling List</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/Lead/africaList">
+                                            <span class="title">Africa Leads</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/Lead/MBAAdmissionList">
+                                            <span class="title">MBA Admission List</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/Lead/contactusList">
+                                            <span class="title">Contact Us List</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/Lead/newsletterList">
+                                            <span class="title">Newsletter List</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/Lead/registrationList">
+                                            <span class="title">Registration List</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
                             
                         </ul>
                     </nav>

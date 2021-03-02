@@ -1,4 +1,4 @@
-<?php
+<?php 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class College_Course extends CI_Controller {
@@ -36,9 +36,9 @@ class College_Course extends CI_Controller {
     public function saveCollegeCourse(){
        // print_r($_POST);die;
         if(!empty($_POST)){
-            $insertArr = array('college_id '=>$_POST['college'],'course_id '=>$_POST['Course'],'stream_id '=>$_POST['stream'],'duration'=>$_POST['duration'],'annual_fees'=>$_POST['annual'],'international_fees'=>$_POST['international'],'eligibility'=>$_POST['eligibility'],'status'=>$_POST['college_status'],'created_date' => date('Y-m-d H:i:s'));
+            $insertArr = array('college_id '=>$_POST['college'],'course_id '=>$_POST['Course'],'stream_id '=>$_POST['stream'],'duration'=>$_POST['duration'],'annual_fees'=>$_POST['annual'],'international_fees'=>$_POST['international'],'eligibility'=>$_POST['eligibility'],'status'=>$_POST['college_status'],'created_date' => date('Y-m-d H:i:s'),'updated_date' => date('Y-m-d H:i:s'));
             $this->common_model->insertData('tbl_college_course',$insertArr);
-            $this->session->set_flashdata('msg', '<p style="color:green">Meta added successfully!</p>');
+            $this->session->set_flashdata('msg', '<p style="color:green">College Course added successfully!</p>');
                 redirect('admin/College_Course');
         }else{
              $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
@@ -46,12 +46,35 @@ class College_Course extends CI_Controller {
         }
     }
 
+    public function status($testId = NULL,$status){
+        $post = $testId;
+        if($post != ''){
+             if($status == 0){
+                $status =1;
+            }else{
+                $status = 0;
+            }
+            $set = array('status' => $status);
+            $whr = array('id'=> $post);
+        $this->common_model->updateData('tbl_college_course', $set, $whr);
+            //$result = $this->mtestimonial->updateStatus($post,$status);
+            
+                $this->session->set_flashdata('msg', '<p style="color:green">Status Update successfully!</p>');
+                redirect('admin/College_Course');
+            
+        }else{
+            $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
+                redirect('admin/College_Course');
+        }
+        //echo json_encode($data);
+    }
+
+
     public function delete($courseId = NULL){
         if($courseId != ''){
             $whereArr = array('id'=>$courseId);
-            $res = $this->common_model->deleteData('tbl_college_stream_metadata',$whereArr);
-            echo $res;
-   
+            $res = $this->common_model->deleteData('tbl_college_course',$whereArr);
+           
                 $this->session->set_flashdata('msg', '<p style="color:green">Course successfully deleted!</p>');
                 redirect('admin/CourceMeta_detail');
          }else{
@@ -63,48 +86,38 @@ class College_Course extends CI_Controller {
     public function course_meta_edit($courseId = NULL){
         if($courseId != ''){
             $whereArr = array('id'=>$courseId);
-            $data['coursemetaDetails'] = $this->common_model->getData('tbl_college_stream_metadata',$whereArr);
+            $data['coursemetaDetails'] = $this->common_model->getData('tbl_college_course',$whereArr);
             //print_r($data['coursemetaDetails']);die;
             if($data['coursemetaDetails'] != ''){
                 $data['streams'] = $this->common_model->getData('tbl_stream');
                 $data['college'] = $this->common_model->getData('tbl_college');
+                $data['course'] = $this->common_model->getData('tbl_course');
                 $this->load->view('admin/header');
-                $this->load->view('admin/meta_add', $data);
+                $this->load->view('admin/college_course_add', $data);
                 $this->load->view('admin/footer');           
             }else{
-                redirect('admin/CourceMeta_detail');    
+                redirect('admin/College_Course');    
             }
         }else{
             $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-            redirect('admin/CourceMeta_detail');
+            redirect('admin/College_Course');
         } 
     }
 
-    public function updateCourse(){
+    public function updateCollegeCourse(){
         if(!empty($_POST)){
             $whereArr = array('id'=>$_POST['id']);
-            $updateArr = array('meta_title'=>$_POST['meta_title'],'meta_keyword'=>$_POST['meta_keyword'],'meta_description'=>$_POST['meta_description']);
-            $this->common_model->updateData('tbl_college_stream_metadata',$updateArr,$whereArr);
+           $updateArr = array('college_id '=>$_POST['college'],'course_id '=>$_POST['Course'],'stream_id '=>$_POST['stream'],'duration'=>$_POST['duration'],'annual_fees'=>$_POST['annual'],'international_fees'=>$_POST['international'],'eligibility'=>$_POST['eligibility'],'status'=>$_POST['college_status'],'updated_date' => date('Y-m-d H:i:s'));
+            $this->common_model->updateData('tbl_college_course',$updateArr,$whereArr);
             $this->session->set_flashdata('msg', '<p style="color:green">Data successfully updated!</p>');
-                redirect('admin/CourceMeta_detail');
+                redirect('admin/College_Course');
         }else{
              $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-            redirect('admin/CourceMeta_detail');
+            redirect('admin/College_Course');
         }
         
     }
 
-    public function saveCourse(){
-        if(!empty($_POST)){
-            $insertArr = array('stream_id'=>$_POST['stream'],'college_id'=>$_POST['college'],'meta_title'=>$_POST['meta_title'],'meta_keyword'=>$_POST['meta_keyword'],'meta_description'=>$_POST['meta_description']);
-            $this->common_model->insertData('tbl_college_stream_metadata',$insertArr);
-            $this->session->set_flashdata('msg', '<p style="color:green">Meta added successfully!</p>');
-                redirect('admin/CourceMeta_detail');
-        }else{
-             $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-                redirect('admin/CourceMeta_detail');
-        }
-    }
-
+   
 
 }

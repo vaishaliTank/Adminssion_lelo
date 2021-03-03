@@ -118,6 +118,49 @@ class College_Course extends CI_Controller {
         
     }
 
+    public function createxls(){
+        // load excel library
+        $this->load->library('excel');
+       // $mobiledata = $this->Common_model->mobileList();
+        $objPHPExcel = new PHPExcel();
+        $objPHPExcel->setActiveSheetIndex(0);
+        // set Header
+        $objPHPExcel->getActiveSheet()->SetCellValue('A1', 'Colllage Name');
+        $objPHPExcel->getActiveSheet()->SetCellValue('B1', 'Course Name');
+        $objPHPExcel->getActiveSheet()->SetCellValue('C1', 'Stream Name');
+        $objPHPExcel->getActiveSheet()->SetCellValue('D1', 'Duration');
+        
+        $objPHPExcel->getActiveSheet()->SetCellValue('E1', 'Annual Fees');
+        $objPHPExcel->getActiveSheet()->SetCellValue('F1', 'International Fees');
+        $objPHPExcel->getActiveSheet()->SetCellValue('G1', 'Eligibility');
+        $sql = "SELECT tbl_college_course.*,tbl_college.college_name,tbl_course.course_name,tbl_stream.stream_name  FROM tbl_college_course left join tbl_college on tbl_college.college_id=tbl_college_course.college_id left join tbl_course on tbl_course.courseid=tbl_college_course.course_id left join tbl_stream on tbl_stream.stream_id=tbl_college_course.stream_id ORDER BY college_name ASC";
+        $List = $this->common_model->coreQueryObject($sql);
+        //echo "<PRE>";print_r($List);die;
+       $rowCount = 2;
+        $b = 1;
+        foreach ($List as $val) 
+        {
+            
+            $objPHPExcel->getActiveSheet()->SetCellValue('A' . $rowCount, $val->college_name);
+            $objPHPExcel->getActiveSheet()->SetCellValue('B' . $rowCount, $val->course_name);
+            $objPHPExcel->getActiveSheet()->SetCellValue('C' . $rowCount, $val->stream_name);
+            
+            $objPHPExcel->getActiveSheet()->SetCellValue('D' . $rowCount, $val->duration);
+            $objPHPExcel->getActiveSheet()->SetCellValue('E' . $rowCount, $val->annual_fees);
+            $objPHPExcel->getActiveSheet()->SetCellValue('F' . $rowCount, $val->international_fees);
+            $objPHPExcel->getActiveSheet()->SetCellValue('G' . $rowCount, $val->eligibility);
+            
+            $rowCount++;
+            $b++;
+        }
+        $fileName = 'Collage_CourseList.xlsx';
+        $objWriter = new PHPExcel_Writer_Excel2007($objPHPExcel);
+        $objWriter->save($fileName);
+        // download file
+        header("Content-Type: application/vnd.ms-excel");
+         redirect(site_url().$fileName);              
+    
+    }
    
 
 }

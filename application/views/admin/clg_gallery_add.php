@@ -20,9 +20,12 @@
                             College Gallery Add 
                         </div>
                         <div class="panel-body bg-white" style="border: 1px solid #3395ff;">
-                            <form name="streamFrm" method="POST" enctype="multipart/form-data" id="streamFrm" action="<?= base_url() ?>admin/Collage_Gallery/<?= isset($SocialDetails) ? 'updateCollage_social' : 'saveCollage_gallery' ?>"> 
-                                <input type="hidden" name="social_id" id="social_id" value="<?= isset($SocialDetails) ? $SocialDetails->social_id : '' ?>">
+                            <form name="streamFrm" method="POST" enctype="multipart/form-data" id="streamFrm" action="<?= base_url() ?>admin/Collage_Gallery/<?= isset($GalleryDetails) ? 'updateCollage_gallery' : 'saveCollage_gallery' ?>"> 
+                                
                                 <div class="col-md-12">
+                                    <?php if(!empty($GalleryDetails)) { ?>
+                                        <input type="hidden" name="collage" value="<?php echo $GalleryDetails->college_id; ?>">
+                                    <?php } else {?>
                                     <div class="form-group">
                                         <label for="college_name">College Name<span class="text-danger">*</span></label>
                                         <select name="collage" id="collage">
@@ -40,7 +43,11 @@
                                         </select>
                                         <span id="errorclgname" style="color: red;"></span>
                                     </div>
+                                    <?php } ?>
 
+                                    <?php if(!empty($GalleryDetails)) { ?>
+                                        <input type="hidden" name="image" value="<?php echo $GalleryDetails->image_type; ?>">
+                                    <?php } else {?>
                                     <div class="form-group">
                                         <label for="image">Image Type<span class="text-danger">*</span></label>
                                         <select name="image" id="image">
@@ -59,7 +66,8 @@
                                         <span id="errorclgimgtype" style="color: red;"></span>
                                     </div>
 
-                                    
+                                    <?php } ?>
+                                    <?php if(empty($GalleryDetails)) { ?>
                                      <div class="input medium" id="catname_label">
                                         <label for="input1">Image<span class="star">*</span></label>
                                         <input type="file" id="image_name" value="" size="54" name="image_name[]" class="NFText" >
@@ -68,9 +76,17 @@
                                     <div class="input medium" id="catname_label">
                                         <label for="input1" class="input1image">&nbsp;</label>
                                     </div>
+
                                     <div class="input medium mmcbox">
                                         <a href="javascript:void(0);"  class="addmmc btn btn-primary btn-xs"><i class="fa fa-plus-circle" aria-hidden="true"></i> Add More</a>
                                     </div>
+                                <?php } else { ?>
+                                    <div class="input medium" id="catname_label">
+                                        <label for="input1">Image<span class="star">*</span></label>
+                                        <input type="file" id="image_name" value="" size="54" name="image_name[]" class="NFText" multiple>
+                                        <span id="errorimage_name" style="color: red;"></span>
+                                    </div>
+                                <?php } ?>
                                     <div class="form-action">
                                         <button type="submit" class="btn btn-primary" name="saveClgGBtn" id="saveClgGBtn">Submit</button>
                                         <button type="reset" class="btn btn-danger" name="cancelTestBtn" id="cancelTestBtn">Cancel</button>

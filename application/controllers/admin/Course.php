@@ -130,4 +130,100 @@ class Course extends CI_Controller {
         }
         echo json_encode($data);
     }
+
+    public function createxls(){
+        // load excel library
+        $this->load->library('excel');
+       // $mobiledata = $this->Common_model->mobileList();
+        $objPHPExcel = new PHPExcel();
+        $objPHPExcel->setActiveSheetIndex(0);
+        // set Header
+        $objPHPExcel->getActiveSheet()->SetCellValue('A1', 'Sr');
+        $objPHPExcel->getActiveSheet()->SetCellValue('B1', 'ID');
+        $objPHPExcel->getActiveSheet()->SetCellValue('C1', 'Course Name');
+        $objPHPExcel->getActiveSheet()->SetCellValue('D1', 'Stream ID');
+        $objPHPExcel->getActiveSheet()->SetCellValue('E1', 'Stream Name');
+        $courseList = $this->mcourse->getCourseList();   
+        //echo "<PRE>";print_r($courseList);die;
+       $rowCount = 2;
+        $b = 1;
+        foreach ($courseList as $val) 
+        {
+            
+            $objPHPExcel->getActiveSheet()->SetCellValue('A' . $rowCount, $b);
+            $objPHPExcel->getActiveSheet()->SetCellValue('B' . $rowCount, $val->courseid);
+            $objPHPExcel->getActiveSheet()->SetCellValue('C' . $rowCount, $val->course_name);
+            
+            $objPHPExcel->getActiveSheet()->SetCellValue('D' . $rowCount, $val->stream_id);
+            $objPHPExcel->getActiveSheet()->SetCellValue('E' . $rowCount, $val->stream_name);
+            $rowCount++;
+            $b++;
+        }
+        $fileName = 'CourseList.xlsx';
+        $objWriter = new PHPExcel_Writer_Excel2007($objPHPExcel);
+        $objWriter->save($fileName);
+        // download file
+        header("Content-Type: application/vnd.ms-excel");
+         redirect(site_url().$fileName);              
+    
+    }
+
+    public function uploadview(){
+        $this->load->view('admin/header');
+        $this->load->view('admin/uploadcsv_course');
+        $this->load->view('admin/footer');
+    }
+
+    public function upload_csv(){
+        $config['upload_path'] = './upload/csv/';
+        $config['allowed_types'] = 'xlsx|xls';
+        $config['file_name'] = random_string('alnum', 16);
+        
+        $this->upload->initialize($config);
+
+        if(!$this->upload->do_upload('image_name')){
+            $error = $this->upload->display_errors();
+            $file_arr = array('error' => $error);
+            $this->session->set_flashdata('msg', '<p style="color:red;">'.$file_arr.'</p>');
+            return '';
+        }else{
+            $dt = array('upload_data'=>$this->upload->data());
+            $import_xls_file = $dt['upload_data']['file_name'];
+        }
+        $path = "./upload/csv";
+         $inputFileName = $path . $import_xls_file;
+ 
+        
+         $inputFileType = PHPExcel_IOFactory::identify($inputFileName);
+         $objReader = PHPExcel_IOFactory::createReader($inputFileType);
+         $objPHPExcel = $objReader->load($inputFileName);
+         $allDataInSheet = $objPHPExcel->getActiveSheet()->toArray(null, true, true, true);
+         $flag = true;
+         $i=0;
+         echo "<PRE>";print_r($allDataInSheet);die;
+         foreach ($allDataInSheet as $value) {
+           if($flag){
+         $flag =false;
+         continue;
+           }
+           $inserdata[$i]['first_name'] = $value['A'];
+           $inserdata[$i]['last_name'] = $value['B'];
+           $inserdata[$i]['address'] = $value['C'];
+           $inserdata[$i]['email'] = $value['D'];
+           $inserdata[$i]['mobile'] = $value['E'];
+           $i++;
+         }               
+         $result = $this->mcourse->importdata($inserdata);   
+         if($result){
+           $this->session->set_flashdata('msg', '<p style="color:green">Data Import successfully!</p>');
+                redirect('admin/course');
+         }else{
+           $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
+                redirect('admin/course');
+         }             
+         
+         
+         
+    }
+
 }

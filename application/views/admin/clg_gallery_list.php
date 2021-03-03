@@ -55,7 +55,7 @@
                                                                 <td><a href="<?= base_url() ?>admin/Collage_Gallery/Gallery_View/<?= $gallery->college_id?>/<?=  $gallery->image_type?>">View(<?php echo count($count);?>)</a></td>
                                                                 
                                                                 <td>
-                                                                    <a class="btn btn-info btn-xs" href="<?= base_url() ?>admin/Collage_Social/collegeS_edit/?>">
+                                                                    <a class="btn btn-info btn-xs" href="<?= base_url() ?>admin/Collage_Gallery/collegeSG_edit/<?= $gallery->college_id?>/<?=  $gallery->image_type?>">
                                                                         <i class="fa fa-pencil"></i>
                                                                     </a>
                                                                     <a class="btn btn-danger btn-xs ask" href="<?= base_url() ?>admin/Collage_Gallery/delete/<?= $gallery->college_id?>/<?=  $gallery->image_type?>">

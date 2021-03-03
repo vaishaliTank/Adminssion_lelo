@@ -54,15 +54,13 @@ class Collage_Gallery extends CI_Controller {
         }
     }
 
-    public function collegeS_edit($sid = NULL){
-        if($sid != ''){
-            $data['SocialDetails'] = $this->clgsocial->getClgSDetails($sid);
-            $sql1 = "select college_id,college_name from tbl_college where status=1 order by college_name";
-            $data['collage'] = $this->common_model->coreQueryObject($sql1);
+    public function collegeSG_edit($cid = NULL,$imgtype){
+        if($cid != ''){
+            $data['GalleryDetails'] = $this->clggallery->getClgGDetails($cid,$imgtype);
             //echo "<PRE>";print_r($data['FaciltyDetails']);die;
-            if($data['SocialDetails'] != ''){
+            if($data['GalleryDetails'] != ''){
                 $this->load->view('admin/header');
-                $this->load->view('admin/clgSocialadd', $data);
+                $this->load->view('admin/clg_gallery_add', $data);
                 $this->load->view('admin/footer');           
             }else{
                 redirect('admin/Collage_Gallery');    
@@ -75,13 +73,13 @@ class Collage_Gallery extends CI_Controller {
 
     
 
-    public function updateCollage_social(){
+    public function updateCollage_gallery(){
         $post = $this->input->post();
         //echo "<PRE>";print_r($post);die;
         if($post){
-            $res = $this->clgsocial->updateClgSocial($post);
+            $res = $this->clggallery->updateClgGallery($post);
             if($res){
-                $this->session->set_flashdata('msg', '<p style="color:green">College Social successfully updated!</p>');
+                $this->session->set_flashdata('msg', '<p style="color:green">College Gallery successfully updated!</p>');
                 redirect('admin/Collage_Gallery');
             }else{
                 $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
@@ -118,4 +116,63 @@ class Collage_Gallery extends CI_Controller {
         $this->load->view('admin/galley_view',$data);
         $this->load->view('admin/footer');
     }
+
+    public function deleteImage($clgid,$img_type,$img_id){
+        if($img_id != ''){
+            $res = $this->clggallery->deleteClgGalleryImage($clgid,$img_type,$img_id);
+            if($res){
+                $this->session->set_flashdata('msg', '<p style="color:green">Collage Gallery successfully deleted!</p>');
+                redirect('admin/Collage_Gallery');
+            }else{
+                $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
+                redirect('admin/Collage_Gallery');
+            }
+        }else{
+            $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
+            redirect('admin/Collage_Gallery');
+        }
+    }
+
+    public function setFeatured(){
+        $image_id=$_POST['image_id'];
+        $cid=$_POST['cid'];
+        $featured=$_POST['image_featured_vl'];
+        $test_array = array(
+            'featured' => $featured,
+        );
+        $this->db->update('college_image', $test_array, array('image_id' => $image_id));
+        if($this->db->affected_rows()){
+            echo "Success";
+        }
+        
+    }
+
+    public function setHomeFeatured(){
+        $image_id=$_POST['image_id'];
+        $cid=$_POST['cid'];
+        $featured=$_POST['image_featured_vl'];
+        $rest=0;
+        if($featured==1){
+            $where = array('home_featured'=>1);
+            $checkcounsult = $this->common_model->getData('college_image',$where);
+            //$checkcounsult=mysqli_query($con,"select * from college_image where home_featured='1'");
+            if(count($checkcounsult)>=8){
+                $rest=1;            
+            }
+        }
+        if($rest==1){   
+                echo "You can not featured image more than 8";
+        }else{ 
+            $test_array = array(
+                'home_featured' => $featured,
+            );
+            $this->db->update('college_image', $test_array, array('image_id' => $image_id));
+            if($this->db->affected_rows()){
+                echo "Success";
+            } 
+            
+        }
+    }
+
+
 }

@@ -917,6 +917,7 @@ h5.over-title {
     overflow-y: hidden;
     overflow-x: visible;
     position: relative;
+    overflow-y: scroll;
 }
 .app-mobile #sidebar {
     overflow: auto;

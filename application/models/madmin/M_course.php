@@ -116,5 +116,16 @@ class M_course extends CI_Model {
     		return '';
     	}
     }
+
+    public function importData($data) {
+ 
+        $res = $this->db->insert_batch('register',$data);
+        if($res){
+            return TRUE;
+        }else{
+            return FALSE;
+        }
+ 
+    }
 }
     

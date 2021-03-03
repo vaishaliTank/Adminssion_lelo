@@ -28,6 +28,53 @@ class Lead extends CI_Controller {
         $this->load->view('admin/footer');
     }
 
+    public function createxls(){
+        // load excel library
+        $this->load->library('excel');
+       // $mobiledata = $this->Common_model->mobileList();
+        $objPHPExcel = new PHPExcel();
+        $objPHPExcel->setActiveSheetIndex(0);
+        // set Header
+        $objPHPExcel->getActiveSheet()->SetCellValue('A1', 'Username');
+        $objPHPExcel->getActiveSheet()->SetCellValue('B1', 'Email');
+        $objPHPExcel->getActiveSheet()->SetCellValue('C1', 'Phone');
+        $objPHPExcel->getActiveSheet()->SetCellValue('D1', 'City');
+        $objPHPExcel->getActiveSheet()->SetCellValue('E1', 'Status');
+        $objPHPExcel->getActiveSheet()->SetCellValue('F1', 'Account Verify');       
+        // set Row
+       /* $rowCount = 2;
+        $b=0;
+        foreach ($user as $val) 
+        {
+            if($val->user_status==1){
+                $status='Active';
+            }else{
+                $status='InActive';
+            }
+             if($val->admin_verify==1){
+                $verify='Account Verified';
+            }else{
+                $verify='Account Not Verified';
+            }
+            $objPHPExcel->getActiveSheet()->SetCellValue('A' . $rowCount, $val->first_name.' '.$val->last_name);
+            $objPHPExcel->getActiveSheet()->SetCellValue('B' . $rowCount, $val->email);
+            $objPHPExcel->getActiveSheet()->SetCellValue('C' . $rowCount, $val->phone);
+            $objPHPExcel->getActiveSheet()->SetCellValue('D' . $rowCount, $userDetail[$b]->city);
+            $objPHPExcel->getActiveSheet()->SetCellValue('E' . $rowCount, $status);
+            $objPHPExcel->getActiveSheet()->SetCellValue('F' . $rowCount, $verify);
+            $rowCount++;
+             $b++;
+        }*/
+        $fileName = 'abc.xlsx';
+        $objWriter = new PHPExcel_Writer_Excel2007($objPHPExcel);
+        $objWriter->save($fileName);
+        // download file
+        header("Content-Type: application/vnd.ms-excel");
+         redirect(site_url().$fileName);              
+    
+    }
+
+
     public function careerCounsellingList()
     {
        $fetch_category = "SELECT * FROM tbl_career_counselling WHERE id != 0 ORDER BY created_date DESC";

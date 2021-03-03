@@ -60,7 +60,7 @@
                                                                 <td><?= $row->start_date; ?></td>
                                                                 <td><?= $row->end_date; ?></td>
                                                                 <td><?= $row->start_time." to ".$row->end_time; ?></td>
-                                                                <td><a href="event_image_view.php?event_id=<?=  $row->id ?>">View</a> </td>
+                                                                <td><a href="<?= base_url() ?>admin/Event/viewImage/<?= $row->id?>">View</a> </td>
                                                                 <td>
                                                                     <?php 
                                                                         if($row->status == 1){ 

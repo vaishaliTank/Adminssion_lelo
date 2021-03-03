@@ -21,58 +21,58 @@
                         </div>
                         <div class="panel-body bg-white" style="border: 1px solid #3395ff;">
                             <form name="streamFrm" method="POST" enctype="multipart/form-data" id="streamFrm" action="<?= base_url() ?>admin/college/<?= isset($collegeDetails) ? 'updateCollege' : 'saveCollege' ?>"> 
-                                <input type="hidden" name="college_id" id="college_id" value="<?= isset($collegeDetails) ? $collegeDetails->college_id : '' ?>">
+                                <input type="hidden" name="college_id" id="college_id" value="<?= isset($collegeDetails) ? $collegeDetails[0]->college_id : '' ?>">
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="college_name">College Name<span class="text-danger">*</span></label>
-                                        <input type="text" name="college_name" id="college_name" class="form-control" placeholder="Enter College Name">
+                                        <input type="text" name="college_name" id="college_name" class="form-control" placeholder="Enter College Name" value="<?= isset($collegeDetails) ? $collegeDetails[0]->college_name : '' ;?>" >
                                         <span id="errorCollegeName" style="color: red;"></span>
                                     </div>
                                     <div class="form-group">
                                         <label for="address1">Address1<span class="text-danger">*</span></label>
-                                        <input type="text" class="form-control" name="address1" id="address1" value="<?= isset($courseDetails) ? $courseDetails->courseid : '' ;?>" placeholder="Enter Address 1">
+                                        <input type="text" class="form-control" name="address1" id="address1" value="<?= isset($collegeDetails) ? $collegeDetails[0]->address1 : '' ;?>" placeholder="Enter Address 1">
                                         <span id="errorAddress1" style="color: red;"></span>
                                     </div>
                                     <div class="form-group">
                                         <label for="address2">Address2</label>
-                                        <input type="text" class="form-control" name="address2" id="address2" value="<?= isset($courseDetails) ? $courseDetails->courseid : '' ;?>" placeholder="Enter Address 2">
+                                        <input type="text" class="form-control" name="address2" id="address2" value="<?= isset($collegeDetails) ? $collegeDetails[0]->address2 : '' ;?>" placeholder="Enter Address 2">
                                         <span id="errorAddress2" style="color: red;"></span>
                                     </div>
                                     
                                     <div class="form-group">
                                         <label for="city">City<span class="text-danger">*</span></label>
-                                        <input type="text" class="form-control" name="city" id="city" value="<?= isset($courseDetails) ? $courseDetails->course_name : '' ;?>" placeholder="Enter City">
+                                        <input type="text" class="form-control" name="city" id="city" value="<?= isset($collegeDetails) ? $collegeDetails[0]->city : '' ;?>" placeholder="Enter City">
                                         <span id="errorCity" style="color: red;"></span>
                                     </div>
 
 
                                     <div class="form-group">
                                         <label for="state">State<span class="text-danger">*</span></label>
-                                        <input type="text" class="form-control" name="state" id="state" value="<?= isset($courseDetails) ? $courseDetails->state : '' ;?>" placeholder="Enter State">
+                                        <input type="text" class="form-control" name="state" id="state" value="<?= isset($collegeDetails) ? $collegeDetails[0]->state : '' ;?>" placeholder="Enter State">
                                         <span id="errorState" style="color: red;"></span>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="zipcode">Zipcode<span class="text-danger">*</span></label>
-                                        <input type="text" class="form-control" name="zipcode" id="zipcode" value="<?= isset($courseDetails) ? $courseDetails->zipcode : '' ;?>" placeholder="Enter Zipcode">
+                                        <input type="text" class="form-control" name="zipcode" id="zipcode" value="<?= isset($collegeDetails) ? $collegeDetails[0]->zipcode : '' ;?>" placeholder="Enter Zipcode">
                                         <span id="errorZip" style="color: red;"></span>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="phone1">Phone1<span class="text-danger">*</span></label>
-                                        <input type="text" class="form-control" name="phone1" id="phone1" value="<?= isset($courseDetails) ? $courseDetails->phone1 : '' ;?>" placeholder="Enter Phone">
+                                        <input type="text" class="form-control" name="phone1" id="phone1" value="<?= isset($collegeDetails) ? $collegeDetails[0]->phone1 : '' ;?>" placeholder="Enter Phone">
                                         <span id="errorZip" style="color: red;"></span>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="phone2">Phone2<span class="text-danger"></span></label>
-                                        <input type="text" class="form-control" name="phone2" id="phone2" value="<?= isset($courseDetails) ? $courseDetails->phone2 : '' ;?>" placeholder="Enter Phone">
+                                        <input type="text" class="form-control" name="phone2" id="phone2" value="<?= isset($collegeDetails) ? $collegeDetails[0]->phone2 : '' ;?>" placeholder="Enter Phone">
                                         
                                     </div>
 
                                     <div class="form-group">
                                         <label for="fax">Fax<span class="text-danger"></span></label>
-                                        <input type="text" class="form-control" name="fax" id="fax" value="<?= isset($courseDetails) ? $courseDetails->fax : '' ;?>" placeholder="Enter Fax">
+                                        <input type="text" class="form-control" name="fax" id="fax" value="<?= isset($collegeDetails) ? $collegeDetails[0]->fax : '' ;?>" placeholder="Enter Fax">
                                         
                                     </div>
 
@@ -81,72 +81,70 @@
                                     <div class="input medium" id="catname_label">
                     <label for="input1">College Image <span class="star">*</span></label>
                     <input type="file" id="college_image" name="college_image" required>
+                    <input type="hidden" name="old_image" value="<?= isset($collegeDetails) ? $collegeDetails[0]->college_image : '' ;?>">
                 </div>
-                <div class="form-group">
-                    <label for="fax">Feature<span class="text-danger"></span></label>
-                    <input type="checkbox" name="feature" id="feature">
-                </div>
+                
                <div class="form-group">
                     <label for="fax">About Content<span class="text-danger"></span></label>
-                    <textarea name="aboutus" id="aboutus" class="wysiwyg"><?php echo @$_POST['aboutus']; ?></textarea>
+                    <textarea name="aboutus" id="aboutus" class="wysiwyg"><?= isset($collegeDetails) ? $collegeDetails[0]->aboutus : '' ;?></textarea>
                 </div>
                 <div class="input medium">
                     <label>Promoter Content</label>                    
-                    <textarea name="promotercontent" id="promotercontent" class="wysiwyg"><?php echo @$_POST['promotercontent']; ?></textarea>
+                    <textarea name="promotercontent" id="promotercontent" class="wysiwyg"><?= isset($collegeDetails) ? $collegeDetails[0]->promotercontent : '' ;?></textarea>
                 </div>
                 <div class="input medium">
                     <label>Infrastructure Content</label>                    
-                    <textarea name="infrastructurecontent" id="infrastructurecontent" class="wysiwyg"><?php echo @$_POST['infrastructurecontent']; ?></textarea>
+                    <textarea name="infrastructurecontent" id="infrastructurecontent" class="wysiwyg"><?= isset($collegeDetails) ? $collegeDetails[0]->infrastructurecontent : '' ;?></textarea>
                 </div>
                 <div class="input medium">
                     <label>Sports Content</label>                    
-                    <textarea name="sportscontent" id="sportscontent" class="wysiwyg"><?php echo @$_POST['sportscontent']; ?></textarea>
+                    <textarea name="sportscontent" id="sportscontent" class="wysiwyg"><?= isset($collegeDetails) ? $collegeDetails[0]->sportscontent : '' ;?></textarea>
                 </div>
                 <div class="input medium">
                     <label>Transportation Content</label>                    
-                    <textarea name="transportationcontent" id="transportationcontent" class="wysiwyg"><?php echo @$_POST['transportationcontent']; ?></textarea>
+                    <textarea name="transportationcontent" id="transportationcontent" class="wysiwyg"><?= isset($collegeDetails) ? $collegeDetails[0]->transportationcontent : '' ;?></textarea>
                 </div>
                 <div class="input medium">
                     <label>Cafeteria Content</label>                    
-                    <textarea name="cafetariacontent" id="cafetariacontent" class="wysiwyg"><?php echo @$_POST['cafetariacontent']; ?></textarea>
+                    <textarea name="cafetariacontent" id="cafetariacontent" class="wysiwyg"><?= isset($collegeDetails) ? $collegeDetails[0]->cafetariacontent : '' ;?></textarea>
                 </div>
                 <div class="input medium">
                     <label>Achievement Content</label>                    
-                    <textarea name="acivementcontent" id="acivementcontent" class="wysiwyg"><?php echo @$_POST['acivementcontent']; ?></textarea>
+                    <textarea name="acivementcontent" id="acivementcontent" class="wysiwyg"><?= isset($collegeDetails) ? $collegeDetails[0]->acivementcontent : '' ;?></textarea>
                 </div>
                 <div class="input medium">
                     <label>Placement Content</label>                    
-                    <textarea name="placementcontent" id="placementcontent" class="wysiwyg"><?php echo @$_POST['placementcontent']; ?></textarea>
+                    <textarea name="placementcontent" id="placementcontent" class="wysiwyg"><?= isset($collegeDetails) ? $collegeDetails[0]->placementcontent : '' ;?></textarea>
                 </div>
                 <div class="input medium">
                     <label>Library Content</label>                    
-                    <textarea name="librarycontent" id="librarycontent" class="wysiwyg"><?php echo @$_POST['librarycontent']; ?></textarea>
+                    <textarea name="librarycontent" id="librarycontent" class="wysiwyg"><?= isset($collegeDetails) ? $collegeDetails[0]->librarycontent : '' ;?></textarea>
                 </div>
                 <div class="input medium">
                     <label>Hostel Content</label>                    
-                    <textarea name="hostelcontent" id="hostelcontent" class="wysiwyg"><?php echo @$_POST['hostelcontent']; ?></textarea>
+                    <textarea name="hostelcontent" id="hostelcontent" class="wysiwyg"><?= isset($collegeDetails) ? $collegeDetails[0]->hostelcontent : '' ;?></textarea>
                 </div>
 
                 <div class="input medium">
                     <label>Meta Title</label>  
-                    <input type="text" value="<?php echo @$_POST['metatitle']; ?>" size="54" id="metatitle" name="metatitle" class="NFText" >                  
+                    <input type="text" value="<?= isset($collegeDetails) ? $collegeDetails[0]->meta_title : '' ;?>" size="54" id="metatitle" name="metatitle" class="NFText" >                  
                 </div>
 
                 <div class="input medium">
                     <label>Meta Keywords</label>       
-                    <input type="text" value="<?php echo @$_POST['metakeyword']; ?>" size="54" id="metakeyword" name="metakeyword" class="NFText" >                
+                    <input type="text" value="<?= isset($collegeDetails) ? $collegeDetails[0]->meta_keyword : '' ;?>" size="54" id="metakeyword" name="metakeyword" class="NFText" >                
                 </div>
 
                 <div class="input medium">
                     <label>Meta Description</label>                    
-                    <textarea name="metadescription" id="metadescription" ><?php echo @$_POST['metadescription']; ?></textarea>
+                    <textarea name="metadescription" id="metadescription" ><?= isset($collegeDetails) ? $collegeDetails[0]->meta_description : '' ;?></textarea>
                 </div>
 
                                     <div class="form-group">
                                         <?php
                                             $sts = 0;
-                                            if(isset($courseDetails)){
-                                                if($courseDetails->featured == 1){
+                                            if(isset($collegeDetails)){
+                                                if($collegeDetails[0]->featured == 1){
                                                     $sts = 1;
                                                 }
                                             }
@@ -157,15 +155,15 @@
 
                                     <div class="form-group">
                                         <?php
-                                            $sts = 0;
-                                            if(isset($courseDetails)){
-                                                if($courseDetails->status == 1){
-                                                    $sts = 1;
-                                                }
+                                            $sts1 = 0;
+                                            if(isset($collegeDetails)){
+                                                if($collegeDetails[0]->status == 1){
+                                                    $sts1 = 1;
+                                               }
                                             }
                                         ?>
                                         <label for="course_status">College Status</label>
-                                        <input type="checkbox" name="college_status" <?= ($sts == 1) ? 'checked' : '' ?> id="college_status" value="1" class="form-control">
+                                        <input type="checkbox" name="college_status" <?= ($sts1 == 1) ? 'checked' : '' ?> id="college_status" value="1" class="form-control">
                                     </div>
                                     <div class="form-action">
                                         <button type="submit" class="btn btn-primary" name="saveCollegeBtn" id="saveCollegeBtn">Submit</button>
@@ -180,6 +178,7 @@
         </div>
         <!-- end: DYNAMIC TABLE -->
     </div>
+
 </div>
 
 </div>

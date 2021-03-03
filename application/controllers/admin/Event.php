@@ -11,8 +11,6 @@ class Event extends CI_Controller {
         }
         $this->load->model('common_model');
         $this->load->library('upload');
-
-
     }
 
     public function index()
@@ -47,7 +45,7 @@ class Event extends CI_Controller {
                 $_FILES['file']['size']       = $_FILES['image_name']['size'][$i];
 
                 // File upload configuration
-                $uploadPath = './upload/';
+                $uploadPath = './upload/event/';
                 $config['upload_path'] = $uploadPath;
                 $config['allowed_types'] = 'jpg|jpeg|png|gif';
 
@@ -99,10 +97,12 @@ class Event extends CI_Controller {
             $lastId = $this->common_model->insertData('news',$insertArr);
 
             //
+            //print_r($uploadImgData);die;
             for($i=0;$i<count($uploadImgData);$i++){
-                $insertArr = array();
-                $insertArr = array('event_id'=>$lastId,'gallery_image'=>$uploadImgData[$i]['image_name'],'created_date'=>date('Y-m-d H:i:s'),'updated_date'=>date('Y-m-d H:i:s'));
-                $this->common_model->insertData('tbl_event_gallery',$insertArr);
+                $insertArr1 = array();
+                $insertArr1 = array('event_id'=>$lastId,'gallery_image'=>$uploadImgData[$i]['image_name'],'created_date'=>date('Y-m-d H:i:s'),'updated_date'=>date('Y-m-d H:i:s'));
+               // print_r($insertArr1);die;
+                $this->common_model->insertData('tbl_event_gallery',$insertArr1);
             }
 
             $this->session->set_flashdata('msg', '<p style="color:green">Event added successfully!</p>');
@@ -191,7 +191,44 @@ class Event extends CI_Controller {
             $test_array['event_image'] = $_POST['old_image'];
         }
 
+        if(!empty($_FILES['image_name']['name'])){
+              $ImageCount = count($_FILES['image_name']['name']);
+              $uploadImgData = array();
+          //echo $ImageCount;die;
+            for($i = 0; $i < $ImageCount; $i++){
+                $_FILES['file']['name']       = $_FILES['image_name']['name'][$i];
+                $_FILES['file']['type']       = $_FILES['image_name']['type'][$i];
+                $_FILES['file']['tmp_name']   = $_FILES['image_name']['tmp_name'][$i];
+                $_FILES['file']['error']      = $_FILES['image_name']['error'][$i];
+                $_FILES['file']['size']       = $_FILES['image_name']['size'][$i];
 
+                // File upload configuration
+                $uploadPath = './upload/event/';
+                $config['upload_path'] = $uploadPath;
+                $config['allowed_types'] = 'jpg|jpeg|png|gif';
+
+                // Load and initialize upload library
+                $this->load->library('upload', $config);
+                $this->upload->initialize($config);
+
+                // Upload file to server
+                if($this->upload->do_upload('file')){
+                    // Uploaded file data
+                    $imageData = $this->upload->data();
+                    $uploadImgData[$i]['image_name'] = $imageData['file_name'];
+                }
+
+            }
+           // echo "<PRE>";print_r($uploadImgData);die;
+          }
+          
+        for($i=0;$i<count($uploadImgData);$i++){
+                $insertArr1 = array();
+                $insertArr1 = array('event_id'=>$lastId,'gallery_image'=>$uploadImgData[$i]['image_name'],'created_date'=>date('Y-m-d H:i:s'),'updated_date'=>date('Y-m-d H:i:s'));
+               // print_r($insertArr1);die;
+                $this->common_model->insertData('tbl_event_gallery',$insertArr1);
+            }
+            
             $whereArr = array('id'=>$_POST['id']);
           $updateArr = array('title '=>$_POST['title'],'link_url '=>$_POST['url'],'start_date '=>$_POST['sdate'],'end_date'=>$_POST['edate'],'start_time'=>$_POST['start_time'],'end_time'=>$_POST['end_time'],'content'=>$_POST['content'],'status'=>$_POST['college_status'],'image'=>$test_array['event_image']);
             //$this->common_model->insertData('news',$insertArr);
@@ -205,6 +242,26 @@ class Event extends CI_Controller {
         
     }
 
+    public function viewImage($id){
+       $sql = "SELECT * FROM `tbl_event_gallery` WHERE event_gallery_id != 0 and event_id='".$id."' ORDER BY event_id ASC";
+        $data['List'] = $this->common_model->coreQueryObject($sql);
+        $this->load->view('admin/header');
+        $this->load->view('admin/event_image_view',$data);
+        $this->load->view('admin/footer');
+    }
+
+    public function ImageDelete($galleryId = NULL,$eventId=NULL){
+        if(!empty($galleryId)){
+            $whereArr = array('event_gallery_id'=>$galleryId);
+            $this->common_model->deleteData('tbl_event_gallery',$whereArr);
+            $this->session->set_flashdata('msg', '<p style="color:green">Data successfully Deleted!</p>');
+                redirect('admin/Event/viewImage/'.$eventId);
+             
+        }else{
+            $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
+            redirect('admin/Event/viewImage');
+        }
+    }
    
 
 }

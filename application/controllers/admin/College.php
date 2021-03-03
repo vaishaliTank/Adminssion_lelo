@@ -49,8 +49,9 @@ class College extends CI_Controller {
     public function college_edit($courseId = NULL){
         if($courseId != ''){
             $whereArr = array('college_id'=>$courseId);
-            $data['collegeData'] = $this->common_model->getData('tbl_college',$whereArr);
-            if($data['collegeData'] != ''){
+            $data['collegeDetails'] = $this->common_model->getData('tbl_college',$whereArr);
+            if($data['collegeDetails'] != ''){
+                //print_r($data['collegeDetails']);die;
                 //$data['streams'] = $this->mcourse->getStreams();
                 $this->load->view('admin/header');
                 $this->load->view('admin/college_add', $data);
@@ -80,7 +81,7 @@ class College extends CI_Controller {
     public function updateCollege(){
         $post = $this->input->post();
         if($post){
-            $res = $this->mcourse->updateCourse($post);
+            $res = $this->mcollege->updateCollege($post);
             if($res){
                 $this->session->set_flashdata('msg', '<p style="color:green">Stream successfully updated!</p>');
                 redirect('admin/College');

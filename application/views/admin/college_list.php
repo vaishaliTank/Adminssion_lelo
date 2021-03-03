@@ -56,13 +56,13 @@
                                                                     <?php 
                                                                         if($college->featured == 1){ 
                                                                             ?>
-                                                                                <a class="btn btn-success btn-xs" href="<?= base_url() ?>admin/College/status/<?= $row->college_id?>/<?= $row->featured ?>">
+                                                                                <a class="btn btn-success btn-xs" href="<?= base_url() ?>admin/College/status/<?= $college->college_id?>/<?= $college->featured ?>">
                                                                                     <i class="fa fa-check"></i>
                                                                                 </a>
                                                                             <?php 
                                                                         }else{
                                                                             ?>
-                                                                                <a class="btn btn-danger btn-xs" href="<?= base_url() ?>admin/College/status/<?= $row->college_id?>/<?= $row->featured?>">
+                                                                                <a class="btn btn-danger btn-xs" href="<?= base_url() ?>admin/College/status/<?= $college->college_id?>/<?= $college->featured?>">
                                                                                     <i class="fa fa-close"></i>
                                                                                 </a>
                                                                             <?php 
@@ -73,13 +73,13 @@
                                                                     <?php 
                                                                         if($college->status == 1){ 
                                                                             ?>
-                                                                                 <a class="btn btn-success btn-xs" href="<?= base_url() ?>admin/College/status1/<?= $row->college_id?>/<?= $row->visible ?>">
+                                                                                 <a class="btn btn-success btn-xs" href="<?= base_url() ?>admin/College/status1/<?= $college->college_id?>/<?= $college->status ?>">
                                                                                     <i class="fa fa-check"></i>
                                                                                 </a>
                                                                             <?php 
                                                                         }else{
                                                                             ?>
-                                                                                <a class="btn btn-danger btn-xs" href="<?= base_url() ?>admin/College/status1/<?= $row->college_id?>/<?= $row->visible?>">
+                                                                                <a class="btn btn-danger btn-xs" href="<?= base_url() ?>admin/College/status1/<?= $college->college_id?>/<?= $college->status?>">
                                                                                     <i class="fa fa-close"></i>
                                                                                 </a>
                                                                             <?php 

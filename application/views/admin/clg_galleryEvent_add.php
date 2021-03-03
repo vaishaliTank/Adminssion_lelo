@@ -29,8 +29,8 @@
                                     
                                      <div class="input medium" id="catname_label">
                                         <label for="input1">Image<span class="star">*</span></label>
-                                        <input type="file" value="" size="54" name="image_name" class="NFText" >
-
+                                        <input type="file" id="image_name" value="" size="54" name="image_name" class="NFText" >
+                                        <span id="errorimagname" style="color: red;"></span>
                                     </div>
                                     
                                     <?php if(!empty($eventGDetails)) { ?>
@@ -94,25 +94,10 @@
             alertify.<?= $t ?>("<?= $m ?>");
         <?php endif; ?>
 
-        $('#saveClgSBtn').click(function(){
+        $('#saveClgGEBtn').click(function(){
             
-            if($('#clgemail').val() == ''){
-                $('#errorclgemail').text('Enter Email').fadeIn('slow').fadeOut(5000);
-                return false;
-            }else if($('#clgphone').val() == ''){
-                $('#errorclgname').text('Enter Phone').fadeIn('slow').fadeOut(5000);
-                return false;
-            }else if($('#fblink').val() == ''){
-                $('#errorfblink').text('Enter Facebook Link').fadeIn('slow').fadeOut(5000);
-                return false;
-            }else if($('#twlink').val() == ''){
-                $('#errortwlink').text('Enter Twitter Link').fadeIn('slow').fadeOut(5000);
-                return false;
-            }else if($('#inlink').val() == ''){
-                $('#errorinlink').text('Enter Instagram Link').fadeIn('slow').fadeOut(5000);
-                return false;
-            }else if($('#linlink').val() == ''){
-                $('#errorlinlink').text('Enter Linkedin Link').fadeIn('slow').fadeOut(5000);
+            if($('#image_name').val() == ''){
+                $('#errorimagname').text('Select Image').fadeIn('slow').fadeOut(5000);
                 return false;
             }else{
                 return true;

@@ -25,8 +25,8 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="college_name">College Name<span class="text-danger">*</span></label>
-                                        <select name="collage">
-                                            <option>Select</option>
+                                        <select name="collage" id="collage">
+                                            
                                             <?php foreach($collage as $cl){
                                                 $str = '';
                                                 if(!empty($SocialDetails)){
@@ -38,12 +38,13 @@
                                                 <option <?php  echo $str; ?> value="<?php echo $cl->college_id;?>"><?php echo $cl->college_name;?></option>
                                             <?php }?>
                                         </select>
+                                        <span id="errorclgname" style="color: red;"></span>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="image">Image Type<span class="text-danger">*</span></label>
-                                        <select name="image">
-                                            <option>Select</option>
+                                        <select name="image" id="image">
+                                            
                                             <?php foreach($image as $im){
                                                 $str = '';
                                                 if(!empty($SocialDetails)){
@@ -55,13 +56,14 @@
                                                 <option <?php  echo $str; ?> value="<?php echo $im->image_type_id;?>"><?php echo $im->image_type_name;?></option>
                                             <?php }?>
                                         </select>
-                                        <span id="errorclgemail" style="color: red;"></span>
+                                        <span id="errorclgimgtype" style="color: red;"></span>
                                     </div>
 
                                     
                                      <div class="input medium" id="catname_label">
                                         <label for="input1">Image<span class="star">*</span></label>
-                                        <input type="file" value="" size="54" name="image_name[]" class="NFText" >
+                                        <input type="file" id="image_name" value="" size="54" name="image_name[]" class="NFText" >
+                                        <span id="errorimage_name" style="color: red;"></span>
                                     </div>
                                     <div class="input medium" id="catname_label">
                                         <label for="input1" class="input1image">&nbsp;</label>
@@ -125,25 +127,16 @@
             alertify.<?= $t ?>("<?= $m ?>");
         <?php endif; ?>
 
-        $('#saveClgSBtn').click(function(){
+        $('#saveClgGBtn').click(function(){
             
-            if($('#clgemail').val() == ''){
-                $('#errorclgemail').text('Enter Email').fadeIn('slow').fadeOut(5000);
+            if($('#collage').val() == ''){
+                $('#errorclgname').text('Select Collage').fadeIn('slow').fadeOut(5000);
                 return false;
-            }else if($('#clgphone').val() == ''){
-                $('#errorclgname').text('Enter Phone').fadeIn('slow').fadeOut(5000);
+            }else if($('#image').val() == ''){
+                $('#errorclgimgtype').text('Select Collage Type').fadeIn('slow').fadeOut(5000);
                 return false;
-            }else if($('#fblink').val() == ''){
-                $('#errorfblink').text('Enter Facebook Link').fadeIn('slow').fadeOut(5000);
-                return false;
-            }else if($('#twlink').val() == ''){
-                $('#errortwlink').text('Enter Twitter Link').fadeIn('slow').fadeOut(5000);
-                return false;
-            }else if($('#inlink').val() == ''){
-                $('#errorinlink').text('Enter Instagram Link').fadeIn('slow').fadeOut(5000);
-                return false;
-            }else if($('#linlink').val() == ''){
-                $('#errorlinlink').text('Enter Linkedin Link').fadeIn('slow').fadeOut(5000);
+            }else if($('#image_name').val() == ''){
+                $('#errorimage_name').text('Select Image').fadeIn('slow').fadeOut(5000);
                 return false;
             }else{
                 return true;

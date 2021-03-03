@@ -26,7 +26,7 @@ class Collage_Video extends CI_Controller {
     }
 
     public function collegevideo_add(){
-        $sql1 = "select college_id,college_name from tbl_college";
+        $sql1 = "select college_id,college_name from tbl_college where status=1 order by college_name";
         $data['collage'] = $this->common_model->coreQueryObject($sql1);
         $this->load->view('admin/header');
         $this->load->view('admin/clgVideoadd',$data);
@@ -54,7 +54,7 @@ class Collage_Video extends CI_Controller {
     public function collegeV_edit($vid = NULL){
         if($vid != ''){
             $data['VideoDetails'] = $this->clgvideo->getClgVDetails($vid);
-            $sql1 = "select college_id,college_name from tbl_college";
+            $sql1 = "select college_id,college_name from tbl_college where status=1 order by college_name";
             $data['collage'] = $this->common_model->coreQueryObject($sql1);
             //echo "<PRE>";print_r($data['FaciltyDetails']);die;
             if($data['VideoDetails'] != ''){

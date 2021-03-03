@@ -57,7 +57,7 @@ class Collage_Gallery extends CI_Controller {
     public function collegeS_edit($sid = NULL){
         if($sid != ''){
             $data['SocialDetails'] = $this->clgsocial->getClgSDetails($sid);
-            $sql1 = "select college_id,college_name from tbl_college";
+            $sql1 = "select college_id,college_name from tbl_college where status=1 order by college_name";
             $data['collage'] = $this->common_model->coreQueryObject($sql1);
             //echo "<PRE>";print_r($data['FaciltyDetails']);die;
             if($data['SocialDetails'] != ''){
@@ -65,11 +65,11 @@ class Collage_Gallery extends CI_Controller {
                 $this->load->view('admin/clgSocialadd', $data);
                 $this->load->view('admin/footer');           
             }else{
-                redirect('admin/Collage_Social');    
+                redirect('admin/Collage_Gallery');    
             }
         }else{
             $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-            redirect('admin/Collage_Social');
+            redirect('admin/Collage_Gallery');
         } 
     }
 
@@ -82,14 +82,14 @@ class Collage_Gallery extends CI_Controller {
             $res = $this->clgsocial->updateClgSocial($post);
             if($res){
                 $this->session->set_flashdata('msg', '<p style="color:green">College Social successfully updated!</p>');
-                redirect('admin/Collage_Social');
+                redirect('admin/Collage_Gallery');
             }else{
                 $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-                redirect('admin/Collage_Social');
+                redirect('admin/Collage_Gallery');
             }
         }else{
             $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-            redirect('admin/Collage_Social');
+            redirect('admin/Collage_Gallery');
         }
     }
 

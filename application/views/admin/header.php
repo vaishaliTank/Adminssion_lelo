@@ -326,6 +326,54 @@ $uri_segment = $this->uri->segment(2);
                                     </li>
                                 </ul>
                             </li>
+                             <li class="<?= ($uri_segment == 'Page') ? 'active' : ''; ?>">
+                                <a href="javascript:void(0)">
+                                    <div class="item-content">
+                                        <div class="item-media">
+                                            <i class="ti-layout-grid2"></i>
+                                        </div>
+                                        <div class="item-inner">
+                                            <span class="title">Pages</span><i class="icon-arrow"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li class="active">
+                                        <a href="<?= base_url() ?>admin/Page">
+                                            <span class="title">Pages List</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/Page/page_add">
+                                            <span class="title">Page ADD</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                             <li class="<?= ($uri_segment == 'Banner') ? 'active' : ''; ?>">
+                                <a href="javascript:void(0)">
+                                    <div class="item-content">
+                                        <div class="item-media">
+                                            <i class="ti-layout-grid2"></i>
+                                        </div>
+                                        <div class="item-inner">
+                                            <span class="title">Home Banners</span><i class="icon-arrow"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li class="active">
+                                        <a href="<?= base_url() ?>admin/Banner">
+                                            <span class="title">Home Bannner List</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/Banner/banner_add">
+                                            <span class="title">Home Banner ADD</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
                             <li class="<?= ($uri_segment == 'Lead') ? 'active' : ''; ?>">
                                 <a href="javascript:void(0)">
                                     <div class="item-content">

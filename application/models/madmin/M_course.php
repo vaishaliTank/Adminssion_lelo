@@ -43,6 +43,7 @@ class M_course extends CI_Model {
 
     	$this->db->insert('tbl_course', $stream_array);
     	$courseId = $this->db->insert_id();
+        //echo $courseId;die;
     	if($courseId){
     		return $courseId;
     	}else{

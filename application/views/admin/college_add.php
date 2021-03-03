@@ -66,7 +66,7 @@
 
                                     <div class="form-group">
                                         <label for="phone2">Phone2<span class="text-danger"></span></label>
-                                        <input type="text" class="form-control" name="phone1" id="phone2" value="<?= isset($courseDetails) ? $courseDetails->phone2 : '' ;?>" placeholder="Enter Phone">
+                                        <input type="text" class="form-control" name="phone2" id="phone2" value="<?= isset($courseDetails) ? $courseDetails->phone2 : '' ;?>" placeholder="Enter Phone">
                                         
                                     </div>
 
@@ -76,18 +76,19 @@
                                         
                                     </div>
 
-                                    <div class="form-group">
-                                        <label for="fax">About Content<span class="text-danger"></span></label>
-                                        <textarea name="aboutus" id="aboutus" class="wysiwyg"><?php echo @$_POST['aboutus']; ?></textarea>
-                                    </div>
+                                    
 
                                     <div class="input medium" id="catname_label">
                     <label for="input1">College Image <span class="star">*</span></label>
                     <input type="file" id="college_image" name="college_image" required>
                 </div>
-                <div class="input medium">
-                    <label>About Content</label>                    
-                    
+                <div class="form-group">
+                    <label for="fax">Feature<span class="text-danger"></span></label>
+                    <input type="checkbox" name="feature" id="feature">
+                </div>
+               <div class="form-group">
+                    <label for="fax">About Content<span class="text-danger"></span></label>
+                    <textarea name="aboutus" id="aboutus" class="wysiwyg"><?php echo @$_POST['aboutus']; ?></textarea>
                 </div>
                 <div class="input medium">
                     <label>Promoter Content</label>                    

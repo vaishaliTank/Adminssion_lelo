@@ -56,13 +56,13 @@
                                                                     <?php 
                                                                         if($college->featured == 1){ 
                                                                             ?>
-                                                                                <a class="btn btn-success btn-xs" href="">
+                                                                                <a class="btn btn-success btn-xs" href="<?= base_url() ?>admin/College/status/<?= $row->college_id?>/<?= $row->featured ?>">
                                                                                     <i class="fa fa-check"></i>
                                                                                 </a>
                                                                             <?php 
                                                                         }else{
                                                                             ?>
-                                                                                <a class="btn btn-danger btn-xs" href="">
+                                                                                <a class="btn btn-danger btn-xs" href="<?= base_url() ?>admin/College/status/<?= $row->college_id?>/<?= $row->featured?>">
                                                                                     <i class="fa fa-close"></i>
                                                                                 </a>
                                                                             <?php 
@@ -73,13 +73,13 @@
                                                                     <?php 
                                                                         if($college->status == 1){ 
                                                                             ?>
-                                                                                <a class="btn btn-success btn-xs" href="">
+                                                                                 <a class="btn btn-success btn-xs" href="<?= base_url() ?>admin/College/status1/<?= $row->college_id?>/<?= $row->visible ?>">
                                                                                     <i class="fa fa-check"></i>
                                                                                 </a>
                                                                             <?php 
                                                                         }else{
                                                                             ?>
-                                                                                <a class="btn btn-danger btn-xs" href="">
+                                                                                <a class="btn btn-danger btn-xs" href="<?= base_url() ?>admin/College/status1/<?= $row->college_id?>/<?= $row->visible?>">
                                                                                     <i class="fa fa-close"></i>
                                                                                 </a>
                                                                             <?php 
@@ -90,7 +90,7 @@
                                                                     <a class="btn btn-info btn-xs" href="<?= base_url() ?>admin/college/college_edit/<?= $college->college_id;?>">
                                                                         <i class="fa fa-pencil"></i>
                                                                     </a>
-                                                                    <a class="btn btn-danger btn-xs ask" href="<?= base_url() ?>admin/college/delete/<?= $college->college_id ?>">
+                                                                    <a class="btn btn-danger btn-xs ask" href="<?= base_url() ?>admin/College/delete/<?= $college->college_id ?>">
                                                                         <i class="fa fa-close"></i>
                                                                     </a>
                                                                 </td>

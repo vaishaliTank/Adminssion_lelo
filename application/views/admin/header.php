@@ -254,6 +254,40 @@ $uri_segment = $this->uri->segment(2);
                                     </li>
                                 </ul>
                             </li>
+                              <li class="<?= ($uri_segment == 'Collage_Gallery' || $uri_segment == 'Collage_EventGallery') ? 'active' : ''; ?>">
+                                <a href="javascript:void(0)">
+                                    <div class="item-content">
+                                        <div class="item-media">
+                                            <i class="ti-layout-grid2"></i>
+                                        </div>
+                                        <div class="item-inner">
+                                            <span class="title">College Gallery Master</span><i class="icon-arrow"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li class="active">
+                                        <a href="<?= base_url() ?>admin/Collage_Gallery">
+                                            <span class="title">College Gallery List</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/Collage_Gallery/collegegallery_add">
+                                            <span class="title">College Gallery ADD</span>
+                                        </a>
+                                    </li>
+                                     <li class="">
+                                        <a href="<?= base_url() ?>admin/Collage_EventGallery">
+                                            <span class="title">Event Gallery List</span>
+                                        </a>
+                                    </li>
+                                     <li class="">
+                                        <a href="<?= base_url() ?>admin/Collage_EventGallery/collegegalleryE_add">
+                                            <span class="title">Event Gallery ADD</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
                             <li class="<?= ($uri_segment == 'testimonial') ? 'active' : ''; ?>">
                                 <a href="javascript:void(0)">
                                     <div class="item-content">

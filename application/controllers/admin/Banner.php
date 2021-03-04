@@ -148,7 +148,7 @@ class Banner extends CI_Controller {
                 }
                 $whereArr = array('id'=>$_POST['id']);
           
-            $updateArr = array('title '=>$_POST['title'],'url'=>$_POST['url'],'target '=>$_POST['target'],'sort_order'=>$_POST['sort'],'image'=>$test_array['event_image'],'status'=>$_POST['publish'],'DisplayTime'=>$_POST['status']);
+            $updateArr = array('title '=>$_POST['title'],'url'=>$_POST['url'],'target '=>$_POST['target'],'sort_order'=>$_POST['sort'],'image'=>$test_array['event_image'],'status'=>$_POST['publish'],'DisplayTime'=>$_POST['status'],'timezone'=>$_POST['timezone'],'FromDate'=>$_POST['sdate'],'ToDate'=>$_POST['edate']);
             //$this->common_model->insertData('news',$insertArr);
             $this->common_model->updateData('banner',$updateArr,$whereArr);
             $this->session->set_flashdata('msg', '<p style="color:green">Data successfully updated!</p>');

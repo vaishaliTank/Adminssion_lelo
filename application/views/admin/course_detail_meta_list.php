@@ -55,8 +55,10 @@
                                                         ?>
                                                             <tr>
                                                                 <td><?= $sr; ?></td>
-                                                                <td><?= $college[0]->college_name; ?></td>
-                                                                <td><?= $stream[0]->stream_name;  ?></td>
+                                                                <td><?php if(!empty($college)){
+                                                                    echo $college[0]->college_name;
+                                                                }  ?></td>
+                                                                <td><?php if(!empty($stream)){ echo $stream[0]->stream_name; }   ?></td>
                                                                 <td><?= $row->meta_title;  ?></td>
                                                                 <td><?= $row->meta_keyword; ?></td>
                                                                 <td><?= $row->meta_description; ?></td>

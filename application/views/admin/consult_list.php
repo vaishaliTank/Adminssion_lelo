@@ -15,7 +15,7 @@
         </section>
         <div class="container-fluid container-fullw bg-white">
             <div class="row">
-                 <a class="pull-right btn btn-primary btn-large" style="margin-right:40px" href="<?php echo base_url().'admin/Lead/createxls'?>"><i class="fa fa-file-excel-o"></i> Export Data</a>
+                 <a class="pull-right btn btn-primary btn-large" style="margin-right:40px" href="<?php echo base_url().'admin/Lead/createxlsConsult'?>"><i class="fa fa-plus"></i> Download CSV</a>
                 <form name="" method="POST" id="categoryFrm" action=""> 
                     <div class="col-md-offset-0 col-md-12">
                         <p id="errortxt" style="color: red;"></p>
@@ -92,7 +92,7 @@
                                                                 <td ><?php  if($row->acount==1){echo 'Y';}else{echo 'N';} ?></td>
                                                                 <td ><?= 
                                                                  $newDate = date("d M Y  H:i", strtotime($row->updated_date));?></td>  
-                                                                <td><a rel="facebox" href="apply_course_list.php?filename=<?php echo base64_encode($row->counselor_email); ?>"><?php echo $row->bcount;?></a></td>
+                                                                <td><?php echo $row->bcount;?></td>
                                                 
                                                                  
                                                             </tr>

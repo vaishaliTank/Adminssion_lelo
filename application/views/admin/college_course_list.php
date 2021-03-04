@@ -21,8 +21,9 @@
                         <p id="successtxt" style="color: green;"></p>
                         <a href="<?= base_url() ?>admin/College_Course/course_add" class="btn btn-primary margin-bottom-10 btn-wide"><i class="fa fa-plus"></i> Add New</a>
                         <a href="<?= base_url() ?>admin/College_Course/createxls" class="btn btn-primary margin-bottom-10 btn-wide"><i class="fa fa-plus"></i> Download CSV</a>
-                        <a href="<?= base_url() ?>admin/course/uploadview" class="btn btn-primary margin-bottom-10 btn-wide"><i class="fa fa-plus"></i> Upload CSV</a>
+                         <a href="<?= base_url() ?>admin/College_Course/uploadview" class="btn btn-primary margin-bottom-10 btn-wide"><i class="fa fa-plus"></i> Upload CSV</a>
                         <div class="panel panel-light-primary" id="panel5">
+                        
                             <div class="panel-heading">
                                 College Course List
                             </div>

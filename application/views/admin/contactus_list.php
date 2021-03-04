@@ -16,6 +16,7 @@
         </section>
         <div class="container-fluid container-fullw bg-white">
             <div class="row">
+                 <a class="pull-right btn btn-primary btn-large" style="margin-right:40px" href="<?php echo base_url().'admin/Lead/createxlsContact'?>"><i class="fa fa-plus"></i> Download CSV</a>
                 <form name="" method="POST" id="categoryFrm" action=""> 
                     <div class="col-md-offset-0 col-md-12">
                         <p id="errortxt" style="color: red;"></p>

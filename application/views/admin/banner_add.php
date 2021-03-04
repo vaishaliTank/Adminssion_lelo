@@ -66,9 +66,11 @@
                                     <div class="form-group">
                                         <?=
                                             $sts = '';
+                                            $style1 = '';
                                             if(isset($eventData)){
                                                 if($eventData[0]->DisplayTime == 'D'){
                                                     $sts = 'checked';
+                                                    $style1='display : none';
                                                 }
                                                 //echo $sts;die;
                                             }
@@ -78,7 +80,7 @@
                                         <label for="course_status">Banner Display Time<span class="text-danger">*</span>: (Please select Specified Time if you want to add the banner for specific dates.)</label>
                                         <input type="checkbox" name="status" <?= $sts ?> id="status" value="D" class="form-control" >
                                     </div>
-                                    <div id="time1" style="display: none;">
+                                    <div id="time1" style="<?php echo $style1; ?>">
                                         <label>Display Banner:</label>
                                         <div class="form-group">
                                         <label for="course_status">From Date<span class="text-danger">*</span></label>
@@ -203,6 +205,10 @@
            }
            //'unchecked' event code
         });
+
+         $('#status').on('change',function(){
+                alert('hii');
+         });
     });
 
    

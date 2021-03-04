@@ -162,6 +162,85 @@ class College_Course extends CI_Controller {
          redirect(site_url().$fileName);              
     
     }
+
+    public function uploadview(){
+        $this->load->view('admin/header');
+        $this->load->view('admin/csv_college_course');
+        $this->load->view('admin/footer');
+    }
+
+    public function upload_csv(){
+        $config['upload_path'] = './upload/csv/';
+        $config['allowed_types'] = 'xlsx|xls';
+        $config['file_name'] = random_string('alnum', 16);
+        
+        $this->upload->initialize($config);
+
+        if(!$this->upload->do_upload('image_name')){
+            $error = $this->upload->display_errors();
+            $file_arr = array('error' => $error);
+            $this->session->set_flashdata('msg', '<p style="color:red;">'.$file_arr.'</p>');
+            return '';
+        }else{
+            $dt = array('upload_data'=>$this->upload->data());
+            $import_xls_file = $dt['upload_data']['file_name'];
+        }
+        $path = "./upload/csv/";
+         $inputFileName = $path . $import_xls_file;
+ 
+        
+         $inputFileType = PHPExcel_IOFactory::identify($inputFileName);
+         $objReader = PHPExcel_IOFactory::createReader($inputFileType);
+         $objPHPExcel = $objReader->load($inputFileName);
+         $allDataInSheet = $objPHPExcel->getActiveSheet()->toArray(null, true, true, true);
+         $flag = true;
+         $i=0;
+         //echo "<PRE>";print_r($allDataInSheet);die;
+         foreach ($allDataInSheet as $value) {
+            if($i != 1){
+                $college_id = addslashes(trim($value[A]));
+                $course_id = addslashes(trim($value[B]));
+                $stream_id = addslashes(trim($value[C]));
+                $duration = addslashes(trim($value[D]));
+                $annual_fees = addslashes(trim($value[E]));
+                $international_fees = addslashes(trim($value[F]));
+                $eligibility = addslashes(trim($value[G]));
+                $status = 1;
+                $created_date = date('Y-m-d H:i:s');
+                $updated_date = date('Y-m-d H:i:s');
+                $query_count = "select id from tbl_college_course where college_id='".$college_id."' and stream_id='".$stream_id."' and course_id='".$course_id."'";
+                $nums = $this->common_model->coreQueryObject($query_count);
+
+               // $result_count   = custom_my_sql_query($con, $query_count) or die(custom_mysql_error($con));
+               // $nums           = custom_my_sql_fetch_assoc($result_count);
+                if(count($nums) > 0){
+                    $id = $nums[0]->id;                  
+                    $insert_cat = "update `tbl_college_course` set college_id='".$college_id."', course_id='".$course_id."', stream_id='".$stream_id."', duration='".$duration."', annual_fees='".$annual_fees."', international_fees='".$international_fees."', eligibility='".$eligibility."', status='".$status."',updated_date= '".$updated_date."' where id='".$id."'"; 
+                    $nums1= $this->common_model->coreQueryObject($insert_cat); 
+                    //echo $insert_cat."<br>";
+                   /* $exe_insert_cat = custom_my_sql_query($con, $insert_cat) or die(custom_mysql_error($con));
+                    $insert_id = custom_my_sql_insert_id($con); */                      
+                }else{
+                    $insert_cat = "INSERT INTO `tbl_college_course` set college_id='".$college_id."', course_id='".$course_id."', stream_id='".$stream_id."', duration='".$duration."', annual_fees='".$annual_fees."', international_fees='".$international_fees."', eligibility='".$eligibility."', status='".$status."',created_date= '".$created_date."',updated_date= '".$updated_date."'"; 
+                    $nums2= $this->common_model->coreQueryObject($insert_cat); 
+                   /* $exe_insert_cat = custom_my_sql_query($con, $insert_cat) or die(custom_mysql_error($con));
+                    $insert_id = custom_my_sql_insert_id($con);*/
+                }   
+            }
+            $i++;
+         }               
+         //$result = $this->mcourse->importdata($inserdata);   
+         if($result){
+           $this->session->set_flashdata('msg', '<p style="color:green">Data Import successfully!</p>');
+                redirect('admin/College_Course');
+         }else{
+           $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
+                redirect('admin/College_Course');
+         }              
+    }
+
+
+
    
 
 }

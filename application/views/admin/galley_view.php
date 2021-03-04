@@ -19,7 +19,7 @@
                     <div class="col-md-offset-0 col-md-12">
                         <p id="errortxt" style="color: red;"></p>
                         <p id="successtxt" style="color: green;"></p>
-                        <a href="<?= base_url() ?>admin/Collage_Gallery/collegegallery_add" class="btn btn-primary margin-bottom-10 btn-wide"><i class="fa fa-plus"></i> Add New</a>
+                       
                         <div class="panel panel-light-primary" id="panel5">
                             <div class="panel-heading">
                                 College Gallery List 
@@ -44,6 +44,7 @@
                                                         onchange="setfetured(<?php echo $gallery->college_id?>,<?php echo $gallery->image_id?>);" <?php if($gallery->featured==1){echo "checked";} ?> > Featured <br/>
 
                                                         <input type="checkbox" name="home_image_featured_<?php echo $gallery->image_id; ?>" id="home_image_featured_<?php echo $gallery->image_id; ?>" value="1" onclick="return setfeturedhome(<?php echo $gallery->college_id; ?>,<?php echo $gallery->image_id ?>);" <?php if($gallery->home_featured==1){echo "checked";} ?>> Home Featured
+
                                                         </td>
                                                         <?php 
                                                         if($sr % 6 == 0){ ?>
@@ -58,6 +59,7 @@
                                         </tr>
                                         </tbody>
                                     </table>
+                                     <input type="checkbox" id="ckk" name="ckk" >
                                 </div>
                             </div>
                         </div>
@@ -140,7 +142,7 @@
     });
 }
 
-/*function setfeturedhome(cid,imd){   
+function setfeturedhome(cid,imd){   
     if($("#home_image_featured_"+imd).prop('checked') == true){ 
         var image_featured_vl = $("#home_image_featured_"+imd).val();
     }else{
@@ -148,7 +150,7 @@
     }   
     $.ajax({
         type: "POST",
-        url: base_url+"Collage_Gallery/setHomeFeatured";
+        url: base_url+"Collage_Gallery/setHomeFeatured",
         data:"homefeatured=homefeatured&cid="+cid+"&image_id="+imd+"&image_featured_vl="+image_featured_vl,
         //data: $('#frmconsult').serialize(),
         contentType: "application/x-www-form-urlencoded",
@@ -157,13 +159,17 @@
                 $("#popwsuccess").html(data);
             }/*else{
                 $("#popwsuccess").html(data);
-            } 
+            } */
         },
         error: function (xhr, ajaxOptions, thrownError) {
             alert(thrownError);
         }
     });
-}*/
+}
+
+
+
+
 
 </script>
 

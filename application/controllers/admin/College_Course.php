@@ -1,4 +1,5 @@
-<?php 
+<?php
+require_once APPPATH."/third_party/PHPExcel.php"; 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class College_Course extends CI_Controller {

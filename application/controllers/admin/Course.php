@@ -11,6 +11,7 @@ class Course extends CI_Controller {
         if ($login_type != 'admin') {
             header('location:' . base_url() . 'admin/alogin');
         }
+        $this->load->library('excel');
         $this->load->model('madmin/m_course', 'mcourse');
     }
 
@@ -190,7 +191,7 @@ class Course extends CI_Controller {
             $dt = array('upload_data'=>$this->upload->data());
             $import_xls_file = $dt['upload_data']['file_name'];
         }
-        $path = "./upload/csv";
+        $path = "./upload/csv/";
          $inputFileName = $path . $import_xls_file;
  
         
@@ -202,16 +203,10 @@ class Course extends CI_Controller {
          $i=0;
          echo "<PRE>";print_r($allDataInSheet);die;
          foreach ($allDataInSheet as $value) {
-           if($flag){
-         $flag =false;
-         continue;
-           }
-           $inserdata[$i]['first_name'] = $value['A'];
-           $inserdata[$i]['last_name'] = $value['B'];
-           $inserdata[$i]['address'] = $value['C'];
-           $inserdata[$i]['email'] = $value['D'];
-           $inserdata[$i]['mobile'] = $value['E'];
-           $i++;
+            if($i != 1){
+
+            }
+            $i++;
          }               
          $result = $this->mcourse->importdata($inserdata);   
          if($result){

@@ -39,7 +39,7 @@ class Banner extends CI_Controller {
         $test_array = array();
         if(!empty($_POST)){
               if(!empty($_FILES['event_image']['name'])){
-                    $config['upload_path'] = './upload/';
+                    $config['upload_path'] = './upload/banners/';
                     $config['allowed_types'] = 'jpg|png|jpeg|JPG|PNG|JPEG';
                     $config['file_name'] = random_string('alnum', 16);
                     
@@ -54,6 +54,14 @@ class Banner extends CI_Controller {
                         $dt = array('upload_data'=>$this->upload->data());
                         $test_array['event_image'] = $dt['upload_data']['file_name'];
                     }
+                }
+
+                if($_POST['status'] == ''){
+                    $_POST['status'] = 'S';
+                }
+
+                  if($_POST['publish'] == ''){
+                    $_POST['publish'] = '0';
                 }
              
             $insertArr = array('title '=>$_POST['title'],'url'=>$_POST['url'],'target '=>$_POST['target'],'sort_order'=>$_POST['sort'],'image'=>$test_array['event_image'],'add_date'=>date('Y-m-d H:i:s'),'status'=>$_POST['publish'],'DisplayTime'=>$_POST['status'],'timezone'=>$_POST['timezone'],'FromDate'=>$_POST['sdate'],'ToDate'=>$_POST['edate']);
@@ -112,7 +120,6 @@ class Banner extends CI_Controller {
             $data['eventData'] = $this->common_model->getData('banner',$whereArr);
             //print_r($data['coursemetaDetails']);die;
             if($data['eventData'] != ''){
-                
                 $this->load->view('admin/header');
                 $this->load->view('admin/banner_add', $data);
                 $this->load->view('admin/footer');           
@@ -128,7 +135,7 @@ class Banner extends CI_Controller {
     public function updateBanner(){
         if(!empty($_POST)){
             if(!empty($_FILES['event_image']['name'])){
-            $config['upload_path'] = './upload/';
+            $config['upload_path'] = './upload/banners/';
                     $config['allowed_types'] = 'jpg|png|jpeg|JPG|PNG|JPEG';
                     $config['file_name'] = random_string('alnum', 16);
                     
@@ -147,6 +154,14 @@ class Banner extends CI_Controller {
                     $test_array['event_image'] = $_POST['old_image'];
                 }
                 $whereArr = array('id'=>$_POST['id']);
+
+                if($_POST['status'] == ''){
+                    $_POST['status'] = 'S';
+                }
+
+                  if($_POST['publish'] == ''){
+                    $_POST['publish'] = '0';
+                }
           
             $updateArr = array('title '=>$_POST['title'],'url'=>$_POST['url'],'target '=>$_POST['target'],'sort_order'=>$_POST['sort'],'image'=>$test_array['event_image'],'status'=>$_POST['publish'],'DisplayTime'=>$_POST['status'],'timezone'=>$_POST['timezone'],'FromDate'=>$_POST['sdate'],'ToDate'=>$_POST['edate']);
             //$this->common_model->insertData('news',$insertArr);

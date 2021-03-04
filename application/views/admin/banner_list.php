@@ -9,7 +9,7 @@
         <section id="page-title">
             <div class="row">
                 <div class="col-sm-8">
-                    <h1 class="mainTitle">Page Manager </h1>
+                    <h1 class="mainTitle">Banner Manager </h1>
                     <?= $this->session->flashdata('msg') ?>
                 </div>
             </div>
@@ -23,7 +23,7 @@
                         <a href="<?= base_url() ?>admin/Banner/banner_add" class="btn btn-primary margin-bottom-10 btn-wide"><i class="fa fa-plus"></i> Add New</a> 
                         <div class="panel panel-light-primary" id="panel5">
                             <div class="panel-heading">
-                                 Page List    
+                                 Banner List    
                             </div>
                             <div class="panel-body bg-white" style="border: 1px solid #3395ff;">
                                 <div class="table-responsive">
@@ -69,9 +69,8 @@
                                                                 <td><?= $row->title; ?></td>
                                                                 <td><?= $row->sort_order; ?></td>
                                                                 <td>
-                                                                    <a class="btn btn-default btn-xs" rel="facebox" href="upload/banners/<?php echo $row->image; ?>">
-                                                                        <i class="fa fa-link"></i> View
-                                                                    </a>
+                                                                   <a class="btn btn-default btn-xs"  id="view" href="javascript:void(0);" onclick="openModel();">view</a>
+                                                                    <input type="hidden" id="imgUrl" value="<?php echo $row->image; ?>">
                                                                 </td>
                                                                 <td><?php echo $DisplayTime; ?></td>
                                                                 <td><?php echo $fromDate; ?></td>
@@ -157,7 +156,49 @@
             break;
     }
 ?>
-
+<script type="text/javascript">
+   function openModel(){
+    var imgUrl = $('#imgUrl').val();
+    var base = '<?php echo base_url().'upload/banners/' ?>';
+    $('#content1').attr('src',base+imgUrl);
+    $("#MyPopup").modal("show");
+              /* // $("#MyPopup").modal("show");
+            var id = $('#con').val();
+            //$('#content1').text($('#con').val());
+            //var url = base_url+'admin/Page';
+            $.ajax({
+               url: "<?php echo base_url().'admin/Page/getdata' ?>",
+               type: "POST",
+               dataType: "JSON",
+               data: {id:id},
+              dataType: "html",
+              
+               success: function (data) {
+                var con1 = document.getElementById('content1');
+                con1.innerHTML = data;
+                $("#MyPopup").modal("show");
+                  //alert(data);
+               },
+               error: function (xhr, ajaxOptions, thrownError) {
+                   
+               }
+           });
+            return false;*/
+       
+    }
+</script>
+<div id="MyPopup" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+               <img id="content1" style="height: 500px;width: 500px;">
+            </div>
+            <div class="modal-footer">
+                <input type="button" id="btnClosePopup" value="Close" class="btn btn-danger" data-dismiss="modal" />
+            </div>
+        </div>
+    </div>
+</div>
 
 
 

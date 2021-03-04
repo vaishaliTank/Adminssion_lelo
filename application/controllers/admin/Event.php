@@ -224,7 +224,7 @@ class Event extends CI_Controller {
           
         for($i=0;$i<count($uploadImgData);$i++){
                 $insertArr1 = array();
-                $insertArr1 = array('event_id'=>$lastId,'gallery_image'=>$uploadImgData[$i]['image_name'],'created_date'=>date('Y-m-d H:i:s'),'updated_date'=>date('Y-m-d H:i:s'));
+                $insertArr1 = array('event_id'=>$_POST['id'],'gallery_image'=>$uploadImgData[$i]['image_name'],'created_date'=>date('Y-m-d H:i:s'),'updated_date'=>date('Y-m-d H:i:s'));
                // print_r($insertArr1);die;
                 $this->common_model->insertData('tbl_event_gallery',$insertArr1);
             }

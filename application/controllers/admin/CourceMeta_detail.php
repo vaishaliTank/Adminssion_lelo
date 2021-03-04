@@ -10,7 +10,8 @@ class CourceMeta_detail extends CI_Controller {
             header('location:' . base_url() . 'admin/alogin');
         }
         $this->load->model('common_model');
-
+          $this->load->library('upload');
+           $this->load->library('excel');
     }
 
     public function index()
@@ -95,6 +96,56 @@ class CourceMeta_detail extends CI_Controller {
         $this->load->view('admin/footer');
     }
 
+    public function createxls(){
+        // load excel library
+        $this->load->library('excel');
+       // $mobiledata = $this->Common_model->mobileList();
+        $objPHPExcel = new PHPExcel();
+        $objPHPExcel->setActiveSheetIndex(0);
+        // set Header
+        $objPHPExcel->getActiveSheet()->SetCellValue('A1', 'College');
+        $objPHPExcel->getActiveSheet()->SetCellValue('B1', 'Stream');
+        $objPHPExcel->getActiveSheet()->SetCellValue('C1', 'Meta Title');
+        $objPHPExcel->getActiveSheet()->SetCellValue('D1', 'Meta keyword');
+        
+        $objPHPExcel->getActiveSheet()->SetCellValue('E1', 'Meta Description');
+        $List= $this->common_model->getData('tbl_college_stream_metadata','');
+        //$List = $this->common_model->coreQueryObject($sql);
+        //echo "<PRE>";print_r($List);die;
+       $rowCount = 2;
+        $b = 1;
+        foreach ($List as $val) 
+        {   
+            $whereArr = array('college_id'=>$val->college_id);
+            $whereArr1 = array('stream_id'=>$val->stream_id);
+            $college = array();
+            $stream = array();
+            $college = $this->common_model->getData('tbl_college',$whereArr);
+            $stream = $this->common_model->getData('tbl_stream',$whereArr1);
+            $colName = '';
+            if(!empty($college)){
+                $colName = $college[0]->college_name;
+            } 
+            $strName ='';
+            if(!empty($stream)){ $strName =  $stream[0]->stream_name; }
+            
+            $objPHPExcel->getActiveSheet()->SetCellValue('A' . $rowCount, $colName);
+            $objPHPExcel->getActiveSheet()->SetCellValue('B' . $rowCount, $strName);
+            $objPHPExcel->getActiveSheet()->SetCellValue('C' . $rowCount, $val->meta_title);
+            $objPHPExcel->getActiveSheet()->SetCellValue('D' . $rowCount, $val->meta_keyword);
+            $objPHPExcel->getActiveSheet()->SetCellValue('E' . $rowCount, $val->meta_description);
+            
+            $rowCount++;
+            $b++;
+        }
+        $fileName = 'Meta_CourseList.xlsx';
+        $objWriter = new PHPExcel_Writer_Excel2007($objPHPExcel);
+        $objWriter->save($fileName);
+        // download file
+        header("Content-Type: application/vnd.ms-excel");
+         redirect(site_url().$fileName);              
+    }
+
     public function upload_csv(){
         $config['upload_path'] = './upload/csv/';
         $config['allowed_types'] = 'xlsx|xls';
@@ -120,49 +171,27 @@ class CourceMeta_detail extends CI_Controller {
          $objPHPExcel = $objReader->load($inputFileName);
          $allDataInSheet = $objPHPExcel->getActiveSheet()->toArray(null, true, true, true);
          $flag = true;
-         $i=0;
+         $i=1;
          //echo "<PRE>";print_r($allDataInSheet);die;
          foreach ($allDataInSheet as $value) {
             if($i != 1){
-                $college_id = addslashes(trim($value[A]));
-                $course_id = addslashes(trim($value[B]));
-                $stream_id = addslashes(trim($value[C]));
-                $duration = addslashes(trim($value[D]));
-                $annual_fees = addslashes(trim($value[E]));
-                $international_fees = addslashes(trim($value[F]));
-                $eligibility = addslashes(trim($value[G]));
-                $status = 1;
-                $created_date = date('Y-m-d H:i:s');
-                $updated_date = date('Y-m-d H:i:s');
-                $query_count = "select id from tbl_college_course where college_id='".$college_id."' and stream_id='".$stream_id."' and course_id='".$course_id."'";
-                $nums = $this->common_model->coreQueryObject($query_count);
-
-               // $result_count   = custom_my_sql_query($con, $query_count) or die(custom_mysql_error($con));
-               // $nums           = custom_my_sql_fetch_assoc($result_count);
-                if(count($nums) > 0){
-                    $id = $nums[0]->id;                  
-                    $insert_cat = "update `tbl_college_course` set college_id='".$college_id."', course_id='".$course_id."', stream_id='".$stream_id."', duration='".$duration."', annual_fees='".$annual_fees."', international_fees='".$international_fees."', eligibility='".$eligibility."', status='".$status."',updated_date= '".$updated_date."' where id='".$id."'"; 
-                    $nums1= $this->common_model->coreQueryObject($insert_cat); 
-                    //echo $insert_cat."<br>";
-                   /* $exe_insert_cat = custom_my_sql_query($con, $insert_cat) or die(custom_mysql_error($con));
-                    $insert_id = custom_my_sql_insert_id($con); */                      
-                }else{
-                    $insert_cat = "INSERT INTO `tbl_college_course` set college_id='".$college_id."', course_id='".$course_id."', stream_id='".$stream_id."', duration='".$duration."', annual_fees='".$annual_fees."', international_fees='".$international_fees."', eligibility='".$eligibility."', status='".$status."',created_date= '".$created_date."',updated_date= '".$updated_date."'"; 
-                    $nums2= $this->common_model->coreQueryObject($insert_cat); 
+                $stream_id = addslashes(trim($value['A']));
+                $college_id = addslashes(trim($value['B']));
+                $meta_title = addslashes(trim($value['C']));
+                $meta_keyword = addslashes(trim($value['D']));
+                $meta_description = addslashes(trim($value['E']));
+                
+                $insertArr = array('stream_id'=>$stream_id,'college_id'=>$college_id,'meta_title'=>$meta_title,'meta_keyword'=>$meta_keyword,'meta_description'=>$meta_description);
+                $this->common_model->insertData('tbl_college_stream_metadata',$insertArr); 
                    /* $exe_insert_cat = custom_my_sql_query($con, $insert_cat) or die(custom_mysql_error($con));
                     $insert_id = custom_my_sql_insert_id($con);*/
-                }   
+                
             }
             $i++;
          }               
          //$result = $this->mcourse->importdata($inserdata);   
-         if($result){
-           $this->session->set_flashdata('msg', '<p style="color:green">Data Import successfully!</p>');
-                redirect('admin/College_Course');
-         }else{
-           $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-                redirect('admin/College_Course');
-         }              
+         $this->session->set_flashdata('msg', '<p style="color:green">Data Import successfully!</p>');
+        redirect('admin/CourceMeta_detail');               
     }
 
 

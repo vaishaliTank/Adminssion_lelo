@@ -11,6 +11,8 @@ class College_Course extends CI_Controller {
             header('location:' . base_url() . 'admin/alogin');
         }
         $this->load->model('common_model');
+        $this->load->library('upload');
+         $this->load->library('excel');
 
     }
 
@@ -194,26 +196,27 @@ class College_Course extends CI_Controller {
          $objPHPExcel = $objReader->load($inputFileName);
          $allDataInSheet = $objPHPExcel->getActiveSheet()->toArray(null, true, true, true);
          $flag = true;
-         $i=0;
+         $i=1;
          //echo "<PRE>";print_r($allDataInSheet);die;
          foreach ($allDataInSheet as $value) {
             if($i != 1){
-                $college_id = addslashes(trim($value[A]));
-                $course_id = addslashes(trim($value[B]));
-                $stream_id = addslashes(trim($value[C]));
-                $duration = addslashes(trim($value[D]));
-                $annual_fees = addslashes(trim($value[E]));
-                $international_fees = addslashes(trim($value[F]));
-                $eligibility = addslashes(trim($value[G]));
+                $college_id = addslashes(trim($value['A']));
+                $course_id = addslashes(trim($value['B']));
+                $stream_id = addslashes(trim($value['C']));
+                $duration = addslashes(trim($value['D']));
+                $annual_fees = addslashes(trim($value['E']));
+                $international_fees = addslashes(trim($value['F']));
+                $eligibility = addslashes(trim($value['G']));
                 $status = 1;
                 $created_date = date('Y-m-d H:i:s');
                 $updated_date = date('Y-m-d H:i:s');
                 $query_count = "select id from tbl_college_course where college_id='".$college_id."' and stream_id='".$stream_id."' and course_id='".$course_id."'";
+                //echo $query_count;die;
                 $nums = $this->common_model->coreQueryObject($query_count);
 
                // $result_count   = custom_my_sql_query($con, $query_count) or die(custom_mysql_error($con));
                // $nums           = custom_my_sql_fetch_assoc($result_count);
-                if(count($nums) > 0){
+                if(count($nums) != 0){
                     $id = $nums[0]->id;                  
                     $insert_cat = "update `tbl_college_course` set college_id='".$college_id."', course_id='".$course_id."', stream_id='".$stream_id."', duration='".$duration."', annual_fees='".$annual_fees."', international_fees='".$international_fees."', eligibility='".$eligibility."', status='".$status."',updated_date= '".$updated_date."' where id='".$id."'"; 
                     $nums1= $this->common_model->coreQueryObject($insert_cat); 
@@ -229,14 +232,8 @@ class College_Course extends CI_Controller {
             }
             $i++;
          }               
-         //$result = $this->mcourse->importdata($inserdata);   
-         if($result){
-           $this->session->set_flashdata('msg', '<p style="color:green">Data Import successfully!</p>');
-                redirect('admin/College_Course');
-         }else{
-           $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
-                redirect('admin/College_Course');
-         }              
+         $this->session->set_flashdata('msg', '<p style="color:green">Data Import successfully!</p>');
+        redirect('admin/College_Course');          
     }
 
 

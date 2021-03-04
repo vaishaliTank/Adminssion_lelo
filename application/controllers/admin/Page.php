@@ -11,8 +11,6 @@ class Page extends CI_Controller {
         }
         $this->load->model('common_model');
         $this->load->library('upload');
-
-
     }
 
     public function index()
@@ -120,6 +118,13 @@ class Page extends CI_Controller {
             redirect('admin/Page');
         }
         
+    }
+
+    public function getdata(){
+        //print_r($_POST);die;
+        $whereArr = array('id'=>$_POST['id']);
+        $data = $this->common_model->getData('pages',$whereArr);
+        echo json_encode($data[0]->content);die;
     }
 
    

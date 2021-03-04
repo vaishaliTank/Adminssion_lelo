@@ -65,7 +65,9 @@
 
                                                                  <td><?= $newDate = date("d M Y  H:i", strtotime($row->create_date));
                                                                ?></td>
-                                                                <td><?php if($viewUrl == 1) { ?><a class="btn btn-default btn-xs" target="_blank" href="<?php echo $pageUrl; ?>"><?php } else { ?><a class="btn btn-default btn-xs" rel="facebox"  href="content_view.php?c_id=<?php echo $row->id; ?>"><?php } ?><i class="fa fa-link"></i>View</a></td>
+                                                                <td><a class="btn btn-default btn-xs"  id="view" href="javascript:void(0);" onclick="openModel();"></i>View</a>
+                                                                <input type="hidden" id="con" value="<?php echo $row->id; ?>">
+                                                                </td>
                                                                 <td><?php if($row->position == 'f'){ echo "Footer"; } if($row->position == 'h'){ echo "Header"; } if($row->position == 'g'){ echo "General"; } ?></td>
                                                                
                                                                 <!-- <td><a class="btn btn-danger btn-xs ask" href="<?= base_url() ?>admin/Lead/deleteUser/<?= $row->user_id ?>">
@@ -150,7 +152,46 @@
             break;
     }
 ?>
-
+<script type="text/javascript">
+   function openModel(){
+      
+           // $("#MyPopup").modal("show");
+            var id = $('#con').val();
+            //$('#content1').text($('#con').val());
+            //var url = base_url+'admin/Page';
+            $.ajax({
+               url: "<?php echo base_url().'admin/Page/getdata' ?>",
+               type: "POST",
+               dataType: "JSON",
+               data: {id:id},
+              dataType: "html",
+              
+               success: function (data) {
+                var con1 = document.getElementById('content1');
+                con1.innerHTML = data;
+                $("#MyPopup").modal("show");
+                  //alert(data);
+               },
+               error: function (xhr, ajaxOptions, thrownError) {
+                   
+               }
+           });
+            return false;
+       
+    }
+</script>
+<div id="MyPopup" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+               <p id="content1"></p>
+            </div>
+            <div class="modal-footer">
+                <input type="button" id="btnClosePopup" value="Close" class="btn btn-danger" data-dismiss="modal" />
+            </div>
+        </div>
+    </div>
+</div>
 
 
 

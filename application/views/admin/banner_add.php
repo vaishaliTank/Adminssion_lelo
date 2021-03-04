@@ -73,6 +73,8 @@
                                                     $style1='display : none';
                                                 }
                                                 //echo $sts;die;
+                                            }else{
+                                                $style1='display : none';
                                             }
                                         ?>
                                         

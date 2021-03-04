@@ -181,6 +181,30 @@ $uri_segment = $this->uri->segment(2);
                                     </li>
                                 </ul>
                             </li>
+                             <li class="<?= ($uri_segment == 'College_Course') ? 'active' : ''; ?>">
+                                <a href="javascript:void(0)">
+                                    <div class="item-content">
+                                        <div class="item-media">
+                                            <i class="ti-layout-grid2"></i>
+                                        </div>
+                                        <div class="item-inner">
+                                            <span class="title">College Course Master</span><i class="icon-arrow"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li class="active">
+                                        <a href="<?= base_url() ?>admin/College_Course">
+                                            <span class="title">College Course List</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/College_Course/course_add">
+                                            <span class="title">College Course ADD</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
                             <li class="<?= ($uri_segment == 'Collage_Facility') ? 'active' : ''; ?>">
                                 <a href="javascript:void(0)">
                                     <div class="item-content">
@@ -288,54 +312,6 @@ $uri_segment = $this->uri->segment(2);
                                     </li>
                                 </ul>
                             </li>
-                            <li class="<?= ($uri_segment == 'testimonial') ? 'active' : ''; ?>">
-                                <a href="javascript:void(0)">
-                                    <div class="item-content">
-                                        <div class="item-media">
-                                            <i class="ti-layout-grid2"></i>
-                                        </div>
-                                        <div class="item-inner">
-                                            <span class="title">Testimonial</span><i class="icon-arrow"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                                <ul class="sub-menu" style="display: none;">
-                                    <li class="active">
-                                        <a href="<?= base_url() ?>admin/testimonial">
-                                            <span class="title">Testimonial List</span>
-                                        </a>
-                                    </li>
-                                    <li class="">
-                                        <a href="<?= base_url() ?>admin/testimonial/testimonial_add">
-                                            <span class="title">Testimonial ADD</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="<?= ($uri_segment == 'College_Course') ? 'active' : ''; ?>">
-                                <a href="javascript:void(0)">
-                                    <div class="item-content">
-                                        <div class="item-media">
-                                            <i class="ti-layout-grid2"></i>
-                                        </div>
-                                        <div class="item-inner">
-                                            <span class="title">College Course Master</span><i class="icon-arrow"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                                <ul class="sub-menu" style="display: none;">
-                                    <li class="active">
-                                        <a href="<?= base_url() ?>admin/College_Course">
-                                            <span class="title">College Course List</span>
-                                        </a>
-                                    </li>
-                                    <li class="">
-                                        <a href="<?= base_url() ?>admin/College_Course/course_add">
-                                            <span class="title">College Course ADD</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
                             <li class="<?= ($uri_segment == 'Event') ? 'active' : ''; ?>">
                                 <a href="javascript:void(0)">
                                     <div class="item-content">
@@ -356,30 +332,6 @@ $uri_segment = $this->uri->segment(2);
                                     <li class="">
                                         <a href="<?= base_url() ?>admin/Event/event_add">
                                             <span class="title">College Event ADD</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                             <li class="<?= ($uri_segment == 'Page') ? 'active' : ''; ?>">
-                                <a href="javascript:void(0)">
-                                    <div class="item-content">
-                                        <div class="item-media">
-                                            <i class="ti-layout-grid2"></i>
-                                        </div>
-                                        <div class="item-inner">
-                                            <span class="title">Pages</span><i class="icon-arrow"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                                <ul class="sub-menu" style="display: none;">
-                                    <li class="active">
-                                        <a href="<?= base_url() ?>admin/Page">
-                                            <span class="title">Pages List</span>
-                                        </a>
-                                    </li>
-                                    <li class="">
-                                        <a href="<?= base_url() ?>admin/Page/page_add">
-                                            <span class="title">Page ADD</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -408,6 +360,55 @@ $uri_segment = $this->uri->segment(2);
                                     </li>
                                 </ul>
                             </li>
+
+                             <li class="<?= ($uri_segment == 'Page') ? 'active' : ''; ?>">
+                                <a href="javascript:void(0)">
+                                    <div class="item-content">
+                                        <div class="item-media">
+                                            <i class="ti-layout-grid2"></i>
+                                        </div>
+                                        <div class="item-inner">
+                                            <span class="title">Pages</span><i class="icon-arrow"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li class="active">
+                                        <a href="<?= base_url() ?>admin/Page">
+                                            <span class="title">Pages List</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/Page/page_add">
+                                            <span class="title">Page ADD</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="<?= ($uri_segment == 'testimonial') ? 'active' : ''; ?>">
+                                <a href="javascript:void(0)">
+                                    <div class="item-content">
+                                        <div class="item-media">
+                                            <i class="ti-layout-grid2"></i>
+                                        </div>
+                                        <div class="item-inner">
+                                            <span class="title">Testimonials</span><i class="icon-arrow"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li class="active">
+                                        <a href="<?= base_url() ?>admin/testimonial">
+                                            <span class="title">Testimonial List</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="<?= base_url() ?>admin/testimonial/testimonial_add">
+                                            <span class="title">Testimonial ADD</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li> 
                             <li class="<?= ($uri_segment == 'Lead') ? 'active' : ''; ?>">
                                 <a href="javascript:void(0)">
                                     <div class="item-content">

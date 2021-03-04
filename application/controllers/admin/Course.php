@@ -13,6 +13,7 @@ class Course extends CI_Controller {
         }
         $this->load->library('excel');
         $this->load->model('madmin/m_course', 'mcourse');
+        $this->load->model('common_model');
     }
 
     public function index() {         
@@ -201,21 +202,36 @@ class Course extends CI_Controller {
          $allDataInSheet = $objPHPExcel->getActiveSheet()->toArray(null, true, true, true);
          $flag = true;
          $i=0;
-         echo "<PRE>";print_r($allDataInSheet);die;
+         //echo "<PRE>";print_r($allDataInSheet);die;
          foreach ($allDataInSheet as $value) {
             if($i != 1){
-
+                $source_array = array(
+                    'course_name' => $value['C'],
+                    'courseid' => $value['B'],
+                    'stream_id' => $value['D'],
+                    'status' => 1,
+                    'created_date' => date('Y-m-d H:i:s'),
+                    'updated_date' => date('Y-m-d H:i:s'),
+                );
+                $where = array('stream_id'=>$value['D'],'courseid'=>$value['B']);
+                $getData = $this->common_model->getData('tbl_course',$where);
+                if(count($getData) == 0){
+                    $this->db->insert('tbl_course', $source_array);
+                }else{
+                    $this->db->update('tbl_course', $source_array, array('course_id' => $value['B']));
+                }
             }
             $i++;
          }               
-         $result = $this->mcourse->importdata($inserdata);   
-         if($result){
+         $this->session->set_flashdata('msg', '<p style="color:green">Data Import successfully!</p>');
+                redirect('admin/course');
+         /*if($result){
            $this->session->set_flashdata('msg', '<p style="color:green">Data Import successfully!</p>');
                 redirect('admin/course');
          }else{
            $this->session->set_flashdata('msg', '<p style="color:red">Something went wrong, Please try again!</p>');
                 redirect('admin/course');
-         }             
+         }     */        
          
          
          

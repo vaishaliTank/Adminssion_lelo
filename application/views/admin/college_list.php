@@ -20,6 +20,7 @@
                         <p id="errortxt" style="color: red;"></p>
                         <p id="successtxt" style="color: green;"></p>
                         <a href="<?= base_url() ?>admin/college/college_add" class="btn btn-primary margin-bottom-10 btn-wide"><i class="fa fa-plus"></i> Add New</a>
+                        <a href="<?= base_url() ?>admin/college/uploadview" class="btn btn-primary margin-bottom-10 btn-wide"><i class="fa fa-plus"></i> Upload CSV</a>
                         <div class="panel panel-light-primary" id="panel5">
                             <div class="panel-heading">
                                 College List

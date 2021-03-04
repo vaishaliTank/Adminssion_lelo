@@ -201,7 +201,7 @@ class Course extends CI_Controller {
          $objPHPExcel = $objReader->load($inputFileName);
          $allDataInSheet = $objPHPExcel->getActiveSheet()->toArray(null, true, true, true);
          $flag = true;
-         $i=0;
+         $i=1;
          //echo "<PRE>";print_r($allDataInSheet);die;
          foreach ($allDataInSheet as $value) {
             if($i != 1){

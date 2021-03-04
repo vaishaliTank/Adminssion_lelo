@@ -38,7 +38,12 @@
                                                     foreach($TotalData as $gallery){
                                                         ?>
                                                         <td style="padding-left:10px; font-weight: bold;"><img src="<?php echo base_url().'upload/'.$gallery->image_name;?>" width="100" height="100" /><br>
-                                                        <a href="<?php echo base_url().'Collage_Gallery/deleteImage/'.$gallery->college_id.'/'.$gallery->image_type.'/'.$gallery->image_id;?>">Delete</a><br/><input type="checkbox" name="image_featured_<?php echo $gallery->image_id; ?>" id="image_featured_<?php echo $gallery->image_id; ?>" value="1" onclick="return setfetured(<?php echo $gallery->college_id?>,<?php echo $gallery->image_id?>);" <?php if($gallery->featured==1){echo "checked";} ?> > Featured<br/><input type="checkbox" name="home_image_featured_<?php echo $gallery->image_id; ?>" id="home_image_featured_<?php echo $gallery->image_id; ?>" value="1" onclick="return setfeturedhome(<?php echo $gallery->college_id; ?>,<?php echo $gallery->image_id ?>);" <?php if($gallery->home_featured==1){echo "checked";} ?>> Home Featured
+                                                        <a href="<?php echo base_url().'Collage_Gallery/deleteImage/'.$gallery->college_id.'/'.$gallery->image_type.'/'.$gallery->image_id;?>">Delete</a><br/>
+
+                                                        <input type="checkbox" name="image_featured_<?php echo $gallery->image_id; ?>" id="image_featured_<?php echo $gallery->image_id; ?>" value="1" 
+                                                        onchange="setfetured(<?php echo $gallery->college_id?>,<?php echo $gallery->image_id?>);" <?php if($gallery->featured==1){echo "checked";} ?> > Featured <br/>
+
+                                                        <input type="checkbox" name="home_image_featured_<?php echo $gallery->image_id; ?>" id="home_image_featured_<?php echo $gallery->image_id; ?>" value="1" onclick="return setfeturedhome(<?php echo $gallery->college_id; ?>,<?php echo $gallery->image_id ?>);" <?php if($gallery->home_featured==1){echo "checked";} ?>> Home Featured
                                                         </td>
                                                         <?php 
                                                         if($sr % 6 == 0){ ?>
@@ -120,16 +125,14 @@
     alert(image_featured_vl);  
     $.ajax({
         type: "POST",
-        url: base_url+"Collage_Gallery/setFeatured";
+        url: base_url+"Collage_Gallery/setFeatured",
         data:"featured=featured&cid="+cid+"&image_id="+imd+"&image_featured_vl="+image_featured_vl,
         //data: $('#frmconsult').serialize(),
         contentType: "application/x-www-form-urlencoded",
         success: function (data) {
             if (data != 'Success') {
                 $("#popwsuccess").html(data);
-            }/*else{
-                $("#popwsuccess").html(data);
-            } */
+            }
         },
         error: function (xhr, ajaxOptions, thrownError) {
             alert(thrownError);
@@ -137,7 +140,7 @@
     });
 }
 
-function setfeturedhome(cid,imd){   
+/*function setfeturedhome(cid,imd){   
     if($("#home_image_featured_"+imd).prop('checked') == true){ 
         var image_featured_vl = $("#home_image_featured_"+imd).val();
     }else{
@@ -154,13 +157,13 @@ function setfeturedhome(cid,imd){
                 $("#popwsuccess").html(data);
             }/*else{
                 $("#popwsuccess").html(data);
-            } */
+            } 
         },
         error: function (xhr, ajaxOptions, thrownError) {
             alert(thrownError);
         }
     });
-}
+}*/
 
 </script>
 

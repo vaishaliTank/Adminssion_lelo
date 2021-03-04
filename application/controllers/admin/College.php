@@ -173,46 +173,47 @@ class College extends CI_Controller {
          $objPHPExcel = $objReader->load($inputFileName);
          $allDataInSheet = $objPHPExcel->getActiveSheet()->toArray(null, true, true, true);
          $flag = true;
-         $i=0;
+         $i=1;
          //echo "<PRE>";print_r($allDataInSheet);die;
          foreach ($allDataInSheet as $value) {
             if($i != 1){
                 $clg_array = array(
-                        'college_name' => $collage_name,
-                        'address1' => $address1,
-                        'address2' => $address2,
-                        'city' => $city,
-                        'state' => $state,
-                        'zipcode' => $zipcode,
-                        'phone1' => $phone1,
-                        'phone2' => $phone2,
-                        'fax' => $fax,
-                        'aboutus' =>$aboutus,
-                        'promotercontent' =>$promotercontent,
-                        'infrastructurecontent' =>$infrastructurecontent,
-                        'sportscontent' =>$sportscontent,
-                        'transportationcontent' =>$transportationcontent,
-                        'cafetariacontent' =>$cafetariacontent,
-                        'acivementcontent' =>$acivementcontent,
-                        'placementcontent' =>$placementcontent,
-                        'librarycontent' =>$librarycontent,
-                        'hostelcontent' =>$hostelcontent,
-                        'meta_title' =>$meta_title,
-                        'meta_keyword' =>$meta_keyword,
-                        'meta_description' =>$meta_description,
+                        'college_name' => $value['A'],
+                        'address1' => $value['B'],
+                        'address2' => $value['C'],
+                        'city' => $value['D'],
+                        'state' =>$value['E'],
+                        'zipcode' => $value['F'],
+                        'phone1' => $value['G'],
+                        'phone2' => $value['H'],
+                        'fax' => $value['I'],
+                        'aboutus' =>$value['J'],
+                        'promotercontent' =>$value['K'],
+                        'infrastructurecontent' =>$value['L'],
+                        'sportscontent' =>$value['M'],
+                        'transportationcontent' =>$value['N'],
+                        'cafetariacontent' =>$value['O'],
+                        'acivementcontent' =>$value['P'],
+                        'placementcontent' =>$value['Q'],
+                        'librarycontent' =>$value['R'],
+                        'hostelcontent' =>$value['S'],
+                        'meta_title' =>$value['T'],
+                        'meta_keyword' =>$value['U'],
+                        'meta_description' =>$value['V'],
                         'status'=> 1,
                         'created_date' => date('Y-m-d H:i:s'),
                         'updated_date' => date('Y-m-d H:i:s'),
 
                     );
                 
-                    $this->db->insert('tbl_college', $source_array);
+                    $this->db->insert('tbl_college', $clg_array);
+
                 
             }
             $i++;
          }               
          $this->session->set_flashdata('msg', '<p style="color:green">Data Import successfully!</p>');
-                redirect('admin/course');
+                redirect('admin/college');
          /*if($result){
            $this->session->set_flashdata('msg', '<p style="color:green">Data Import successfully!</p>');
                 redirect('admin/course');

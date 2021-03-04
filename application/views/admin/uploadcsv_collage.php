@@ -20,7 +20,7 @@
                             College Add  
                         </div>
                         <div class="panel-body bg-white" style="border: 1px solid #3395ff;">
-                            <form name="uploadFrm" method="POST" enctype="multipart/form-data" id="uploadFrm" action="<?= base_url() ?>admin/Collage/upload_csv"> 
+                            <form name="uploadFrm" method="POST" enctype="multipart/form-data" id="uploadFrm" action="<?= base_url() ?>admin/College/upload_csv"> 
                                 
                                 <div class="col-md-12">
                                   
